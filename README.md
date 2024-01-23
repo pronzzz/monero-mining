@@ -1,6 +1,6 @@
 ﻿ <h2>Raspberry Pi 3B Monero Mining Project</h2>
 
-🚀 Explore the world of cryptocurrency mining with this engaging project, where you'll set up a Raspberry Pi 3B to mine Monero (XMR) tokens. Delve into the process of crypto mining, analyze hardware resource usage, and uncover the intricacies of Monero, the privacy-focused cryptocurrency. 
+🚀 Explore the world of cryptocurrency mining with this engaging project, where you'll set up a Raspberry Pi (basically any other Raspberry Pi preferably that supports ARMx64 architecture) to mine Monero (XMR) tokens i will be using a Rasberry Pi 3B+. Delve into the process of crypto mining, analyze hardware resource usage, and uncover the intricacies of Monero, the privacy-focused cryptocurrency. 
 
 💻 <b>Hardware and Software Setup</b>
 - Assemble the necessary hardware, including the Raspberry Pi 3B, power supply, SD card, Ethernet cable, and cooling material.
