@@ -1,0 +1,1992 @@
+Crypto(Monero) Mining Project Raspberry Pi
+
+Runime Data:
+
+PS C:\Users\prana> ssh cryptopi.local
+prana@cryptopi.local's password:
+Linux cryptopi 6.1.21-v8+ #1642 SMP PREEMPT Mon Apr  3 17:24:16 BST 2023 aarch64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Dec 28 05:44:27 2023 from 2001:8003:1c49:9c00:94b0:209c:d435:fc9e
+prana@cryptopi:~ $ cd xmrig
+prana@cryptopi:~/xmrig $ cd build
+prana@cryptopi:~/xmrig/build $ ./xmrig -o gulf.moneroocean.stream:10128 -u 49V81JMmMEPe616CwQhk9TBS6XAWLBNoNXmn5PoNKJHRiPzJUkufJ7YStrWwCphwzKHhj81TBjtHXhdxmTsQZ3sdR5jrTgK -p pi3
+ * ABOUT        XMRig/6.21.0 gcc/10.2.1 (built for Linux ARMv8, 64 bit)
+ * LIBS         libuv/1.40.0 OpenSSL/1.1.1w hwloc/2.4.1
+ * HUGE PAGES   unavailable
+ * 1GB PAGES    unavailable
+ * CPU          ARM Cortex-A53 (1) 64-bit -AES
+                L2:0.5 MB L3:0.0 MB 4C/4T NUMA:1
+ * MEMORY       0.2/0.9 GB (19%)
+ * DONATE       1%
+ * POOL #1      gulf.moneroocean.stream:10128 algo auto
+ * COMMANDS     hashrate, pause, resume, results, connection
+ * OPENCL       disabled
+ * CUDA         disabled
+[2023-12-28 11:01:07.579]  net      use pool gulf.moneroocean.stream:10128  109.123.233.251
+[2023-12-28 11:01:07.579]  net      new job from gulf.moneroocean.stream:10128 diff 69628 algo rx/0 height 151529
+[2023-12-28 11:01:07.579]  cpu      use argon2 implementation default
+[2023-12-28 11:01:08.782]  randomx  init dataset algo rx/0 (4 threads) seed 303d212228f0a42b...
+[2023-12-28 11:01:08.782]  randomx  not enough memory for RandomX dataset
+[2023-12-28 11:01:08.783]  randomx  failed to allocate RandomX dataset, switching to slow mode (1 ms)
+[2023-12-28 11:01:15.510]  randomx  dataset ready (6727 ms)
+[2023-12-28 11:01:15.510]  cpu      use profile  rx  (4 threads) scratchpad 2048 KB
+[2023-12-28 11:01:15.513]  cpu      READY threads 4/4 (4) huge pages 0% 0/4 memory 8192 KB (3 ms)
+[2023-12-28 11:01:26.580] no results yet
+[2023-12-28 11:02:15.573]  miner    speed 10s/60s/15m 18.40 n/a n/a H/s max 21.87 H/s
+[2023-12-28 11:03:15.639]  miner    speed 10s/60s/15m 16.30 16.99 n/a H/s max 21.87 H/s
+ - CONNECTION
+ * pool address     gulf.moneroocean.stream:10128 (109.123.233.251)
+ * algorithm        rx/0
+ * difficulty       69628
+ * connection time  145s
+|    CPU # | AFFINITY | 10s H/s | 60s H/s | 15m H/s |
+|        0 |        0 |    3.89 |    4.08 |     n/a |
+|        1 |        1 |    4.00 |    4.10 |     n/a |
+|        2 |        2 |    3.89 |    4.08 |     n/a |
+|        3 |        3 |    4.00 |    4.08 |     n/a |
+|        - |        - |   15.77 |   16.33 |     n/a |
+[2023-12-28 11:03:36.410]  miner    speed 10s/60s/15m 15.77 16.33 n/a H/s max 21.87 H/s
+[2023-12-28 11:04:15.629]  net      new job from gulf.moneroocean.stream:10128 diff 44445 algo rx/0 height 151529
+[2023-12-28 11:04:15.712]  miner    speed 10s/60s/15m 14.93 15.48 n/a H/s max 21.87 H/s
+|    CPU # | AFFINITY | 10s H/s | 60s H/s | 15m H/s |
+|        0 |        0 |    3.57 |    3.78 |     n/a |
+|        1 |        1 |    3.68 |    3.78 |     n/a |
+|        2 |        2 |    3.68 |    3.78 |     n/a |
+|        3 |        3 |    3.68 |    3.78 |     n/a |
+|        - |        - |   14.61 |   15.11 |     n/a |
+[2023-12-28 11:04:37.257]  miner    speed 10s/60s/15m 14.61 15.11 n/a H/s max 21.87 H/s
+[2023-12-28 11:05:15.635]  net      new job from gulf.moneroocean.stream:10128 diff 21507 algo rx/0 height 151529
+[2023-12-28 11:05:15.789]  miner    speed 10s/60s/15m 14.30 14.59 n/a H/s max 21.87 H/s
+[2023-12-28 11:05:27.105]  cpu      accepted (1/0) diff 21507 (877 ms)
+[2023-12-28 11:06:15.592]  net      new job from gulf.moneroocean.stream:10128 diff 2094 algo rx/0 height 151529
+[2023-12-28 11:06:15.866]  miner    speed 10s/60s/15m 13.88 14.02 n/a H/s max 21.87 H/s
+[2023-12-28 11:06:42.917]  cpu      accepted (2/0) diff 2094 (844 ms)
+[2023-12-28 11:06:55.512]  cpu      accepted (3/0) diff 2094 (848 ms)
+[2023-12-28 11:07:04.334]  cpu      accepted (4/0) diff 2094 (928 ms)
+[2023-12-28 11:07:15.917]  miner    speed 10s/60s/15m 13.67 13.80 n/a H/s max 21.87 H/s
+[2023-12-28 11:08:15.969]  miner    speed 10s/60s/15m 13.46 13.50 n/a H/s max 21.87 H/s
+[2023-12-28 11:08:21.268]  cpu      accepted (5/0) diff 2094 (873 ms)
+[2023-12-28 11:08:24.577]  cpu      accepted (6/0) diff 2094 (922 ms)
+[2023-12-28 11:09:16.020]  miner    speed 10s/60s/15m 13.25 13.27 n/a H/s max 21.87 H/s
+[2023-12-28 11:09:27.064]  cpu      accepted (7/0) diff 2094 (913 ms)
+[2023-12-28 11:09:48.125]  cpu      accepted (8/0) diff 2094 (875 ms)
+[2023-12-28 11:10:10.304]  cpu      accepted (9/0) diff 2094 (850 ms)
+[2023-12-28 11:10:16.071]  miner    speed 10s/60s/15m 13.04 13.10 n/a H/s max 21.87 H/s
+[2023-12-28 11:11:16.125]  miner    speed 10s/60s/15m 12.83 12.91 n/a H/s max 21.87 H/s
+[2023-12-28 11:11:56.705]  net      new job from gulf.moneroocean.stream:10128 diff 1888 algo rx/0 height 151530
+[2023-12-28 11:12:05.430]  cpu      accepted (10/0) diff 1888 (921 ms)
+[2023-12-28 11:12:16.178]  miner    speed 10s/60s/15m 12.94 12.80 n/a H/s max 21.87 H/s
+[2023-12-28 11:12:44.401]  cpu      accepted (11/0) diff 1888 (801 ms)
+[2023-12-28 11:13:16.234]  miner    speed 10s/60s/15m 12.62 12.86 n/a H/s max 21.87 H/s
+[2023-12-28 11:13:23.975]  net      new job from gulf.moneroocean.stream:10128 diff 1732 algo rx/0 height 151531
+[2023-12-28 11:13:58.593]  net      new job from gulf.moneroocean.stream:10128 diff 1732 algo rx/0 height 151532
+[2023-12-28 11:14:16.293]  miner    speed 10s/60s/15m 12.83 12.68 n/a H/s max 21.87 H/s
+[2023-12-28 11:14:29.543]  cpu      accepted (12/0) diff 1732 (809 ms)
+[2023-12-28 11:15:16.353]  miner    speed 10s/60s/15m 12.72 12.74 n/a H/s max 21.87 H/s
+[2023-12-28 11:15:44.085]  net      new job from gulf.moneroocean.stream:10128 diff 1548 algo rx/0 height 151533
+[2023-12-28 11:15:47.338]  cpu      accepted (13/0) diff 1548 (787 ms)
+[2023-12-28 11:15:48.284]  net      new job from gulf.moneroocean.stream:10128 diff 1548 algo rx/0 height 151534
+[2023-12-28 11:16:16.413]  miner    speed 10s/60s/15m 12.83 12.81 14.12 H/s max 21.87 H/s
+[2023-12-28 11:16:47.341]  net      new job from gulf.moneroocean.stream:10128 diff 1497 algo rx/0 height 151535
+[2023-12-28 11:17:16.475]  miner    speed 10s/60s/15m 12.72 12.83 13.62 H/s max 21.87 H/s
+[2023-12-28 11:18:16.555]  miner    speed 10s/60s/15m 12.72 12.89 13.34 H/s max 21.87 H/s
+[2023-12-28 11:19:16.629]  miner    speed 10s/60s/15m 13.14 12.98 13.18 H/s max 21.87 H/s
+[2023-12-28 11:19:34.429]  cpu      accepted (14/0) diff 1497 (841 ms)
+[2023-12-28 11:20:16.705]  miner    speed 10s/60s/15m 12.83 12.91 13.06 H/s max 21.87 H/s
+[2023-12-28 11:21:15.553]  net      new job from gulf.moneroocean.stream:10128 diff 1162 algo rx/0 height 151535
+[2023-12-28 11:21:16.770]  miner    speed 10s/60s/15m 13.04 13.01 13.00 H/s max 21.87 H/s
+[2023-12-28 11:21:39.239]  net      new job from gulf.moneroocean.stream:10128 diff 1162 algo rx/0 height 151536
+[2023-12-28 11:21:39.988]  cpu      accepted (15/0) diff 1162 (938 ms)
+[2023-12-28 11:22:16.828]  miner    speed 10s/60s/15m 13.04 13.08 12.95 H/s max 21.87 H/s
+[2023-12-28 11:22:20.197]  cpu      accepted (16/0) diff 1162 (823 ms)
+[2023-12-28 11:23:16.881]  miner    speed 10s/60s/15m 13.15 13.10 12.92 H/s max 21.87 H/s
+[2023-12-28 11:23:46.095]  net      new job from gulf.moneroocean.stream:10128 diff 1110 algo rx/0 height 151537
+[2023-12-28 11:23:54.104]  cpu      accepted (17/0) diff 1110 (806 ms)
+[2023-12-28 11:24:16.933]  miner    speed 10s/60s/15m 13.15 13.10 12.91 H/s max 21.87 H/s
+[2023-12-28 11:24:20.057]  cpu      accepted (18/0) diff 1110 (804 ms)
+[2023-12-28 11:24:40.569]  net      new job from gulf.moneroocean.stream:10128 diff 1086 algo rx/0 height 151538
+[2023-12-28 11:24:45.351]  net      new job from gulf.moneroocean.stream:10128 diff 1086 algo rx/0 height 151539
+[2023-12-28 11:25:16.989]  miner    speed 10s/60s/15m 13.15 13.23 12.92 H/s max 21.87 H/s
+[2023-12-28 11:26:03.210]  cpu      accepted (19/0) diff 1086 (882 ms)
+[2023-12-28 11:26:15.373]  cpu      accepted (20/0) diff 1086 (796 ms)
+[2023-12-28 11:26:17.047]  miner    speed 10s/60s/15m 13.46 13.20 12.94 H/s max 21.87 H/s
+[2023-12-28 11:26:35.899]  cpu      accepted (21/0) diff 1086 (840 ms)
+[2023-12-28 11:26:37.182]  cpu      accepted (22/0) diff 1086 (791 ms)
+[2023-12-28 11:26:52.113]  cpu      accepted (23/0) diff 1086 (843 ms)
+[2023-12-28 11:27:17.102]  miner    speed 10s/60s/15m 13.15 13.35 12.98 H/s max 21.87 H/s
+[2023-12-28 11:27:36.008]  cpu      accepted (24/0) diff 1086 (790 ms)
+[2023-12-28 11:28:00.975]  net      new job from gulf.moneroocean.stream:10128 diff 1086 algo rx/0 height 151540
+[2023-12-28 11:28:09.649]  cpu      accepted (25/0) diff 1086 (769 ms)
+[2023-12-28 11:28:17.159]  miner    speed 10s/60s/15m 12.93 13.03 12.99 H/s max 21.87 H/s
+[2023-12-28 11:28:27.781]  net      new job from gulf.moneroocean.stream:10128 diff 1086 algo rx/0 height 151541
+[2023-12-28 11:29:09.655]  net      new job from gulf.moneroocean.stream:10128 diff 1086 algo rx/0 height 151542
+[2023-12-28 11:29:17.220]  miner    speed 10s/60s/15m 13.14 13.05 13.01 H/s max 21.87 H/s
+[2023-12-28 11:30:17.284]  miner    speed 10s/60s/15m 13.04 13.04 13.04 H/s max 21.87 H/s
+ - RESULTS
+ * accepted         25 (100.0%)
+ * pool-side hashes 58958 avg 2358
+ * difficulty       1086
+ * avg result time  71.3s
+ - TOP 10
+  # | DIFFICULTY | EFFORT % |
+  1 |      62726 |    93.99 |
+  2 |      29195 |   201.95 |
+  3 |      10057 |   586.24 |
+  4 |       6952 |   848.07 |
+  5 |       6895 |   855.08 |
+  6 |       5917 |   996.42 |
+  7 |       3662 |  1609.99 |
+  8 |       3576 |  1648.71 |
+  9 |       3372 |  1748.46 |
+ 10 |       3220 |  1830.99 |
+[2023-12-28 11:31:17.353]  miner    speed 10s/60s/15m 13.03 12.99 13.05 H/s max 21.87 H/s
+|    CPU # | AFFINITY | 10s H/s | 60s H/s | 15m H/s |
+|        0 |        0 |    3.26 |    3.27 |    3.26 |
+|        1 |        1 |    3.26 |    3.27 |    3.27 |
+|        2 |        2 |    3.26 |    3.28 |    3.27 |
+|        3 |        3 |    3.26 |    3.27 |    3.26 |
+|        - |        - |   13.03 |   13.09 |   13.06 |
+[2023-12-28 11:31:52.373]  miner    speed 10s/60s/15m 13.03 13.09 13.06 H/s max 21.87 H/s
+[2023-12-28 11:31:55.138]  net      new job from gulf.moneroocean.stream:10128 diff 978 algo rx/0 height 151543
+[2023-12-28 11:32:17.427]  miner    speed 10s/60s/15m 13.04 13.11 13.07 H/s max 21.87 H/s
+[2023-12-28 11:33:17.505]  miner    speed 10s/60s/15m 13.04 13.11 13.08 H/s max 21.87 H/s
+[2023-12-28 11:34:17.581]  miner    speed 10s/60s/15m 13.25 13.23 13.10 H/s max 21.87 H/s
+[2023-12-28 11:34:50.200]  cpu      accepted (26/0) diff 978 (834 ms)
+[2023-12-28 11:35:17.638]  miner    speed 10s/60s/15m 13.36 13.57 13.14 H/s max 21.87 H/s
+[2023-12-28 11:36:02.542]  net      new job from gulf.moneroocean.stream:10128 diff 878 algo rx/0 height 151544
+[2023-12-28 11:36:06.280]  cpu      accepted (27/0) diff 878 (794 ms)
+[2023-12-28 11:36:08.648]  net      new job from gulf.moneroocean.stream:10128 diff 878 algo rx/0 height 151545
+[2023-12-28 11:36:09.289]  cpu      accepted (28/0) diff 878 (1174 ms)
+[2023-12-28 11:36:17.690]  miner    speed 10s/60s/15m 13.46 13.28 13.16 H/s max 21.87 H/s
+[2023-12-28 11:37:17.736]  miner    speed 10s/60s/15m 13.25 13.44 13.19 H/s max 21.87 H/s
+[2023-12-28 11:38:06.552]  cpu      accepted (29/0) diff 878 (818 ms)
+[2023-12-28 11:38:17.784]  miner    speed 10s/60s/15m 13.15 13.17 13.19 H/s max 21.87 H/s
+[2023-12-28 11:39:17.833]  miner    speed 10s/60s/15m 13.36 13.25 13.20 H/s max 21.87 H/s
+[2023-12-28 11:39:39.863]  cpu      accepted (30/0) diff 878 (845 ms)
+[2023-12-28 11:40:17.889]  miner    speed 10s/60s/15m 13.36 13.16 13.19 H/s max 21.87 H/s
+[2023-12-28 11:41:17.945]  miner    speed 10s/60s/15m 13.15 13.20 13.20 H/s max 21.87 H/s
+[2023-12-28 11:41:28.177]  cpu      accepted (31/0) diff 878 (794 ms)
+[2023-12-28 11:41:42.781]  cpu      accepted (32/0) diff 878 (890 ms)
+[2023-12-28 11:42:17.998]  miner    speed 10s/60s/15m 13.25 13.18 13.19 H/s max 21.87 H/s
+[2023-12-28 11:42:18.160]  net      new job from gulf.moneroocean.stream:10128 diff 792 algo rx/0 height 151546
+[2023-12-28 11:42:22.824]  cpu      accepted (33/0) diff 792 (794 ms)
+[2023-12-28 11:42:33.068]  net      new job from gulf.moneroocean.stream:10128 diff 792 algo rx/0 height 151547
+[2023-12-28 11:42:39.867]  cpu      accepted (34/0) diff 792 (825 ms)
+[2023-12-28 11:42:47.265]  cpu      accepted (35/0) diff 792 (860 ms)
+[2023-12-28 11:43:09.853]  cpu      accepted (36/0) diff 792 (810 ms)
+[2023-12-28 11:43:18.054]  miner    speed 10s/60s/15m 13.04 13.11 13.19 H/s max 21.87 H/s
+[2023-12-28 11:44:18.117]  miner    speed 10s/60s/15m 13.14 13.21 13.20 H/s max 21.87 H/s
+[2023-12-28 11:44:53.925]  cpu      accepted (37/0) diff 792 (805 ms)
+[2023-12-28 11:45:18.178]  miner    speed 10s/60s/15m 13.15 13.26 13.22 H/s max 21.87 H/s
+[2023-12-28 11:45:27.157]  cpu      accepted (38/0) diff 792 (814 ms)
+[2023-12-28 11:46:11.007]  net      new job from gulf.moneroocean.stream:10128 diff 783 algo rx/0 height 151548
+[2023-12-28 11:46:18.247]  miner    speed 10s/60s/15m 13.36 13.35 13.24 H/s max 21.87 H/s
+[2023-12-28 11:46:41.018]  cpu      accepted (39/0) diff 783 (911 ms)
+[2023-12-28 11:46:49.681]  cpu      accepted (40/0) diff 783 (798 ms)
+[2023-12-28 11:47:18.321]  miner    speed 10s/60s/15m 13.25 13.28 13.25 H/s max 21.87 H/s
+[2023-12-28 11:47:38.349]  net      new job from gulf.moneroocean.stream:10128 diff 775 algo rx/0 height 151549
+[2023-12-28 11:47:51.873]  cpu      accepted (41/0) diff 775 (811 ms)
+[2023-12-28 11:48:00.832]  cpu      accepted (42/0) diff 775 (802 ms)
+[2023-12-28 11:48:14.148]  cpu      accepted (43/0) diff 775 (859 ms)
+[2023-12-28 11:48:18.396]  miner    speed 10s/60s/15m 13.67 13.53 13.28 H/s max 21.87 H/s
+[2023-12-28 11:49:07.577]  cpu      accepted (44/0) diff 775 (837 ms)
+[2023-12-28 11:49:18.475]  miner    speed 10s/60s/15m 13.67 13.53 13.30 H/s max 21.87 H/s
+[2023-12-28 11:49:45.485]  cpu      accepted (45/0) diff 775 (811 ms)
+[2023-12-28 11:49:47.261]  cpu      accepted (46/0) diff 775 (804 ms)
+[2023-12-28 11:50:18.534]  miner    speed 10s/60s/15m 13.14 13.28 13.28 H/s max 21.87 H/s
+[2023-12-28 11:50:38.665]  cpu      accepted (47/0) diff 775 (821 ms)
+[2023-12-28 11:50:55.049]  cpu      accepted (48/0) diff 775 (814 ms)
+[2023-12-28 11:50:58.613]  cpu      accepted (49/0) diff 775 (854 ms)
+[2023-12-28 11:51:18.590]  miner    speed 10s/60s/15m 13.35 13.45 13.29 H/s max 21.87 H/s
+[2023-12-28 11:52:02.794]  cpu      accepted (50/0) diff 775 (879 ms)
+[2023-12-28 11:52:18.638]  miner    speed 10s/60s/15m 13.15 13.27 13.28 H/s max 21.87 H/s
+[2023-12-28 11:52:41.158]  cpu      accepted (51/0) diff 775 (1070 ms)
+[2023-12-28 11:52:55.109]  cpu      accepted (52/0) diff 775 (1031 ms)
+[2023-12-28 11:52:56.660]  net      new job from gulf.moneroocean.stream:10128 diff 775 algo rx/0 height 151550
+[2023-12-28 11:53:18.685]  miner    speed 10s/60s/15m 13.36 13.30 13.29 H/s max 21.87 H/s
+[2023-12-28 11:53:22.540]  cpu      accepted (53/0) diff 775 (890 ms)
+[2023-12-28 11:54:07.302]  cpu      accepted (54/0) diff 775 (923 ms)
+[2023-12-28 11:54:18.730]  miner    speed 10s/60s/15m 13.78 13.42 13.30 H/s max 21.87 H/s
+[2023-12-28 11:55:18.783]  miner    speed 10s/60s/15m 13.25 13.37 13.31 H/s max 21.87 H/s
+[2023-12-28 11:56:18.838]  miner    speed 10s/60s/15m 13.25 13.28 13.32 H/s max 21.87 H/s
+[2023-12-28 11:56:50.025]  cpu      accepted (55/0) diff 775 (865 ms)
+[2023-12-28 11:57:18.894]  miner    speed 10s/60s/15m 13.25 13.33 13.33 H/s max 21.87 H/s
+[2023-12-28 11:57:39.853]  net      new job from gulf.moneroocean.stream:10128 diff 740 algo rx/0 height 151551
+[2023-12-28 11:58:18.948]  miner    speed 10s/60s/15m 13.04 13.16 13.33 H/s max 21.87 H/s
+[2023-12-28 11:59:00.448]  cpu      accepted (56/0) diff 740 (840 ms)
+[2023-12-28 11:59:19.006]  miner    speed 10s/60s/15m 13.04 13.08 13.32 H/s max 21.87 H/s
+[2023-12-28 11:59:23.319]  cpu      accepted (57/0) diff 740 (867 ms)
+[2023-12-28 11:59:50.393]  cpu      accepted (58/0) diff 740 (815 ms)
+[2023-12-28 12:00:05.684]  net      new job from gulf.moneroocean.stream:10128 diff 721 algo rx/0 height 151552
+[2023-12-28 12:00:19.065]  miner    speed 10s/60s/15m 13.04 12.95 13.30 H/s max 21.87 H/s
+[2023-12-28 12:00:40.932]  cpu      accepted (59/0) diff 721 (839 ms)
+[2023-12-28 12:00:41.340]  net      new job from gulf.moneroocean.stream:10128 diff 722 algo rx/0 height 151553
+[2023-12-28 12:01:19.134]  miner    speed 10s/60s/15m 12.83 12.86 13.27 H/s max 21.87 H/s
+[2023-12-28 12:01:23.421]  net      dev donate started
+[2023-12-28 12:01:23.422]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151553
+[2023-12-28 12:01:41.833]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151553
+[2023-12-28 12:02:11.829]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151553
+[2023-12-28 12:02:19.201]  miner    speed 10s/60s/15m 12.83 12.81 13.24 H/s max 21.87 H/s
+[2023-12-28 12:02:23.421]  net      dev donate finished
+[2023-12-28 12:02:23.422]  net      new job from gulf.moneroocean.stream:10128 diff 722 algo rx/0 height 151553
+[2023-12-28 12:03:19.273]  miner    speed 10s/60s/15m 12.72 12.74 13.18 H/s max 21.87 H/s
+[2023-12-28 12:03:20.025]  cpu      accepted (60/0) diff 722 (833 ms)
+[2023-12-28 12:03:52.300]  cpu      accepted (61/0) diff 722 (843 ms)
+[2023-12-28 12:03:53.021]  net      new job from gulf.moneroocean.stream:10128 diff 694 algo rx/0 height 151554
+[2023-12-28 12:04:14.275]  cpu      accepted (62/0) diff 694 (867 ms)
+[2023-12-28 12:04:19.346]  miner    speed 10s/60s/15m 12.72 12.76 13.13 H/s max 21.87 H/s
+[2023-12-28 12:04:50.965]  net      new job from gulf.moneroocean.stream:10128 diff 700 algo rx/0 height 151555
+[2023-12-28 12:05:19.422]  miner    speed 10s/60s/15m 12.72 12.71 13.09 H/s max 21.87 H/s
+[2023-12-28 12:06:19.480]  miner    speed 10s/60s/15m 12.72 12.69 13.04 H/s max 21.87 H/s
+[2023-12-28 12:06:34.180]  net      new job from gulf.moneroocean.stream:10128 diff 678 algo rx/0 height 151556
+[2023-12-28 12:06:35.921]  cpu      accepted (63/0) diff 678 (832 ms)
+[2023-12-28 12:06:51.697]  net      new job from gulf.moneroocean.stream:10128 diff 678 algo rx/0 height 151557
+[2023-12-28 12:07:06.068]  cpu      accepted (64/0) diff 678 (815 ms)
+[2023-12-28 12:07:19.532]  miner    speed 10s/60s/15m 12.73 12.66 13.00 H/s max 21.87 H/s
+[2023-12-28 12:07:46.784]  net      new job from gulf.moneroocean.stream:10128 diff 678 algo rx/0 height 151558
+[2023-12-28 12:08:19.586]  miner    speed 10s/60s/15m 12.62 12.66 12.96 H/s max 21.87 H/s
+[2023-12-28 12:08:36.225]  net      new job from gulf.moneroocean.stream:10128 diff 668 algo rx/0 height 151559
+[2023-12-28 12:09:19.640]  miner    speed 10s/60s/15m 12.94 12.66 12.91 H/s max 21.87 H/s
+[2023-12-28 12:09:46.033]  cpu      accepted (65/0) diff 668 (836 ms)
+[2023-12-28 12:10:03.237]  cpu      accepted (66/0) diff 668 (959 ms)
+[2023-12-28 12:10:18.251]  net      new job from gulf.moneroocean.stream:10128 diff 659 algo rx/0 height 151560
+[2023-12-28 12:10:19.695]  miner    speed 10s/60s/15m 12.72 12.66 12.87 H/s max 21.87 H/s
+[2023-12-28 12:10:53.648]  net      new job from gulf.moneroocean.stream:10128 diff 659 algo rx/0 height 151561
+[2023-12-28 12:11:19.751]  miner    speed 10s/60s/15m 12.62 12.61 12.82 H/s max 21.87 H/s
+[2023-12-28 12:12:13.181]  cpu      accepted (67/0) diff 659 (806 ms)
+[2023-12-28 12:12:19.814]  miner    speed 10s/60s/15m 12.62 12.46 12.76 H/s max 21.87 H/s
+[2023-12-28 12:12:23.061]  net      new job from gulf.moneroocean.stream:10128 diff 645 algo rx/0 height 151562
+[2023-12-28 12:13:19.874]  miner    speed 10s/60s/15m 12.72 12.58 12.72 H/s max 21.87 H/s
+[2023-12-28 12:14:19.935]  miner    speed 10s/60s/15m 12.62 12.54 12.69 H/s max 21.87 H/s
+[2023-12-28 12:15:13.768]  cpu      accepted (68/0) diff 645 (897 ms)
+[2023-12-28 12:15:19.997]  miner    speed 10s/60s/15m 12.62 12.54 12.66 H/s max 21.87 H/s
+[2023-12-28 12:16:20.067]  miner    speed 10s/60s/15m 12.51 12.64 12.64 H/s max 21.87 H/s
+[2023-12-28 12:16:35.491]  net      new job from gulf.moneroocean.stream:10128 diff 615 algo rx/0 height 151563
+[2023-12-28 12:16:57.479]  cpu      accepted (69/0) diff 615 (841 ms)
+[2023-12-28 12:17:20.141]  miner    speed 10s/60s/15m 12.51 12.56 12.63 H/s max 21.87 H/s
+[2023-12-28 12:17:26.174]  net      new job from gulf.moneroocean.stream:10128 diff 610 algo rx/0 height 151564
+[2023-12-28 12:17:33.549]  net      new job from gulf.moneroocean.stream:10128 diff 610 algo rx/0 height 151565
+[2023-12-28 12:17:42.963]  cpu      accepted (70/0) diff 610 (809 ms)
+[2023-12-28 12:17:56.909]  cpu      accepted (71/0) diff 610 (823 ms)
+[2023-12-28 12:18:15.385]  cpu      accepted (72/0) diff 610 (837 ms)
+[2023-12-28 12:18:20.219]  miner    speed 10s/60s/15m 12.61 12.56 12.61 H/s max 21.87 H/s
+[2023-12-28 12:18:56.585]  cpu      accepted (73/0) diff 610 (815 ms)
+[2023-12-28 12:18:57.029]  cpu      accepted (74/0) diff 610 (947 ms)
+[2023-12-28 12:19:08.738]  cpu      accepted (75/0) diff 610 (856 ms)
+[2023-12-28 12:19:20.293]  miner    speed 10s/60s/15m 12.62 12.52 12.60 H/s max 21.87 H/s
+[2023-12-28 12:20:20.353]  miner    speed 10s/60s/15m 12.62 12.61 12.59 H/s max 21.87 H/s
+[2023-12-28 12:20:31.939]  net      new job from gulf.moneroocean.stream:10128 diff 610 algo rx/0 height 151566
+[2023-12-28 12:21:20.408]  miner    speed 10s/60s/15m 12.62 12.64 12.59 H/s max 21.87 H/s
+[2023-12-28 12:22:20.466]  miner    speed 10s/60s/15m 12.62 12.63 12.59 H/s max 21.87 H/s
+[2023-12-28 12:23:20.520]  miner    speed 10s/60s/15m 12.41 12.54 12.58 H/s max 21.87 H/s
+[2023-12-28 12:23:22.624]  cpu      accepted (76/0) diff 610 (806 ms)
+[2023-12-28 12:24:20.579]  miner    speed 10s/60s/15m 12.72 12.59 12.58 H/s max 21.87 H/s
+[2023-12-28 12:24:34.999]  cpu      accepted (77/0) diff 610 (855 ms)
+[2023-12-28 12:25:03.944]  net      new job from gulf.moneroocean.stream:10128 diff 585 algo rx/0 height 151567
+[2023-12-28 12:25:20.638]  miner    speed 10s/60s/15m 12.62 12.69 12.58 H/s max 21.87 H/s
+[2023-12-28 12:25:55.228]  net      new job from gulf.moneroocean.stream:10128 diff 581 algo rx/0 height 151568
+[2023-12-28 12:26:14.752]  cpu      accepted (78/0) diff 581 (819 ms)
+[2023-12-28 12:26:20.698]  miner    speed 10s/60s/15m 12.62 12.63 12.58 H/s max 21.87 H/s
+[2023-12-28 12:27:20.760]  miner    speed 10s/60s/15m 12.62 12.59 12.59 H/s max 21.87 H/s
+[2023-12-28 12:27:34.290]  cpu      accepted (79/0) diff 581 (1289 ms)
+[2023-12-28 12:28:14.687]  net      new job from gulf.moneroocean.stream:10128 diff 571 algo rx/0 height 151569
+[2023-12-28 12:28:20.823]  miner    speed 10s/60s/15m 12.62 12.59 12.59 H/s max 21.87 H/s
+[2023-12-28 12:28:58.489]  cpu      accepted (80/0) diff 571 (847 ms)
+[2023-12-28 12:29:09.256]  cpu      accepted (81/0) diff 571 (817 ms)
+[2023-12-28 12:29:20.881]  miner    speed 10s/60s/15m 12.62 12.61 12.60 H/s max 21.87 H/s
+[2023-12-28 12:29:52.491]  net      new job from gulf.moneroocean.stream:10128 diff 568 algo rx/0 height 151570
+[2023-12-28 12:30:01.998]  cpu      accepted (82/0) diff 568 (960 ms)
+[2023-12-28 12:30:20.950]  miner    speed 10s/60s/15m 12.62 12.61 12.60 H/s max 21.87 H/s
+[2023-12-28 12:30:22.030]  net      new job from gulf.moneroocean.stream:10128 diff 565 algo rx/0 height 151571
+[2023-12-28 12:30:33.862]  net      new job from gulf.moneroocean.stream:10128 diff 565 algo rx/0 height 151572
+[2023-12-28 12:31:15.324]  net      new job from gulf.moneroocean.stream:10128 diff 565 algo rx/0 height 151573
+[2023-12-28 12:31:21.025]  miner    speed 10s/60s/15m 12.72 12.67 12.61 H/s max 21.87 H/s
+[2023-12-28 12:31:25.087]  cpu      accepted (83/0) diff 565 (948 ms)
+[2023-12-28 12:31:27.901]  cpu      accepted (84/0) diff 565 (821 ms)
+[2023-12-28 12:31:46.733]  cpu      accepted (85/0) diff 565 (952 ms)
+[2023-12-28 12:31:49.741]  cpu      accepted (86/0) diff 565 (812 ms)
+[2023-12-28 12:31:53.527]  net      new job from gulf.moneroocean.stream:10128 diff 559 algo rx/0 height 151574
+[2023-12-28 12:32:15.850]  net      new job from gulf.moneroocean.stream:10128 diff 559 algo rx/0 height 151575
+[2023-12-28 12:32:21.097]  miner    speed 10s/60s/15m 12.61 12.61 12.61 H/s max 21.87 H/s
+[2023-12-28 12:33:15.661]  net      new job from gulf.moneroocean.stream:10128 diff 565 algo rx/0 height 151576
+[2023-12-28 12:33:21.168]  miner    speed 10s/60s/15m 12.62 12.64 12.61 H/s max 21.87 H/s
+[2023-12-28 12:34:17.393]  net      new job from gulf.moneroocean.stream:10128 diff 553 algo rx/0 height 151577
+[2023-12-28 12:34:21.226]  miner    speed 10s/60s/15m 12.62 12.64 12.62 H/s max 21.87 H/s
+[2023-12-28 12:34:21.317]  net      new job from gulf.moneroocean.stream:10128 diff 553 algo rx/0 height 151578
+[2023-12-28 12:35:00.341]  cpu      accepted (87/0) diff 553 (891 ms)
+[2023-12-28 12:35:21.281]  miner    speed 10s/60s/15m 12.62 12.44 12.61 H/s max 21.87 H/s
+[2023-12-28 12:36:21.333]  miner    speed 10s/60s/15m 12.62 12.58 12.61 H/s max 21.87 H/s
+[2023-12-28 12:36:42.569]  cpu      accepted (88/0) diff 553 (888 ms)
+[2023-12-28 12:36:47.961]  cpu      accepted (89/0) diff 553 (809 ms)
+[2023-12-28 12:37:21.389]  miner    speed 10s/60s/15m 12.62 12.54 12.60 H/s max 21.87 H/s
+[2023-12-28 12:37:43.565]  cpu      accepted (90/0) diff 553 (873 ms)
+[2023-12-28 12:38:10.873]  cpu      accepted (91/0) diff 553 (880 ms)
+[2023-12-28 12:38:21.447]  miner    speed 10s/60s/15m 12.62 12.56 12.60 H/s max 21.87 H/s
+[2023-12-28 12:38:38.670]  cpu      accepted (92/0) diff 553 (838 ms)
+[2023-12-28 12:38:51.963]  cpu      accepted (93/0) diff 553 (822 ms)
+[2023-12-28 12:39:19.111]  cpu      accepted (94/0) diff 553 (829 ms)
+[2023-12-28 12:39:21.505]  miner    speed 10s/60s/15m 12.62 12.54 12.60 H/s max 21.87 H/s
+[2023-12-28 12:39:39.692]  cpu      accepted (95/0) diff 553 (845 ms)
+[2023-12-28 12:39:58.931]  net      new job from gulf.moneroocean.stream:10128 diff 544 algo rx/0 height 151579
+[2023-12-28 12:40:20.011]  cpu      accepted (96/0) diff 544 (833 ms)
+[2023-12-28 12:40:21.562]  miner    speed 10s/60s/15m 12.62 12.61 12.59 H/s max 21.87 H/s
+[2023-12-28 12:40:44.376]  cpu      accepted (97/0) diff 544 (814 ms)
+[2023-12-28 12:41:04.313]  cpu      accepted (98/0) diff 544 (826 ms)
+[2023-12-28 12:41:21.623]  miner    speed 10s/60s/15m 12.51 12.56 12.58 H/s max 21.87 H/s
+[2023-12-28 12:41:59.742]  net      new job from gulf.moneroocean.stream:10128 diff 547 algo rx/0 height 151580
+[2023-12-28 12:42:21.685]  miner    speed 10s/60s/15m 12.62 12.61 12.58 H/s max 21.87 H/s
+[2023-12-28 12:42:53.463]  cpu      accepted (99/0) diff 547 (864 ms)
+[2023-12-28 12:43:12.217]  cpu      accepted (100/0) diff 547 (823 ms)
+[2023-12-28 12:43:21.754]  miner    speed 10s/60s/15m 12.62 12.56 12.58 H/s max 21.87 H/s
+[2023-12-28 12:44:21.827]  miner    speed 10s/60s/15m 12.62 12.61 12.58 H/s max 21.87 H/s
+[2023-12-28 12:45:06.045]  cpu      accepted (101/0) diff 547 (816 ms)
+[2023-12-28 12:45:21.895]  miner    speed 10s/60s/15m 12.51 12.56 12.58 H/s max 21.87 H/s
+[2023-12-28 12:46:21.973]  miner    speed 10s/60s/15m 12.61 12.54 12.57 H/s max 21.87 H/s
+[2023-12-28 12:47:22.038]  miner    speed 10s/60s/15m 12.41 12.49 12.56 H/s max 21.87 H/s
+[2023-12-28 12:48:22.092]  miner    speed 10s/60s/15m 12.62 12.54 12.55 H/s max 21.87 H/s
+[2023-12-28 12:49:22.144]  miner    speed 10s/60s/15m 12.52 12.58 12.54 H/s max 21.87 H/s
+[2023-12-28 12:49:40.653]  cpu      accepted (102/0) diff 547 (791 ms)
+[2023-12-28 12:49:47.703]  net      new job from gulf.moneroocean.stream:10128 diff 514 algo rx/0 height 151581
+[2023-12-28 12:50:22.194]  miner    speed 10s/60s/15m 12.73 12.68 12.56 H/s max 21.87 H/s
+[2023-12-28 12:51:22.247]  miner    speed 10s/60s/15m 12.62 12.78 12.57 H/s max 21.87 H/s
+[2023-12-28 12:51:53.625]  cpu      accepted (103/0) diff 514 (834 ms)
+[2023-12-28 12:52:09.936]  net      new job from gulf.moneroocean.stream:10128 diff 507 algo rx/0 height 151582
+[2023-12-28 12:52:20.310]  net      new job from gulf.moneroocean.stream:10128 diff 505 algo rx/0 height 151583
+[2023-12-28 12:52:22.302]  miner    speed 10s/60s/15m 12.83 12.85 12.60 H/s max 21.87 H/s
+[2023-12-28 12:52:59.650]  net      new job from gulf.moneroocean.stream:10128 diff 505 algo rx/0 height 151584
+[2023-12-28 12:53:22.355]  miner    speed 10s/60s/15m 13.04 12.98 12.63 H/s max 21.87 H/s
+[2023-12-28 12:53:30.451]  cpu      accepted (104/0) diff 505 (801 ms)
+[2023-12-28 12:54:04.505]  cpu      accepted (105/0) diff 505 (807 ms)
+[2023-12-28 12:54:22.412]  miner    speed 10s/60s/15m 13.04 12.96 12.66 H/s max 21.87 H/s
+[2023-12-28 12:54:48.245]  net      new job from gulf.moneroocean.stream:10128 diff 500 algo rx/0 height 151585
+[2023-12-28 12:55:08.879]  cpu      accepted (106/0) diff 500 (804 ms)
+[2023-12-28 12:55:22.471]  miner    speed 10s/60s/15m 13.25 13.30 12.71 H/s max 21.87 H/s
+[2023-12-28 12:56:22.531]  miner    speed 10s/60s/15m 13.25 13.38 12.76 H/s max 21.87 H/s
+[2023-12-28 12:56:26.505]  cpu      accepted (107/0) diff 500 (970 ms)
+[2023-12-28 12:56:41.297]  cpu      accepted (108/0) diff 500 (839 ms)
+[2023-12-28 12:57:17.855]  cpu      accepted (109/0) diff 500 (911 ms)
+[2023-12-28 12:57:22.599]  miner    speed 10s/60s/15m 13.03 13.14 12.80 H/s max 21.87 H/s
+[2023-12-28 12:57:29.264]  cpu      accepted (110/0) diff 500 (876 ms)
+[2023-12-28 12:58:03.183]  cpu      accepted (111/0) diff 500 (864 ms)
+[2023-12-28 12:58:06.636]  cpu      accepted (112/0) diff 500 (828 ms)
+[2023-12-28 12:58:08.401]  cpu      accepted (113/0) diff 500 (798 ms)
+[2023-12-28 12:58:22.670]  miner    speed 10s/60s/15m 13.25 13.21 12.84 H/s max 21.87 H/s
+[2023-12-28 12:59:22.750]  miner    speed 10s/60s/15m 13.14 13.18 12.88 H/s max 21.87 H/s
+[2023-12-28 13:00:22.825]  miner    speed 10s/60s/15m 13.35 13.21 12.92 H/s max 21.87 H/s
+[2023-12-28 13:01:16.026]  net      new job from gulf.moneroocean.stream:10128 diff 259 algo rx/0 height 151585
+[2023-12-28 13:01:22.891]  miner    speed 10s/60s/15m 13.35 13.36 12.98 H/s max 21.87 H/s
+[2023-12-28 13:01:31.437]  cpu      accepted (114/0) diff 259 (807 ms)
+[2023-12-28 13:02:22.942]  miner    speed 10s/60s/15m 13.46 13.35 13.04 H/s max 21.87 H/s
+[2023-12-28 13:02:55.760]  cpu      accepted (115/0) diff 259 (858 ms)
+[2023-12-28 13:03:03.817]  cpu      accepted (116/0) diff 259 (859 ms)
+[2023-12-28 13:03:10.665]  cpu      accepted (117/0) diff 259 (822 ms)
+[2023-12-28 13:03:11.865]  cpu      accepted (118/0) diff 259 (851 ms)
+[2023-12-28 13:03:22.995]  miner    speed 10s/60s/15m 13.88 13.45 13.10 H/s max 21.87 H/s
+[2023-12-28 13:03:23.635]  cpu      accepted (119/0) diff 259 (805 ms)
+[2023-12-28 13:03:45.249]  cpu      accepted (120/0) diff 259 (809 ms)
+[2023-12-28 13:04:03.162]  cpu      accepted (121/0) diff 259 (922 ms)
+[2023-12-28 13:04:23.043]  miner    speed 10s/60s/15m 13.36 13.42 13.16 H/s max 21.87 H/s
+[2023-12-28 13:04:37.205]  cpu      accepted (122/0) diff 259 (798 ms)
+[2023-12-28 13:04:39.700]  cpu      accepted (123/0) diff 259 (785 ms)
+[2023-12-28 13:04:41.758]  cpu      accepted (124/0) diff 259 (811 ms)
+[2023-12-28 13:04:42.237]  cpu      accepted (125/0) diff 259 (928 ms)
+[2023-12-28 13:04:47.815]  cpu      accepted (126/0) diff 259 (829 ms)
+[2023-12-28 13:04:52.441]  cpu      accepted (127/0) diff 259 (839 ms)
+[2023-12-28 13:04:59.093]  cpu      accepted (128/0) diff 259 (829 ms)
+[2023-12-28 13:05:05.132]  cpu      accepted (129/0) diff 259 (841 ms)
+[2023-12-28 13:05:11.725]  cpu      accepted (130/0) diff 259 (830 ms)
+[2023-12-28 13:05:20.260]  net      new job from gulf.moneroocean.stream:10128 diff 277 algo rx/0 height 151586
+[2023-12-28 13:05:21.677]  cpu      accepted (131/0) diff 277 (816 ms)
+[2023-12-28 13:05:23.088]  miner    speed 10s/60s/15m 13.36 13.32 13.20 H/s max 21.87 H/s
+[2023-12-28 13:05:48.006]  net      new job from gulf.moneroocean.stream:10128 diff 277 algo rx/0 height 151587
+[2023-12-28 13:05:52.661]  cpu      accepted (132/0) diff 277 (877 ms)
+[2023-12-28 13:05:58.477]  cpu      accepted (133/0) diff 277 (843 ms)
+[2023-12-28 13:06:16.173]  cpu      accepted (134/0) diff 277 (818 ms)
+[2023-12-28 13:06:23.144]  miner    speed 10s/60s/15m 13.36 13.37 13.24 H/s max 21.87 H/s
+[2023-12-28 13:06:24.617]  cpu      accepted (135/0) diff 277 (839 ms)
+[2023-12-28 13:06:28.111]  cpu      accepted (136/0) diff 277 (877 ms)
+[2023-12-28 13:07:16.675]  cpu      accepted (137/0) diff 277 (821 ms)
+[2023-12-28 13:07:23.192]  miner    speed 10s/60s/15m 13.47 13.59 13.29 H/s max 21.87 H/s
+[2023-12-28 13:08:03.853]  cpu      accepted (138/0) diff 277 (827 ms)
+[2023-12-28 13:08:21.645]  cpu      accepted (139/0) diff 277 (800 ms)
+[2023-12-28 13:08:23.249]  miner    speed 10s/60s/15m 13.46 13.50 13.32 H/s max 21.87 H/s
+[2023-12-28 13:08:41.261]  cpu      accepted (140/0) diff 277 (820 ms)
+[2023-12-28 13:08:59.253]  cpu      accepted (141/0) diff 277 (871 ms)
+[2023-12-28 13:09:11.668]  cpu      accepted (142/0) diff 277 (857 ms)
+[2023-12-28 13:09:12.090]  cpu      accepted (143/0) diff 277 (1179 ms)
+[2023-12-28 13:09:23.304]  miner    speed 10s/60s/15m 13.88 13.52 13.35 H/s max 21.87 H/s
+[2023-12-28 13:09:37.154]  cpu      accepted (144/0) diff 277 (831 ms)
+[2023-12-28 13:10:03.283]  net      new job from gulf.moneroocean.stream:10128 diff 287 algo rx/0 height 151588
+[2023-12-28 13:10:13.587]  cpu      accepted (145/0) diff 287 (831 ms)
+[2023-12-28 13:10:18.238]  cpu      accepted (146/0) diff 287 (808 ms)
+[2023-12-28 13:10:20.517]  cpu      accepted (147/0) diff 287 (888 ms)
+[2023-12-28 13:10:23.360]  miner    speed 10s/60s/15m 13.57 13.62 13.37 H/s max 21.87 H/s
+[2023-12-28 13:11:23.423]  miner    speed 10s/60s/15m 13.57 13.50 13.38 H/s max 21.87 H/s
+[2023-12-28 13:11:37.816]  cpu      accepted (148/0) diff 287 (904 ms)
+[2023-12-28 13:11:46.196]  net      new job from gulf.moneroocean.stream:10128 diff 287 algo rx/0 height 151589
+[2023-12-28 13:12:23.493]  miner    speed 10s/60s/15m 13.56 13.51 13.40 H/s max 21.87 H/s
+[2023-12-28 13:12:28.690]  net      new job from gulf.moneroocean.stream:10128 diff 285 algo rx/0 height 151590
+[2023-12-28 13:12:37.463]  net      new job from gulf.moneroocean.stream:10128 diff 285 algo rx/0 height 151591
+[2023-12-28 13:12:48.075]  cpu      accepted (149/0) diff 285 (928 ms)
+[2023-12-28 13:12:53.611]  cpu      accepted (150/0) diff 285 (929 ms)
+[2023-12-28 13:12:55.013]  net      new job from gulf.moneroocean.stream:10128 diff 285 algo rx/0 height 151592
+[2023-12-28 13:12:55.419]  cpu      accepted (151/0) diff 285 (1238 ms)
+[2023-12-28 13:12:59.445]  cpu      accepted (152/0) diff 285 (980 ms)
+[2023-12-28 13:13:22.293]  cpu      accepted (153/0) diff 285 (1006 ms)
+[2023-12-28 13:13:23.564]  miner    speed 10s/60s/15m 13.67 13.56 13.43 H/s max 21.87 H/s
+[2023-12-28 13:13:26.631]  cpu      accepted (154/0) diff 285 (889 ms)
+[2023-12-28 13:13:41.192]  cpu      accepted (155/0) diff 285 (833 ms)
+[2023-12-28 13:13:42.062]  cpu      accepted (156/0) diff 285 (817 ms)
+[2023-12-28 13:13:49.601]  cpu      accepted (157/0) diff 285 (789 ms)
+[2023-12-28 13:14:23.636]  miner    speed 10s/60s/15m 13.56 13.55 13.46 H/s max 21.87 H/s
+[2023-12-28 13:15:09.348]  net      new job from gulf.moneroocean.stream:10128 diff 295 algo rx/0 height 151593
+[2023-12-28 13:15:22.173]  cpu      accepted (158/0) diff 295 (811 ms)
+[2023-12-28 13:15:23.711]  miner    speed 10s/60s/15m 13.56 13.51 13.47 H/s max 21.87 H/s
+[2023-12-28 13:15:32.693]  cpu      accepted (159/0) diff 295 (828 ms)
+[2023-12-28 13:15:36.601]  net      new job from gulf.moneroocean.stream:10128 diff 291 algo rx/0 height 151594
+[2023-12-28 13:16:16.121]  net      new job from gulf.moneroocean.stream:10128 diff 291 algo rx/0 height 151595
+[2023-12-28 13:16:23.779]  miner    speed 10s/60s/15m 13.46 13.51 13.49 H/s max 21.87 H/s
+[2023-12-28 13:16:28.056]  cpu      accepted (160/0) diff 291 (897 ms)
+[2023-12-28 13:17:23.828]  miner    speed 10s/60s/15m 13.67 13.52 13.50 H/s max 21.87 H/s
+[2023-12-28 13:17:36.344]  cpu      accepted (161/0) diff 291 (794 ms)
+[2023-12-28 13:17:38.473]  cpu      accepted (162/0) diff 291 (1087 ms)
+[2023-12-28 13:17:45.921]  cpu      accepted (163/0) diff 291 (790 ms)
+[2023-12-28 13:18:05.640]  cpu      accepted (164/0) diff 291 (814 ms)
+[2023-12-28 13:18:16.737]  cpu      accepted (165/0) diff 291 (844 ms)
+[2023-12-28 13:18:23.881]  miner    speed 10s/60s/15m 13.57 13.58 13.50 H/s max 21.87 H/s
+[2023-12-28 13:18:37.741]  cpu      accepted (166/0) diff 291 (813 ms)
+[2023-12-28 13:18:40.399]  cpu      accepted (167/0) diff 291 (826 ms)
+[2023-12-28 13:18:51.667]  net      new job from gulf.moneroocean.stream:10128 diff 293 algo rx/0 height 151596
+[2023-12-28 13:19:03.463]  cpu      accepted (168/0) diff 293 (782 ms)
+[2023-12-28 13:19:05.473]  cpu      accepted (169/0) diff 293 (759 ms)
+[2023-12-28 13:19:23.928]  miner    speed 10s/60s/15m 13.88 13.65 13.52 H/s max 21.87 H/s
+[2023-12-28 13:19:26.751]  cpu      accepted (170/0) diff 293 (761 ms)
+[2023-12-28 13:19:40.936]  net      new job from gulf.moneroocean.stream:10128 diff 298 algo rx/0 height 151597
+[2023-12-28 13:20:23.975]  miner    speed 10s/60s/15m 13.78 13.62 13.54 H/s max 21.87 H/s
+[2023-12-28 13:21:10.875]  cpu      accepted (171/0) diff 298 (800 ms)
+[2023-12-28 13:21:24.026]  miner    speed 10s/60s/15m 13.88 13.72 13.56 H/s max 21.87 H/s
+[2023-12-28 13:21:39.035]  cpu      accepted (172/0) diff 298 (790 ms)
+[2023-12-28 13:22:14.515]  cpu      accepted (173/0) diff 298 (819 ms)
+[2023-12-28 13:22:24.078]  miner    speed 10s/60s/15m 13.67 13.62 13.56 H/s max 21.87 H/s
+[2023-12-28 13:22:42.352]  cpu      accepted (174/0) diff 298 (842 ms)
+[2023-12-28 13:23:21.107]  cpu      accepted (175/0) diff 298 (846 ms)
+[2023-12-28 13:23:24.132]  miner    speed 10s/60s/15m 13.78 13.60 13.57 H/s max 21.87 H/s
+[2023-12-28 13:23:26.933]  cpu      accepted (176/0) diff 298 (781 ms)
+[2023-12-28 13:23:41.223]  cpu      accepted (177/0) diff 298 (777 ms)
+[2023-12-28 13:24:09.429]  net      new job from gulf.moneroocean.stream:10128 diff 293 algo rx/0 height 151598
+[2023-12-28 13:24:20.892]  cpu      accepted (178/0) diff 293 (819 ms)
+[2023-12-28 13:24:24.187]  miner    speed 10s/60s/15m 13.57 13.55 13.58 H/s max 21.87 H/s
+[2023-12-28 13:24:36.060]  net      new job from gulf.moneroocean.stream:10128 diff 295 algo rx/0 height 151599
+[2023-12-28 13:24:57.151]  cpu      accepted (179/0) diff 295 (834 ms)
+[2023-12-28 13:25:09.907]  cpu      accepted (180/0) diff 295 (858 ms)
+[2023-12-28 13:25:24.243]  miner    speed 10s/60s/15m 13.56 13.72 13.58 H/s max 21.87 H/s
+[2023-12-28 13:25:24.617]  net      new job from gulf.moneroocean.stream:10128 diff 297 algo rx/0 height 151600
+[2023-12-28 13:25:33.420]  cpu      accepted (181/0) diff 297 (801 ms)
+[2023-12-28 13:25:37.414]  cpu      accepted (182/0) diff 297 (873 ms)
+[2023-12-28 13:25:55.496]  cpu      accepted (183/0) diff 297 (837 ms)
+[2023-12-28 13:26:24.306]  miner    speed 10s/60s/15m 13.56 13.65 13.59 H/s max 21.87 H/s
+[2023-12-28 13:26:35.505]  cpu      accepted (184/0) diff 297 (848 ms)
+[2023-12-28 13:26:36.905]  net      new job from gulf.moneroocean.stream:10128 diff 298 algo rx/0 height 151601
+[2023-12-28 13:27:00.197]  cpu      accepted (185/0) diff 298 (833 ms)
+[2023-12-28 13:27:03.724]  net      new job from gulf.moneroocean.stream:10128 diff 298 algo rx/0 height 151602
+[2023-12-28 13:27:13.145]  cpu      accepted (186/0) diff 298 (801 ms)
+[2023-12-28 13:27:24.370]  miner    speed 10s/60s/15m 14.09 13.65 13.60 H/s max 21.87 H/s
+[2023-12-28 13:28:00.911]  cpu      accepted (187/0) diff 298 (829 ms)
+[2023-12-28 13:28:19.218]  net      new job from gulf.moneroocean.stream:10128 diff 298 algo rx/0 height 151603
+[2023-12-28 13:28:19.829]  cpu      accepted (188/0) diff 298 (1054 ms)
+[2023-12-28 13:28:24.436]  miner    speed 10s/60s/15m 13.77 13.75 13.61 H/s max 21.87 H/s
+[2023-12-28 13:29:06.253]  cpu      accepted (189/0) diff 298 (966 ms)
+[2023-12-28 13:29:16.077]  cpu      accepted (190/0) diff 298 (867 ms)
+[2023-12-28 13:29:20.768]  cpu      accepted (191/0) diff 298 (853 ms)
+[2023-12-28 13:29:24.509]  miner    speed 10s/60s/15m 14.30 13.83 13.63 H/s max 21.87 H/s
+[2023-12-28 13:29:34.345]  cpu      accepted (192/0) diff 298 (874 ms)
+[2023-12-28 13:30:01.727]  cpu      accepted (193/0) diff 298 (827 ms)
+[2023-12-28 13:30:04.669]  cpu      accepted (194/0) diff 298 (842 ms)
+[2023-12-28 13:30:24.580]  miner    speed 10s/60s/15m 13.88 14.07 13.67 H/s max 21.87 H/s
+[2023-12-28 13:30:36.727]  cpu      accepted (195/0) diff 298 (826 ms)
+[2023-12-28 13:30:52.135]  cpu      accepted (196/0) diff 298 (770 ms)
+[2023-12-28 13:30:56.487]  cpu      accepted (197/0) diff 298 (775 ms)
+[2023-12-28 13:30:59.413]  cpu      accepted (198/0) diff 298 (804 ms)
+[2023-12-28 13:31:07.964]  cpu      accepted (199/0) diff 298 (777 ms)
+[2023-12-28 13:31:24.657]  miner    speed 10s/60s/15m 14.30 13.97 13.70 H/s max 21.87 H/s
+[2023-12-28 13:32:24.572]  cpu      accepted (200/0) diff 298 (809 ms)
+[2023-12-28 13:32:24.716]  miner    speed 10s/60s/15m 13.78 13.80 13.72 H/s max 21.87 H/s
+[2023-12-28 13:32:31.413]  cpu      accepted (201/0) diff 298 (804 ms)
+[2023-12-28 13:33:01.901]  cpu      accepted (202/0) diff 298 (811 ms)
+[2023-12-28 13:33:14.119]  cpu      accepted (203/0) diff 298 (787 ms)
+[2023-12-28 13:33:24.768]  miner    speed 10s/60s/15m 13.78 13.80 13.73 H/s max 21.87 H/s
+[2023-12-28 13:33:27.746]  cpu      accepted (204/0) diff 298 (784 ms)
+[2023-12-28 13:33:30.613]  net      new job from gulf.moneroocean.stream:10128 diff 308 algo rx/0 height 151604
+[2023-12-28 13:33:48.205]  cpu      accepted (205/0) diff 308 (808 ms)
+[2023-12-28 13:33:54.632]  cpu      accepted (206/0) diff 308 (850 ms)
+[2023-12-28 13:34:24.817]  miner    speed 10s/60s/15m 14.20 13.89 13.75 H/s max 21.87 H/s
+[2023-12-28 13:35:00.351]  cpu      accepted (207/0) diff 308 (811 ms)
+[2023-12-28 13:35:15.951]  cpu      accepted (208/0) diff 308 (800 ms)
+[2023-12-28 13:35:24.863]  miner    speed 10s/60s/15m 13.67 13.97 13.78 H/s max 21.87 H/s
+[2023-12-28 13:35:32.337]  cpu      accepted (209/0) diff 308 (815 ms)
+[2023-12-28 13:35:33.318]  cpu      accepted (210/0) diff 308 (814 ms)
+[2023-12-28 13:36:08.961]  net      dev donate started
+[2023-12-28 13:36:08.962]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151604
+[2023-12-28 13:36:17.724]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151605
+[2023-12-28 13:36:24.910]  miner    speed 10s/60s/15m 14.52 14.12 13.80 H/s max 21.87 H/s
+[2023-12-28 13:37:01.723]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151606
+[2023-12-28 13:37:05.037]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151606
+[2023-12-28 13:37:08.961]  net      dev donate finished
+[2023-12-28 13:37:08.962]  net      new job from gulf.moneroocean.stream:10128 diff 310 algo rx/0 height 151606
+[2023-12-28 13:37:13.295]  cpu      accepted (211/0) diff 310 (826 ms)
+[2023-12-28 13:37:16.829]  cpu      accepted (212/0) diff 310 (891 ms)
+[2023-12-28 13:37:24.963]  miner    speed 10s/60s/15m 13.88 14.16 13.84 H/s max 21.87 H/s
+[2023-12-28 13:37:37.573]  cpu      accepted (213/0) diff 310 (841 ms)
+[2023-12-28 13:37:49.453]  cpu      accepted (214/0) diff 310 (816 ms)
+[2023-12-28 13:38:05.881]  cpu      accepted (215/0) diff 310 (828 ms)
+[2023-12-28 13:38:25.018]  miner    speed 10s/60s/15m 13.99 13.92 13.86 H/s max 21.87 H/s
+[2023-12-28 13:39:25.076]  miner    speed 10s/60s/15m 13.88 14.00 13.88 H/s max 21.87 H/s
+[2023-12-28 13:40:25.132]  miner    speed 10s/60s/15m 13.78 13.77 13.89 H/s max 21.87 H/s
+[2023-12-28 13:40:32.200]  cpu      accepted (216/0) diff 310 (800 ms)
+[2023-12-28 13:40:48.471]  net      new job from gulf.moneroocean.stream:10128 diff 305 algo rx/0 height 151607
+[2023-12-28 13:41:25.190]  miner    speed 10s/60s/15m 13.77 13.80 13.90 H/s max 21.87 H/s
+[2023-12-28 13:41:30.098]  net      new job from gulf.moneroocean.stream:10128 diff 303 algo rx/0 height 151608
+[2023-12-28 13:41:45.720]  net      new job from gulf.moneroocean.stream:10128 diff 303 algo rx/0 height 151609
+[2023-12-28 13:41:52.030]  cpu      accepted (217/0) diff 303 (883 ms)
+[2023-12-28 13:42:02.713]  cpu      accepted (218/0) diff 303 (886 ms)
+[2023-12-28 13:42:25.251]  miner    speed 10s/60s/15m 13.67 13.73 13.90 H/s max 21.87 H/s
+[2023-12-28 13:42:34.381]  cpu      accepted (219/0) diff 303 (856 ms)
+[2023-12-28 13:42:53.114]  net      new job from gulf.moneroocean.stream:10128 diff 303 algo rx/0 height 151610
+[2023-12-28 13:43:22.284]  net      new job from gulf.moneroocean.stream:10128 diff 302 algo rx/0 height 151611
+[2023-12-28 13:43:24.640]  cpu      accepted (220/0) diff 302 (904 ms)
+[2023-12-28 13:43:25.318]  miner    speed 10s/60s/15m 13.78 13.82 13.91 H/s max 21.87 H/s
+[2023-12-28 13:43:31.568]  cpu      accepted (221/0) diff 302 (922 ms)
+[2023-12-28 13:44:03.168]  cpu      accepted (222/0) diff 302 (947 ms)
+[2023-12-28 13:44:14.916]  cpu      accepted (223/0) diff 302 (887 ms)
+[2023-12-28 13:44:17.221]  net      new job from gulf.moneroocean.stream:10128 diff 305 algo rx/0 height 151612
+[2023-12-28 13:44:25.393]  miner    speed 10s/60s/15m 14.40 14.07 13.92 H/s max 21.87 H/s
+[2023-12-28 13:44:50.923]  cpu      accepted (224/0) diff 305 (956 ms)
+[2023-12-28 13:44:52.535]  cpu      accepted (225/0) diff 305 (883 ms)
+[2023-12-28 13:44:58.457]  cpu      accepted (226/0) diff 305 (961 ms)
+[2023-12-28 13:45:25.468]  miner    speed 10s/60s/15m 13.88 13.97 13.91 H/s max 21.87 H/s
+[2023-12-28 13:45:37.472]  cpu      accepted (227/0) diff 305 (871 ms)
+[2023-12-28 13:46:25.545]  miner    speed 10s/60s/15m 14.19 13.90 13.91 H/s max 21.87 H/s
+[2023-12-28 13:46:33.651]  cpu      accepted (228/0) diff 305 (909 ms)
+[2023-12-28 13:46:40.705]  cpu      accepted (229/0) diff 305 (914 ms)
+[2023-12-28 13:46:47.687]  cpu      accepted (230/0) diff 305 (919 ms)
+[2023-12-28 13:46:53.702]  cpu      accepted (231/0) diff 305 (935 ms)
+[2023-12-28 13:47:25.602]  miner    speed 10s/60s/15m 14.30 14.21 13.94 H/s max 21.87 H/s
+[2023-12-28 13:47:30.093]  net      new job from gulf.moneroocean.stream:10128 diff 308 algo rx/0 height 151613
+[2023-12-28 13:48:25.652]  miner    speed 10s/60s/15m 13.88 13.90 13.94 H/s max 21.87 H/s
+[2023-12-28 13:48:28.647]  cpu      accepted (232/0) diff 308 (940 ms)
+[2023-12-28 13:48:36.705]  cpu      accepted (233/0) diff 308 (866 ms)
+[2023-12-28 13:48:43.449]  cpu      accepted (234/0) diff 308 (858 ms)
+[2023-12-28 13:48:49.199]  cpu      accepted (235/0) diff 308 (883 ms)
+[2023-12-28 13:48:52.189]  cpu      accepted (236/0) diff 308 (872 ms)
+[2023-12-28 13:48:55.133]  cpu      accepted (237/0) diff 308 (824 ms)
+[2023-12-28 13:49:25.698]  miner    speed 10s/60s/15m 14.30 14.39 13.97 H/s max 21.87 H/s
+[2023-12-28 13:49:33.293]  cpu      accepted (238/0) diff 308 (770 ms)
+[2023-12-28 13:49:45.874]  net      new job from gulf.moneroocean.stream:10128 diff 311 algo rx/0 height 151614
+[2023-12-28 13:49:56.897]  cpu      accepted (239/0) diff 311 (824 ms)
+[2023-12-28 13:50:05.028]  net      new job from gulf.moneroocean.stream:10128 diff 311 algo rx/0 height 151615
+[2023-12-28 13:50:24.585]  net      new job from gulf.moneroocean.stream:10128 diff 311 algo rx/0 height 151616
+[2023-12-28 13:50:25.748]  miner    speed 10s/60s/15m 13.88 13.90 13.97 H/s max 21.87 H/s
+[2023-12-28 13:50:38.249]  cpu      accepted (240/0) diff 311 (837 ms)
+[2023-12-28 13:51:25.798]  miner    speed 10s/60s/15m 14.30 13.97 13.96 H/s max 21.87 H/s
+[2023-12-28 13:51:35.163]  cpu      accepted (241/0) diff 311 (792 ms)
+[2023-12-28 13:51:59.595]  cpu      accepted (242/0) diff 311 (766 ms)
+[2023-12-28 13:52:25.849]  miner    speed 10s/60s/15m 13.99 13.97 13.95 H/s max 21.87 H/s
+[2023-12-28 13:52:35.945]  cpu      accepted (243/0) diff 311 (777 ms)
+[2023-12-28 13:52:44.157]  cpu      accepted (244/0) diff 311 (793 ms)
+[2023-12-28 13:52:54.845]  cpu      accepted (245/0) diff 311 (824 ms)
+[2023-12-28 13:53:06.180]  cpu      accepted (246/0) diff 311 (802 ms)
+[2023-12-28 13:53:15.460]  cpu      accepted (247/0) diff 311 (811 ms)
+[2023-12-28 13:53:24.640]  cpu      accepted (248/0) diff 311 (907 ms)
+[2023-12-28 13:53:25.901]  miner    speed 10s/60s/15m 14.20 13.94 13.95 H/s max 21.87 H/s
+[2023-12-28 13:53:28.290]  net      new job from gulf.moneroocean.stream:10128 diff 313 algo rx/0 height 151617
+[2023-12-28 13:53:28.291]  randomx  init dataset algo rx/0 (4 threads) seed cfcf97e841feb2bf...
+[2023-12-28 13:53:35.639]  randomx  dataset ready (7347 ms)
+[2023-12-28 13:54:25.952]  miner    speed 10s/60s/15m 14.20 12.85 13.88 H/s max 21.87 H/s
+[2023-12-28 13:54:35.385]  net      new job from gulf.moneroocean.stream:10128 diff 312 algo rx/0 height 151618
+[2023-12-28 13:54:44.097]  cpu      accepted (249/0) diff 312 (824 ms)
+[2023-12-28 13:55:09.053]  cpu      accepted (250/0) diff 312 (819 ms)
+[2023-12-28 13:55:21.980]  cpu      accepted (251/0) diff 312 (804 ms)
+[2023-12-28 13:55:26.008]  miner    speed 10s/60s/15m 14.20 14.22 13.90 H/s max 21.87 H/s
+[2023-12-28 13:55:27.509]  cpu      accepted (252/0) diff 312 (882 ms)
+[2023-12-28 13:55:41.000]  net      new job from gulf.moneroocean.stream:10128 diff 312 algo rx/0 height 151619
+[2023-12-28 13:55:56.149]  cpu      accepted (253/0) diff 312 (1006 ms)
+[2023-12-28 13:55:57.307]  cpu      accepted (254/0) diff 312 (767 ms)
+[2023-12-28 13:56:04.452]  net      new job from gulf.moneroocean.stream:10128 diff 312 algo rx/0 height 151620
+[2023-12-28 13:56:26.063]  miner    speed 10s/60s/15m 14.20 14.31 13.94 H/s max 21.87 H/s
+[2023-12-28 13:56:30.048]  cpu      accepted (255/0) diff 312 (787 ms)
+[2023-12-28 13:56:31.360]  cpu      accepted (256/0) diff 312 (775 ms)
+[2023-12-28 13:56:34.877]  net      new job from gulf.moneroocean.stream:10128 diff 315 algo rx/0 height 151621
+[2023-12-28 13:56:47.896]  cpu      accepted (257/0) diff 315 (799 ms)
+[2023-12-28 13:57:02.364]  cpu      accepted (258/0) diff 315 (795 ms)
+[2023-12-28 13:57:08.245]  cpu      accepted (259/0) diff 315 (827 ms)
+[2023-12-28 13:57:21.197]  cpu      accepted (260/0) diff 315 (811 ms)
+[2023-12-28 13:57:23.555]  cpu      accepted (261/0) diff 315 (817 ms)
+[2023-12-28 13:57:26.123]  miner    speed 10s/60s/15m 14.20 14.15 13.96 H/s max 21.87 H/s
+[2023-12-28 13:57:58.656]  net      new job from gulf.moneroocean.stream:10128 diff 319 algo rx/0 height 151622
+[2023-12-28 13:58:02.603]  cpu      accepted (262/0) diff 319 (946 ms)
+[2023-12-28 13:58:24.669]  cpu      accepted (263/0) diff 319 (896 ms)
+[2023-12-28 13:58:26.184]  miner    speed 10s/60s/15m 14.09 14.19 13.99 H/s max 21.87 H/s
+[2023-12-28 13:58:36.177]  cpu      accepted (264/0) diff 319 (897 ms)
+[2023-12-28 13:58:37.028]  cpu      accepted (265/0) diff 319 (944 ms)
+[2023-12-28 13:59:07.043]  cpu      accepted (266/0) diff 319 (863 ms)
+[2023-12-28 13:59:11.069]  cpu      accepted (267/0) diff 319 (900 ms)
+[2023-12-28 13:59:24.961]  cpu      accepted (268/0) diff 319 (821 ms)
+[2023-12-28 13:59:26.259]  miner    speed 10s/60s/15m 14.40 14.08 13.99 H/s max 21.87 H/s
+[2023-12-28 13:59:29.785]  cpu      accepted (269/0) diff 319 (856 ms)
+[2023-12-28 14:00:14.314]  cpu      accepted (270/0) diff 319 (962 ms)
+[2023-12-28 14:00:26.333]  miner    speed 10s/60s/15m 14.30 14.25 14.01 H/s max 21.87 H/s
+[2023-12-28 14:00:51.471]  cpu      accepted (271/0) diff 319 (842 ms)
+[2023-12-28 14:01:16.476]  net      new job from gulf.moneroocean.stream:10128 diff 389 algo rx/0 height 151622
+[2023-12-28 14:01:26.406]  miner    speed 10s/60s/15m 14.19 14.08 14.02 H/s max 21.87 H/s
+[2023-12-28 14:01:27.813]  cpu      accepted (272/0) diff 389 (862 ms)
+[2023-12-28 14:01:38.457]  cpu      accepted (273/0) diff 389 (900 ms)
+[2023-12-28 14:02:26.480]  miner    speed 10s/60s/15m 14.30 14.18 14.02 H/s max 21.87 H/s
+[2023-12-28 14:02:27.821]  cpu      accepted (274/0) diff 389 (856 ms)
+[2023-12-28 14:03:06.323]  cpu      accepted (275/0) diff 389 (940 ms)
+[2023-12-28 14:03:26.537]  miner    speed 10s/60s/15m 14.20 14.29 14.05 H/s max 21.87 H/s
+[2023-12-28 14:03:30.877]  cpu      accepted (276/0) diff 389 (997 ms)
+[2023-12-28 14:04:26.586]  miner    speed 10s/60s/15m 14.20 14.16 14.03 H/s max 21.87 H/s
+[2023-12-28 14:05:04.609]  cpu      accepted (277/0) diff 389 (837 ms)
+[2023-12-28 14:05:26.636]  miner    speed 10s/60s/15m 14.31 14.34 14.06 H/s max 21.87 H/s
+[2023-12-28 14:05:31.159]  cpu      accepted (278/0) diff 389 (840 ms)
+[2023-12-28 14:05:46.659]  cpu      accepted (279/0) diff 389 (879 ms)
+[2023-12-28 14:05:54.185]  net      new job from gulf.moneroocean.stream:10128 diff 383 algo rx/0 height 151623
+[2023-12-28 14:06:15.668]  cpu      accepted (280/0) diff 383 (929 ms)
+[2023-12-28 14:06:26.686]  miner    speed 10s/60s/15m 14.30 14.36 14.09 H/s max 21.87 H/s
+[2023-12-28 14:06:32.299]  cpu      accepted (281/0) diff 383 (829 ms)
+[2023-12-28 14:07:07.319]  cpu      accepted (282/0) diff 383 (1007 ms)
+[2023-12-28 14:07:26.738]  miner    speed 10s/60s/15m 14.51 14.41 14.12 H/s max 21.87 H/s
+[2023-12-28 14:08:11.847]  net      new job from gulf.moneroocean.stream:10128 diff 386 algo rx/0 height 151624
+[2023-12-28 14:08:18.434]  cpu      accepted (283/0) diff 386 (921 ms)
+[2023-12-28 14:08:26.789]  miner    speed 10s/60s/15m 14.20 14.41 14.15 H/s max 21.87 H/s
+[2023-12-28 14:08:34.935]  cpu      accepted (284/0) diff 386 (910 ms)
+[2023-12-28 14:08:35.382]  cpu      accepted (285/0) diff 386 (925 ms)
+[2023-12-28 14:09:26.844]  miner    speed 10s/60s/15m 14.20 14.22 14.24 H/s max 21.87 H/s
+[2023-12-28 14:09:31.219]  cpu      accepted (286/0) diff 386 (926 ms)
+[2023-12-28 14:10:26.897]  miner    speed 10s/60s/15m 14.20 14.16 14.24 H/s max 21.87 H/s
+[2023-12-28 14:10:50.588]  cpu      accepted (287/0) diff 386 (895 ms)
+[2023-12-28 14:11:06.469]  cpu      accepted (288/0) diff 386 (882 ms)
+[2023-12-28 14:11:26.958]  miner    speed 10s/60s/15m 14.09 14.14 14.22 H/s max 21.87 H/s
+[2023-12-28 14:12:27.023]  miner    speed 10s/60s/15m 13.88 14.09 14.22 H/s max 21.87 H/s
+[2023-12-28 14:12:37.955]  cpu      accepted (289/0) diff 386 (965 ms)
+[2023-12-28 14:13:19.285]  net      new job from gulf.moneroocean.stream:10128 diff 373 algo rx/0 height 151625
+[2023-12-28 14:13:27.086]  miner    speed 10s/60s/15m 14.30 14.10 14.22 H/s max 21.87 H/s
+[2023-12-28 14:13:41.520]  cpu      accepted (290/0) diff 373 (873 ms)
+[2023-12-28 14:14:01.953]  cpu      accepted (291/0) diff 373 (983 ms)
+[2023-12-28 14:14:27.160]  miner    speed 10s/60s/15m 13.88 13.98 14.21 H/s max 21.87 H/s
+[2023-12-28 14:14:28.448]  cpu      accepted (292/0) diff 373 (893 ms)
+[2023-12-28 14:14:37.887]  cpu      accepted (293/0) diff 373 (897 ms)
+[2023-12-28 14:14:39.299]  cpu      accepted (294/0) diff 373 (942 ms)
+[2023-12-28 14:14:44.052]  cpu      accepted (295/0) diff 373 (954 ms)
+[2023-12-28 14:15:00.763]  cpu      accepted (296/0) diff 373 (925 ms)
+[2023-12-28 14:15:20.357]  cpu      accepted (297/0) diff 373 (920 ms)
+[2023-12-28 14:15:27.235]  miner    speed 10s/60s/15m 14.19 14.08 14.20 H/s max 21.87 H/s
+[2023-12-28 14:15:51.441]  cpu      accepted (298/0) diff 373 (890 ms)
+[2023-12-28 14:15:53.429]  cpu      accepted (299/0) diff 373 (909 ms)
+[2023-12-28 14:15:58.584]  cpu      accepted (300/0) diff 373 (1552 ms)
+[2023-12-28 14:16:12.020]  cpu      accepted (301/0) diff 373 (879 ms)
+[2023-12-28 14:16:24.004]  cpu      accepted (302/0) diff 373 (955 ms)
+[2023-12-28 14:16:27.308]  miner    speed 10s/60s/15m 14.19 14.29 14.22 H/s max 21.87 H/s
+[2023-12-28 14:16:35.221]  cpu      accepted (303/0) diff 373 (912 ms)
+[2023-12-28 14:16:56.109]  cpu      accepted (304/0) diff 373 (947 ms)
+[2023-12-28 14:16:59.007]  cpu      accepted (305/0) diff 373 (848 ms)
+[2023-12-28 14:17:27.374]  miner    speed 10s/60s/15m 13.99 14.05 14.21 H/s max 21.87 H/s
+[2023-12-28 14:17:46.588]  cpu      accepted (306/0) diff 373 (838 ms)
+[2023-12-28 14:17:47.995]  cpu      accepted (307/0) diff 373 (814 ms)
+[2023-12-28 14:18:22.565]  cpu      accepted (308/0) diff 373 (845 ms)
+[2023-12-28 14:18:27.426]  miner    speed 10s/60s/15m 13.99 14.05 14.19 H/s max 21.87 H/s
+[2023-12-28 14:18:46.949]  cpu      accepted (309/0) diff 373 (890 ms)
+[2023-12-28 14:19:14.500]  net      new job from gulf.moneroocean.stream:10128 diff 392 algo rx/0 height 151626
+[2023-12-28 14:19:27.471]  miner    speed 10s/60s/15m 14.30 14.17 14.20 H/s max 21.87 H/s
+[2023-12-28 14:19:35.577]  cpu      accepted (310/0) diff 392 (895 ms)
+[2023-12-28 14:19:41.172]  cpu      accepted (311/0) diff 392 (870 ms)
+[2023-12-28 14:20:27.520]  miner    speed 10s/60s/15m 14.30 14.21 14.19 H/s max 21.87 H/s
+[2023-12-28 14:21:27.565]  miner    speed 10s/60s/15m 14.20 14.14 14.17 H/s max 21.87 H/s
+[2023-12-28 14:21:40.196]  cpu      accepted (312/0) diff 392 (852 ms)
+[2023-12-28 14:22:20.576]  cpu      accepted (313/0) diff 392 (872 ms)
+[2023-12-28 14:22:27.614]  miner    speed 10s/60s/15m 14.20 14.41 14.17 H/s max 21.87 H/s
+[2023-12-28 14:22:36.027]  cpu      accepted (314/0) diff 392 (871 ms)
+[2023-12-28 14:22:52.572]  cpu      accepted (315/0) diff 392 (883 ms)
+[2023-12-28 14:23:27.662]  miner    speed 10s/60s/15m 13.99 14.17 14.16 H/s max 21.87 H/s
+[2023-12-28 14:23:56.569]  cpu      accepted (316/0) diff 392 (863 ms)
+[2023-12-28 14:24:27.711]  miner    speed 10s/60s/15m 13.99 14.12 14.15 H/s max 21.87 H/s
+[2023-12-28 14:24:35.352]  net      new job from gulf.moneroocean.stream:10128 diff 385 algo rx/0 height 151627
+[2023-12-28 14:24:56.467]  cpu      accepted (317/0) diff 385 (839 ms)
+[2023-12-28 14:25:03.430]  cpu      accepted (318/0) diff 385 (1036 ms)
+[2023-12-28 14:25:24.858]  cpu      accepted (319/0) diff 385 (811 ms)
+[2023-12-28 14:25:27.764]  miner    speed 10s/60s/15m 14.20 14.09 14.15 H/s max 21.87 H/s
+[2023-12-28 14:25:44.289]  cpu      accepted (320/0) diff 385 (822 ms)
+[2023-12-28 14:25:45.001]  cpu      accepted (321/0) diff 385 (809 ms)
+[2023-12-28 14:26:27.817]  miner    speed 10s/60s/15m 14.20 14.16 14.14 H/s max 21.87 H/s
+[2023-12-28 14:26:37.359]  net      new job from gulf.moneroocean.stream:10128 diff 387 algo rx/0 height 151628
+[2023-12-28 14:27:12.179]  cpu      accepted (322/0) diff 387 (861 ms)
+[2023-12-28 14:27:27.870]  miner    speed 10s/60s/15m 14.09 14.16 14.15 H/s max 21.87 H/s
+[2023-12-28 14:28:27.533]  cpu      accepted (323/0) diff 387 (851 ms)
+[2023-12-28 14:28:27.925]  miner    speed 10s/60s/15m 14.20 14.11 14.15 H/s max 21.87 H/s
+[2023-12-28 14:28:32.957]  cpu      accepted (324/0) diff 387 (862 ms)
+[2023-12-28 14:29:27.986]  miner    speed 10s/60s/15m 14.09 14.20 14.16 H/s max 21.87 H/s
+[2023-12-28 14:29:30.224]  cpu      accepted (325/0) diff 387 (873 ms)
+[2023-12-28 14:29:39.307]  cpu      accepted (326/0) diff 387 (841 ms)
+[2023-12-28 14:29:47.593]  cpu      accepted (327/0) diff 387 (916 ms)
+[2023-12-28 14:30:08.149]  cpu      accepted (328/0) diff 387 (913 ms)
+[2023-12-28 14:30:28.048]  miner    speed 10s/60s/15m 14.30 14.14 14.16 H/s max 21.87 H/s
+[2023-12-28 14:30:47.902]  cpu      accepted (329/0) diff 387 (835 ms)
+[2023-12-28 14:31:23.285]  cpu      accepted (330/0) diff 387 (835 ms)
+[2023-12-28 14:31:27.758]  cpu      accepted (331/0) diff 387 (937 ms)
+[2023-12-28 14:31:28.116]  miner    speed 10s/60s/15m 14.30 14.24 14.16 H/s max 21.87 H/s
+[2023-12-28 14:31:36.857]  net      new job from gulf.moneroocean.stream:10128 diff 383 algo rx/0 height 151629
+[2023-12-28 14:31:55.825]  net      new job from gulf.moneroocean.stream:10128 diff 383 algo rx/0 height 151630
+[2023-12-28 14:32:28.193]  miner    speed 10s/60s/15m 14.40 14.50 14.19 H/s max 21.87 H/s
+[2023-12-28 14:32:40.961]  net      new job from gulf.moneroocean.stream:10128 diff 383 algo rx/0 height 151631
+[2023-12-28 14:32:47.934]  cpu      accepted (332/0) diff 383 (831 ms)
+[2023-12-28 14:33:04.103]  cpu      accepted (333/0) diff 383 (841 ms)
+[2023-12-28 14:33:09.529]  net      new job from gulf.moneroocean.stream:10128 diff 383 algo rx/0 height 151632
+[2023-12-28 14:33:28.269]  miner    speed 10s/60s/15m 14.30 14.25 14.20 H/s max 21.87 H/s
+[2023-12-28 14:33:31.161]  cpu      accepted (334/0) diff 383 (831 ms)
+[2023-12-28 14:33:31.620]  cpu      accepted (335/0) diff 383 (1224 ms)
+[2023-12-28 14:33:33.197]  cpu      accepted (336/0) diff 383 (846 ms)
+[2023-12-28 14:33:41.580]  cpu      accepted (337/0) diff 383 (804 ms)
+[2023-12-28 14:33:56.836]  cpu      accepted (338/0) diff 383 (821 ms)
+[2023-12-28 14:34:17.800]  cpu      accepted (339/0) diff 383 (827 ms)
+[2023-12-28 14:34:21.144]  cpu      accepted (340/0) diff 383 (823 ms)
+[2023-12-28 14:34:28.341]  miner    speed 10s/60s/15m 14.20 14.23 14.21 H/s max 21.87 H/s
+[2023-12-28 14:34:45.348]  cpu      accepted (341/0) diff 383 (843 ms)
+[2023-12-28 14:35:19.681]  cpu      accepted (342/0) diff 383 (852 ms)
+[2023-12-28 14:35:28.395]  miner    speed 10s/60s/15m 14.09 14.19 14.21 H/s max 21.87 H/s
+[2023-12-28 14:35:42.377]  cpu      accepted (343/0) diff 383 (880 ms)
+[2023-12-28 14:36:20.401]  cpu      accepted (344/0) diff 383 (865 ms)
+[2023-12-28 14:36:26.313]  cpu      accepted (345/0) diff 383 (1047 ms)
+[2023-12-28 14:36:28.447]  miner    speed 10s/60s/15m 14.30 14.17 14.21 H/s max 21.87 H/s
+[2023-12-28 14:36:39.861]  cpu      accepted (346/0) diff 383 (855 ms)
+[2023-12-28 14:37:28.496]  miner    speed 10s/60s/15m 14.62 14.27 14.20 H/s max 21.87 H/s
+[2023-12-28 14:37:53.295]  cpu      accepted (347/0) diff 383 (833 ms)
+[2023-12-28 14:38:00.351]  cpu      accepted (348/0) diff 383 (848 ms)
+[2023-12-28 14:38:01.572]  net      new job from gulf.moneroocean.stream:10128 diff 393 algo rx/0 height 151633
+[2023-12-28 14:38:02.441]  cpu      accepted (349/0) diff 383 (812 ms)
+[2023-12-28 14:38:28.550]  miner    speed 10s/60s/15m 14.31 14.42 14.22 H/s max 21.87 H/s
+[2023-12-28 14:38:56.471]  cpu      accepted (350/0) diff 393 (853 ms)
+[2023-12-28 14:39:28.603]  miner    speed 10s/60s/15m 14.20 13.94 14.21 H/s max 21.87 H/s
+[2023-12-28 14:39:34.278]  cpu      accepted (351/0) diff 393 (822 ms)
+[2023-12-28 14:39:46.009]  cpu      accepted (352/0) diff 393 (853 ms)
+[2023-12-28 14:39:59.882]  cpu      accepted (353/0) diff 393 (815 ms)
+[2023-12-28 14:40:09.659]  cpu      accepted (354/0) diff 393 (809 ms)
+[2023-12-28 14:40:19.649]  cpu      accepted (355/0) diff 393 (887 ms)
+[2023-12-28 14:40:28.655]  miner    speed 10s/60s/15m 14.30 14.26 14.22 H/s max 21.87 H/s
+[2023-12-28 14:41:28.705]  miner    speed 10s/60s/15m 14.41 14.29 14.23 H/s max 21.87 H/s
+[2023-12-28 14:41:49.661]  cpu      accepted (356/0) diff 393 (835 ms)
+[2023-12-28 14:42:28.757]  miner    speed 10s/60s/15m 14.30 14.29 14.24 H/s max 21.87 H/s
+[2023-12-28 14:42:44.913]  net      new job from gulf.moneroocean.stream:10128 diff 393 algo rx/0 height 151634
+[2023-12-28 14:43:02.941]  net      new job from gulf.moneroocean.stream:10128 diff 393 algo rx/0 height 151635
+[2023-12-28 14:43:28.813]  miner    speed 10s/60s/15m 14.30 14.26 14.25 H/s max 21.87 H/s
+[2023-12-28 14:44:09.603]  cpu      accepted (357/0) diff 393 (879 ms)
+[2023-12-28 14:44:28.870]  miner    speed 10s/60s/15m 14.20 14.24 14.25 H/s max 21.87 H/s
+[2023-12-28 14:45:02.445]  cpu      accepted (358/0) diff 393 (993 ms)
+[2023-12-28 14:45:28.930]  miner    speed 10s/60s/15m 14.30 14.24 14.26 H/s max 21.87 H/s
+[2023-12-28 14:45:47.989]  cpu      accepted (359/0) diff 393 (856 ms)
+[2023-12-28 14:45:56.357]  cpu      accepted (360/0) diff 393 (849 ms)
+[2023-12-28 14:45:58.251]  cpu      accepted (361/0) diff 393 (825 ms)
+[2023-12-28 14:46:09.309]  cpu      accepted (362/0) diff 393 (887 ms)
+[2023-12-28 14:46:11.550]  cpu      accepted (363/0) diff 393 (971 ms)
+[2023-12-28 14:46:13.463]  cpu      accepted (364/0) diff 393 (924 ms)
+[2023-12-28 14:46:28.987]  miner    speed 10s/60s/15m 14.20 14.29 14.26 H/s max 21.87 H/s
+[2023-12-28 14:46:30.318]  cpu      accepted (365/0) diff 393 (939 ms)
+[2023-12-28 14:46:39.196]  cpu      accepted (366/0) diff 393 (952 ms)
+[2023-12-28 14:47:11.496]  cpu      accepted (367/0) diff 393 (953 ms)
+[2023-12-28 14:47:29.054]  miner    speed 10s/60s/15m 14.30 14.24 14.24 H/s max 21.87 H/s
+[2023-12-28 14:47:39.511]  cpu      accepted (368/0) diff 393 (936 ms)
+[2023-12-28 14:48:29.128]  miner    speed 10s/60s/15m 14.30 14.30 14.25 H/s max 21.87 H/s
+[2023-12-28 14:48:52.104]  cpu      accepted (369/0) diff 393 (979 ms)
+[2023-12-28 14:49:13.033]  net      new job from gulf.moneroocean.stream:10128 diff 393 algo rx/0 height 151636
+[2023-12-28 14:49:29.205]  miner    speed 10s/60s/15m 14.30 14.35 14.26 H/s max 21.87 H/s
+[2023-12-28 14:49:32.655]  cpu      accepted (370/0) diff 393 (951 ms)
+[2023-12-28 14:49:37.108]  cpu      accepted (371/0) diff 393 (929 ms)
+[2023-12-28 14:50:29.282]  miner    speed 10s/60s/15m 14.51 14.35 14.27 H/s max 21.87 H/s
+[2023-12-28 14:51:29.334]  miner    speed 10s/60s/15m 14.41 14.47 14.29 H/s max 21.87 H/s
+[2023-12-28 14:52:29.383]  miner    speed 10s/60s/15m 14.31 14.34 14.29 H/s max 21.87 H/s
+[2023-12-28 14:52:35.280]  cpu      accepted (372/0) diff 393 (900 ms)
+[2023-12-28 14:52:47.032]  net      new job from gulf.moneroocean.stream:10128 diff 384 algo rx/0 height 151637
+[2023-12-28 14:52:48.661]  cpu      accepted (373/0) diff 384 (859 ms)
+[2023-12-28 14:53:27.741]  cpu      accepted (374/0) diff 384 (896 ms)
+[2023-12-28 14:53:29.431]  miner    speed 10s/60s/15m 14.30 14.32 14.29 H/s max 21.87 H/s
+[2023-12-28 14:53:34.361]  cpu      accepted (375/0) diff 384 (863 ms)
+[2023-12-28 14:54:22.391]  cpu      accepted (376/0) diff 384 (854 ms)
+[2023-12-28 14:54:29.478]  miner    speed 10s/60s/15m 14.31 14.34 14.31 H/s max 21.87 H/s
+[2023-12-28 14:55:29.527]  miner    speed 10s/60s/15m 14.31 14.32 14.32 H/s max 21.87 H/s
+[2023-12-28 14:55:34.276]  cpu      accepted (377/0) diff 384 (856 ms)
+[2023-12-28 14:55:55.672]  cpu      accepted (378/0) diff 384 (859 ms)
+[2023-12-28 14:56:00.721]  cpu      accepted (379/0) diff 384 (878 ms)
+[2023-12-28 14:56:29.580]  miner    speed 10s/60s/15m 14.41 14.58 14.34 H/s max 21.87 H/s
+[2023-12-28 14:56:54.605]  cpu      accepted (380/0) diff 384 (850 ms)
+[2023-12-28 14:57:29.628]  miner    speed 10s/60s/15m 14.72 14.43 14.35 H/s max 21.87 H/s
+[2023-12-28 14:58:16.724]  cpu      accepted (381/0) diff 384 (876 ms)
+[2023-12-28 14:58:29.679]  miner    speed 10s/60s/15m 14.41 14.48 14.36 H/s max 21.87 H/s
+[2023-12-28 14:58:46.720]  cpu      accepted (382/0) diff 384 (868 ms)
+[2023-12-28 14:58:54.417]  cpu      accepted (383/0) diff 384 (938 ms)
+[2023-12-28 14:59:12.457]  cpu      accepted (384/0) diff 384 (860 ms)
+[2023-12-28 14:59:22.433]  cpu      accepted (385/0) diff 384 (851 ms)
+[2023-12-28 14:59:27.435]  net      new job from gulf.moneroocean.stream:10128 diff 382 algo rx/0 height 151638
+[2023-12-28 14:59:29.732]  miner    speed 10s/60s/15m 15.25 14.76 14.39 H/s max 21.87 H/s
+[2023-12-28 15:00:29.788]  miner    speed 10s/60s/15m 14.62 14.79 14.43 H/s max 21.87 H/s
+[2023-12-28 15:00:58.369]  cpu      accepted (386/0) diff 382 (864 ms)
+[2023-12-28 15:01:29.842]  miner    speed 10s/60s/15m 14.72 14.58 14.45 H/s max 21.87 H/s
+[2023-12-28 15:02:01.627]  net      new job from gulf.moneroocean.stream:10128 diff 369 algo rx/0 height 151639
+[2023-12-28 15:02:28.789]  net      new job from gulf.moneroocean.stream:10128 diff 363 algo rx/0 height 151640
+[2023-12-28 15:02:29.903]  miner    speed 10s/60s/15m 14.40 14.59 14.47 H/s max 21.87 H/s
+[2023-12-28 15:02:32.117]  net      new job from gulf.moneroocean.stream:10128 diff 363 algo rx/0 height 151641
+[2023-12-28 15:02:32.575]  cpu      accepted (387/0) diff 363 (1187 ms)
+[2023-12-28 15:02:46.396]  cpu      accepted (388/0) diff 363 (886 ms)
+[2023-12-28 15:03:18.481]  cpu      accepted (389/0) diff 363 (898 ms)
+[2023-12-28 15:03:29.971]  miner    speed 10s/60s/15m 14.40 14.44 14.48 H/s max 21.87 H/s
+[2023-12-28 15:03:34.805]  cpu      accepted (390/0) diff 363 (859 ms)
+[2023-12-28 15:03:50.699]  net      new job from gulf.moneroocean.stream:10128 diff 363 algo rx/0 height 151642
+[2023-12-28 15:03:57.709]  cpu      accepted (391/0) diff 363 (841 ms)
+[2023-12-28 15:04:17.737]  cpu      accepted (392/0) diff 363 (865 ms)
+[2023-12-28 15:04:30.042]  miner    speed 10s/60s/15m 14.41 14.42 14.48 H/s max 21.87 H/s
+[2023-12-28 15:04:38.640]  cpu      accepted (393/0) diff 363 (899 ms)
+[2023-12-28 15:04:50.552]  net      new job from gulf.moneroocean.stream:10128 diff 365 algo rx/0 height 151643
+[2023-12-28 15:05:30.117]  miner    speed 10s/60s/15m 14.51 14.44 14.49 H/s max 21.87 H/s
+[2023-12-28 15:05:37.596]  cpu      accepted (394/0) diff 365 (856 ms)
+[2023-12-28 15:05:44.571]  cpu      accepted (395/0) diff 365 (913 ms)
+[2023-12-28 15:06:12.441]  net      new job from gulf.moneroocean.stream:10128 diff 365 algo rx/0 height 151644
+[2023-12-28 15:06:15.967]  cpu      accepted (396/0) diff 365 (937 ms)
+[2023-12-28 15:06:30.191]  miner    speed 10s/60s/15m 14.40 14.50 14.49 H/s max 21.87 H/s
+[2023-12-28 15:06:30.840]  net      new job from gulf.moneroocean.stream:10128 diff 368 algo rx/0 height 151645
+[2023-12-28 15:07:20.273]  cpu      accepted (397/0) diff 368 (911 ms)
+[2023-12-28 15:07:28.201]  cpu      accepted (398/0) diff 368 (1199 ms)
+[2023-12-28 15:07:29.800]  cpu      accepted (399/0) diff 368 (910 ms)
+[2023-12-28 15:07:30.256]  miner    speed 10s/60s/15m 14.73 14.52 14.50 H/s max 21.87 H/s
+[2023-12-28 15:08:15.367]  cpu      accepted (400/0) diff 368 (909 ms)
+[2023-12-28 15:08:18.432]  cpu      accepted (401/0) diff 368 (922 ms)
+[2023-12-28 15:08:30.306]  miner    speed 10s/60s/15m 14.41 14.56 14.52 H/s max 21.87 H/s
+[2023-12-28 15:08:41.672]  cpu      accepted (402/0) diff 368 (892 ms)
+[2023-12-28 15:08:53.431]  cpu      accepted (403/0) diff 368 (837 ms)
+[2023-12-28 15:09:30.151]  cpu      accepted (404/0) diff 368 (868 ms)
+[2023-12-28 15:09:30.357]  miner    speed 10s/60s/15m 14.62 14.42 14.52 H/s max 21.87 H/s
+[2023-12-28 15:09:45.697]  cpu      accepted (405/0) diff 368 (977 ms)
+[2023-12-28 15:10:00.145]  cpu      accepted (406/0) diff 368 (853 ms)
+[2023-12-28 15:10:19.514]  cpu      accepted (407/0) diff 368 (867 ms)
+[2023-12-28 15:10:26.461]  cpu      accepted (408/0) diff 368 (843 ms)
+[2023-12-28 15:10:30.408]  miner    speed 10s/60s/15m 14.31 14.44 14.53 H/s max 21.87 H/s
+[2023-12-28 15:11:01.624]  cpu      accepted (409/0) diff 368 (776 ms)
+[2023-12-28 15:11:30.458]  miner    speed 10s/60s/15m 14.41 14.36 14.51 H/s max 21.87 H/s
+[2023-12-28 15:11:36.288]  cpu      accepted (410/0) diff 368 (890 ms)
+[2023-12-28 15:11:43.353]  cpu      accepted (411/0) diff 368 (801 ms)
+[2023-12-28 15:12:27.792]  cpu      accepted (412/0) diff 368 (894 ms)
+[2023-12-28 15:12:30.507]  miner    speed 10s/60s/15m 14.52 14.59 14.52 H/s max 21.87 H/s
+[2023-12-28 15:12:47.401]  cpu      accepted (413/0) diff 368 (902 ms)
+[2023-12-28 15:12:54.869]  net      new job from gulf.moneroocean.stream:10128 diff 376 algo rx/0 height 151646
+[2023-12-28 15:13:14.910]  cpu      accepted (414/0) diff 376 (846 ms)
+[2023-12-28 15:13:30.560]  miner    speed 10s/60s/15m 14.30 14.42 14.52 H/s max 21.87 H/s
+[2023-12-28 15:14:30.617]  miner    speed 10s/60s/15m 14.41 14.46 14.50 H/s max 21.87 H/s
+[2023-12-28 15:14:34.971]  cpu      accepted (415/0) diff 376 (896 ms)
+[2023-12-28 15:14:38.116]  cpu      accepted (416/0) diff 376 (929 ms)
+[2023-12-28 15:14:43.587]  cpu      accepted (417/0) diff 376 (855 ms)
+[2023-12-28 15:15:07.296]  cpu      accepted (418/0) diff 376 (897 ms)
+[2023-12-28 15:15:20.520]  cpu      accepted (419/0) diff 376 (907 ms)
+[2023-12-28 15:15:30.671]  miner    speed 10s/60s/15m 14.62 14.56 14.49 H/s max 21.87 H/s
+[2023-12-28 15:16:22.371]  cpu      accepted (420/0) diff 376 (895 ms)
+[2023-12-28 15:16:30.731]  miner    speed 10s/60s/15m 14.41 14.49 14.48 H/s max 21.87 H/s
+[2023-12-28 15:17:14.849]  cpu      accepted (421/0) diff 376 (1530 ms)
+[2023-12-28 15:17:30.793]  miner    speed 10s/60s/15m 14.62 14.59 14.48 H/s max 21.87 H/s
+[2023-12-28 15:18:30.861]  miner    speed 10s/60s/15m 14.51 14.52 14.48 H/s max 21.87 H/s
+[2023-12-28 15:18:31.729]  cpu      accepted (422/0) diff 376 (869 ms)
+[2023-12-28 15:18:59.729]  cpu      accepted (423/0) diff 376 (1002 ms)
+[2023-12-28 15:19:01.635]  net      new job from gulf.moneroocean.stream:10128 diff 371 algo rx/0 height 151647
+[2023-12-28 15:19:26.871]  cpu      accepted (424/0) diff 371 (920 ms)
+[2023-12-28 15:19:30.931]  miner    speed 10s/60s/15m 14.40 14.50 14.49 H/s max 21.87 H/s
+[2023-12-28 15:19:51.393]  cpu      accepted (425/0) diff 371 (926 ms)
+[2023-12-28 15:20:18.739]  cpu      accepted (426/0) diff 371 (964 ms)
+[2023-12-28 15:20:31.003]  miner    speed 10s/60s/15m 14.30 14.52 14.49 H/s max 21.87 H/s
+[2023-12-28 15:20:42.416]  cpu      accepted (427/0) diff 371 (908 ms)
+[2023-12-28 15:20:53.696]  cpu      accepted (428/0) diff 371 (875 ms)
+[2023-12-28 15:21:01.481]  net      new job from gulf.moneroocean.stream:10128 diff 371 algo rx/0 height 151648
+[2023-12-28 15:21:12.492]  cpu      accepted (429/0) diff 371 (1164 ms)
+[2023-12-28 15:21:14.703]  cpu      accepted (430/0) diff 371 (864 ms)
+[2023-12-28 15:21:15.602]  net      new job from gulf.moneroocean.stream:10128 diff 371 algo rx/0 height 151649
+[2023-12-28 15:21:31.055]  cpu      accepted (431/0) diff 371 (865 ms)
+[2023-12-28 15:21:31.078]  miner    speed 10s/60s/15m 14.61 14.50 14.50 H/s max 21.87 H/s
+[2023-12-28 15:21:31.908]  cpu      accepted (432/0) diff 371 (851 ms)
+[2023-12-28 15:21:33.019]  cpu      accepted (433/0) diff 371 (837 ms)
+[2023-12-28 15:21:38.755]  net      new job from gulf.moneroocean.stream:10128 diff 378 algo rx/0 height 151650
+[2023-12-28 15:21:58.832]  net      new job from gulf.moneroocean.stream:10128 diff 378 algo rx/0 height 151651
+[2023-12-28 15:22:31.145]  miner    speed 10s/60s/15m 14.41 14.42 14.49 H/s max 21.87 H/s
+[2023-12-28 15:22:53.193]  cpu      accepted (434/0) diff 378 (910 ms)
+[2023-12-28 15:23:00.631]  cpu      accepted (435/0) diff 378 (871 ms)
+[2023-12-28 15:23:14.047]  cpu      accepted (436/0) diff 378 (835 ms)
+[2023-12-28 15:23:31.200]  miner    speed 10s/60s/15m 14.41 14.46 14.48 H/s max 21.87 H/s
+[2023-12-28 15:23:38.072]  cpu      accepted (437/0) diff 378 (891 ms)
+[2023-12-28 15:23:41.261]  cpu      accepted (438/0) diff 378 (860 ms)
+[2023-12-28 15:23:52.274]  cpu      accepted (439/0) diff 378 (906 ms)
+[2023-12-28 15:24:07.349]  net      new job from gulf.moneroocean.stream:10128 diff 383 algo rx/0 height 151652
+[2023-12-28 15:24:10.497]  cpu      accepted (440/0) diff 383 (852 ms)
+[2023-12-28 15:24:19.785]  cpu      accepted (441/0) diff 383 (939 ms)
+[2023-12-28 15:24:31.250]  miner    speed 10s/60s/15m 14.51 14.44 14.48 H/s max 21.87 H/s
+[2023-12-28 15:24:43.593]  cpu      accepted (442/0) diff 383 (872 ms)
+[2023-12-28 15:24:45.949]  net      new job from gulf.moneroocean.stream:10128 diff 387 algo rx/0 height 151653
+[2023-12-28 15:24:59.912]  cpu      accepted (443/0) diff 387 (815 ms)
+[2023-12-28 15:25:30.898]  cpu      accepted (444/0) diff 387 (858 ms)
+[2023-12-28 15:25:31.300]  miner    speed 10s/60s/15m 14.51 14.48 14.48 H/s max 21.87 H/s
+[2023-12-28 15:25:40.389]  cpu      accepted (445/0) diff 387 (851 ms)
+[2023-12-28 15:26:11.141]  cpu      accepted (446/0) diff 387 (846 ms)
+[2023-12-28 15:26:22.189]  cpu      accepted (447/0) diff 387 (855 ms)
+[2023-12-28 15:26:29.397]  cpu      accepted (448/0) diff 387 (813 ms)
+[2023-12-28 15:26:31.350]  miner    speed 10s/60s/15m 14.41 14.44 14.49 H/s max 21.87 H/s
+[2023-12-28 15:26:45.449]  net      new job from gulf.moneroocean.stream:10128 diff 392 algo rx/0 height 151654
+[2023-12-28 15:26:50.995]  cpu      accepted (449/0) diff 392 (857 ms)
+[2023-12-28 15:27:29.417]  net      new job from gulf.moneroocean.stream:10128 diff 394 algo rx/0 height 151655
+[2023-12-28 15:27:31.402]  miner    speed 10s/60s/15m 14.52 14.49 14.48 H/s max 21.87 H/s
+[2023-12-28 15:27:40.815]  cpu      accepted (450/0) diff 394 (901 ms)
+[2023-12-28 15:27:45.103]  cpu      accepted (451/0) diff 394 (867 ms)
+[2023-12-28 15:28:13.099]  net      dev donate started
+[2023-12-28 15:28:13.099]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151655
+[2023-12-28 15:28:20.180]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151656
+[2023-12-28 15:28:31.451]  miner    speed 10s/60s/15m 14.51 14.46 14.49 H/s max 21.87 H/s
+[2023-12-28 15:29:00.111]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151657
+[2023-12-28 15:29:12.307]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151657
+[2023-12-28 15:29:13.098]  net      dev donate finished
+[2023-12-28 15:29:13.098]  net      new job from gulf.moneroocean.stream:10128 diff 394 algo rx/0 height 151657
+[2023-12-28 15:29:20.526]  net      new job from gulf.moneroocean.stream:10128 diff 389 algo rx/0 height 151658
+[2023-12-28 15:29:31.506]  miner    speed 10s/60s/15m 14.41 14.42 14.48 H/s max 21.87 H/s
+[2023-12-28 15:29:57.285]  cpu      accepted (452/0) diff 389 (946 ms)
+[2023-12-28 15:30:01.136]  cpu      accepted (453/0) diff 389 (945 ms)
+[2023-12-28 15:30:03.201]  net      new job from gulf.moneroocean.stream:10128 diff 389 algo rx/0 height 151659
+[2023-12-28 15:30:19.375]  net      new job from gulf.moneroocean.stream:10128 diff 389 algo rx/0 height 151660
+[2023-12-28 15:30:31.558]  miner    speed 10s/60s/15m 14.41 14.46 14.48 H/s max 21.87 H/s
+[2023-12-28 15:30:39.431]  cpu      accepted (454/0) diff 389 (938 ms)
+[2023-12-28 15:31:01.392]  cpu      accepted (455/0) diff 389 (914 ms)
+[2023-12-28 15:31:13.630]  cpu      accepted (456/0) diff 389 (944 ms)
+[2023-12-28 15:31:31.612]  miner    speed 10s/60s/15m 14.41 14.52 14.48 H/s max 21.87 H/s
+[2023-12-28 15:31:33.746]  cpu      accepted (457/0) diff 389 (920 ms)
+[2023-12-28 15:31:40.057]  net      new job from gulf.moneroocean.stream:10128 diff 392 algo rx/0 height 151661
+[2023-12-28 15:31:47.659]  cpu      accepted (458/0) diff 392 (968 ms)
+[2023-12-28 15:32:05.589]  cpu      accepted (459/0) diff 392 (901 ms)
+[2023-12-28 15:32:06.607]  net      new job from gulf.moneroocean.stream:10128 diff 392 algo rx/0 height 151662
+[2023-12-28 15:32:07.750]  cpu      accepted (460/0) diff 392 (898 ms)
+[2023-12-28 15:32:11.097]  cpu      accepted (461/0) diff 392 (882 ms)
+[2023-12-28 15:32:23.629]  cpu      accepted (462/0) diff 392 (898 ms)
+[2023-12-28 15:32:31.670]  miner    speed 10s/60s/15m 14.51 14.47 14.47 H/s max 21.87 H/s
+[2023-12-28 15:33:16.616]  cpu      accepted (463/0) diff 392 (933 ms)
+[2023-12-28 15:33:31.732]  miner    speed 10s/60s/15m 14.72 14.62 14.48 H/s max 21.87 H/s
+[2023-12-28 15:33:46.205]  cpu      accepted (464/0) diff 392 (918 ms)
+[2023-12-28 15:33:48.463]  cpu      accepted (465/0) diff 392 (953 ms)
+[2023-12-28 15:33:53.793]  net      new job from gulf.moneroocean.stream:10128 diff 398 algo rx/0 height 151663
+[2023-12-28 15:34:06.280]  net      new job from gulf.moneroocean.stream:10128 diff 398 algo rx/0 height 151664
+[2023-12-28 15:34:31.795]  miner    speed 10s/60s/15m 14.62 14.64 14.49 H/s max 21.87 H/s
+[2023-12-28 15:34:35.377]  cpu      accepted (466/0) diff 398 (907 ms)
+[2023-12-28 15:35:02.407]  cpu      accepted (467/0) diff 398 (922 ms)
+[2023-12-28 15:35:31.869]  miner    speed 10s/60s/15m 15.03 14.82 14.51 H/s max 21.87 H/s
+[2023-12-28 15:36:05.111]  cpu      accepted (468/0) diff 398 (995 ms)
+[2023-12-28 15:36:23.256]  cpu      accepted (469/0) diff 398 (1604 ms)
+[2023-12-28 15:36:30.423]  cpu      accepted (470/0) diff 398 (935 ms)
+[2023-12-28 15:36:31.942]  miner    speed 10s/60s/15m 14.61 14.72 14.53 H/s max 21.87 H/s
+[2023-12-28 15:36:40.849]  cpu      accepted (471/0) diff 398 (899 ms)
+[2023-12-28 15:37:32.018]  miner    speed 10s/60s/15m 15.24 14.84 14.55 H/s max 21.87 H/s
+[2023-12-28 15:37:43.314]  cpu      accepted (472/0) diff 398 (1010 ms)
+[2023-12-28 15:38:05.545]  cpu      accepted (473/0) diff 398 (1081 ms)
+[2023-12-28 15:38:32.073]  miner    speed 10s/60s/15m 14.83 14.89 14.58 H/s max 21.87 H/s
+[2023-12-28 15:39:32.124]  miner    speed 10s/60s/15m 14.73 14.83 14.61 H/s max 21.87 H/s
+[2023-12-28 15:39:34.843]  cpu      accepted (474/0) diff 398 (867 ms)
+[2023-12-28 15:40:20.361]  cpu      accepted (475/0) diff 398 (966 ms)
+[2023-12-28 15:40:32.168]  miner    speed 10s/60s/15m 14.62 14.64 14.62 H/s max 21.87 H/s
+[2023-12-28 15:41:05.925]  cpu      accepted (476/0) diff 398 (842 ms)
+[2023-12-28 15:41:32.212]  miner    speed 10s/60s/15m 14.72 14.66 14.64 H/s max 21.87 H/s
+[2023-12-28 15:42:30.902]  cpu      accepted (477/0) diff 398 (861 ms)
+[2023-12-28 15:42:32.260]  miner    speed 10s/60s/15m 14.83 14.83 14.66 H/s max 21.87 H/s
+[2023-12-28 15:42:33.364]  cpu      accepted (478/0) diff 398 (999 ms)
+[2023-12-28 15:42:58.889]  cpu      accepted (479/0) diff 398 (839 ms)
+[2023-12-28 15:43:10.856]  cpu      accepted (480/0) diff 398 (857 ms)
+[2023-12-28 15:43:32.304]  miner    speed 10s/60s/15m 14.94 14.96 14.69 H/s max 21.87 H/s
+[2023-12-28 15:44:07.819]  cpu      accepted (481/0) diff 398 (1356 ms)
+[2023-12-28 15:44:22.212]  cpu      accepted (482/0) diff 398 (889 ms)
+[2023-12-28 15:44:23.542]  cpu      accepted (483/0) diff 398 (889 ms)
+[2023-12-28 15:44:32.351]  miner    speed 10s/60s/15m 15.15 14.93 14.73 H/s max 21.87 H/s
+[2023-12-28 15:44:43.019]  cpu      accepted (484/0) diff 398 (870 ms)
+[2023-12-28 15:45:02.967]  cpu      accepted (485/0) diff 398 (826 ms)
+[2023-12-28 15:45:20.280]  cpu      accepted (486/0) diff 398 (889 ms)
+[2023-12-28 15:45:32.402]  miner    speed 10s/60s/15m 14.83 15.05 14.76 H/s max 21.87 H/s
+[2023-12-28 15:46:32.449]  miner    speed 10s/60s/15m 14.72 14.80 14.78 H/s max 21.87 H/s
+[2023-12-28 15:46:34.064]  cpu      accepted (487/0) diff 398 (874 ms)
+[2023-12-28 15:46:52.143]  net      new job from gulf.moneroocean.stream:10128 diff 392 algo rx/0 height 151665
+[2023-12-28 15:46:55.888]  cpu      accepted (488/0) diff 392 (897 ms)
+[2023-12-28 15:47:30.980]  cpu      accepted (489/0) diff 392 (883 ms)
+[2023-12-28 15:47:32.500]  miner    speed 10s/60s/15m 14.73 14.79 14.80 H/s max 21.87 H/s
+[2023-12-28 15:47:45.849]  cpu      accepted (490/0) diff 392 (850 ms)
+[2023-12-28 15:48:06.752]  cpu      accepted (491/0) diff 392 (863 ms)
+[2023-12-28 15:48:09.397]  cpu      accepted (492/0) diff 392 (818 ms)
+[2023-12-28 15:48:32.553]  miner    speed 10s/60s/15m 14.83 14.81 14.81 H/s max 21.87 H/s
+[2023-12-28 15:48:55.999]  cpu      accepted (493/0) diff 392 (951 ms)
+[2023-12-28 15:49:02.814]  net      new job from gulf.moneroocean.stream:10128 diff 396 algo rx/0 height 151666
+[2023-12-28 15:49:16.632]  net      new job from gulf.moneroocean.stream:10128 diff 396 algo rx/0 height 151667
+[2023-12-28 15:49:32.610]  miner    speed 10s/60s/15m 14.72 14.79 14.83 H/s max 21.87 H/s
+[2023-12-28 15:49:33.220]  cpu      accepted (494/0) diff 396 (841 ms)
+[2023-12-28 15:49:51.067]  cpu      accepted (495/0) diff 396 (841 ms)
+[2023-12-28 15:50:02.356]  cpu      accepted (496/0) diff 396 (807 ms)
+[2023-12-28 15:50:04.451]  net      new job from gulf.moneroocean.stream:10128 diff 394 algo rx/0 height 151668
+[2023-12-28 15:50:27.366]  cpu      accepted (497/0) diff 394 (820 ms)
+[2023-12-28 15:50:32.669]  miner    speed 10s/60s/15m 14.72 14.76 14.82 H/s max 21.87 H/s
+[2023-12-28 15:51:32.731]  miner    speed 10s/60s/15m 15.04 14.79 14.83 H/s max 21.87 H/s
+[2023-12-28 15:51:38.449]  net      new job from gulf.moneroocean.stream:10128 diff 394 algo rx/0 height 151669
+[2023-12-28 15:51:44.845]  cpu      accepted (498/0) diff 394 (821 ms)
+[2023-12-28 15:51:51.993]  cpu      accepted (499/0) diff 394 (918 ms)
+[2023-12-28 15:51:54.535]  net      new job from gulf.moneroocean.stream:10128 diff 394 algo rx/0 height 151670
+[2023-12-28 15:52:04.735]  cpu      accepted (500/0) diff 394 (855 ms)
+[2023-12-28 15:52:09.581]  cpu      accepted (501/0) diff 394 (815 ms)
+[2023-12-28 15:52:32.793]  miner    speed 10s/60s/15m 14.72 14.74 14.82 H/s max 21.87 H/s
+[2023-12-28 15:52:41.143]  cpu      accepted (502/0) diff 394 (883 ms)
+[2023-12-28 15:53:08.800]  cpu      accepted (503/0) diff 394 (843 ms)
+[2023-12-28 15:53:19.317]  cpu      accepted (504/0) diff 394 (818 ms)
+[2023-12-28 15:53:32.863]  miner    speed 10s/60s/15m 14.72 14.72 14.81 H/s max 21.87 H/s
+[2023-12-28 15:53:39.408]  cpu      accepted (505/0) diff 394 (833 ms)
+[2023-12-28 15:54:01.793]  cpu      accepted (506/0) diff 394 (833 ms)
+[2023-12-28 15:54:20.880]  cpu      accepted (507/0) diff 394 (830 ms)
+[2023-12-28 15:54:32.337]  net      new job from gulf.moneroocean.stream:10128 diff 399 algo rx/0 height 151671
+[2023-12-28 15:54:32.938]  miner    speed 10s/60s/15m 14.93 14.79 14.81 H/s max 21.87 H/s
+[2023-12-28 15:54:36.097]  cpu      accepted (508/0) diff 399 (841 ms)
+[2023-12-28 15:55:29.104]  cpu      accepted (509/0) diff 399 (806 ms)
+[2023-12-28 15:55:29.952]  cpu      accepted (510/0) diff 399 (890 ms)
+[2023-12-28 15:55:33.017]  miner    speed 10s/60s/15m 14.72 14.77 14.82 H/s max 21.87 H/s
+[2023-12-28 15:55:37.816]  cpu      accepted (511/0) diff 399 (957 ms)
+[2023-12-28 15:56:02.267]  cpu      accepted (512/0) diff 399 (891 ms)
+[2023-12-28 15:56:02.824]  cpu      accepted (513/0) diff 399 (902 ms)
+[2023-12-28 15:56:16.263]  cpu      accepted (514/0) diff 399 (1059 ms)
+[2023-12-28 15:56:33.084]  miner    speed 10s/60s/15m 14.62 14.71 14.82 H/s max 21.87 H/s
+[2023-12-28 15:57:29.155]  cpu      accepted (515/0) diff 399 (879 ms)
+[2023-12-28 15:57:33.134]  miner    speed 10s/60s/15m 14.51 14.66 14.81 H/s max 21.87 H/s
+[2023-12-28 15:57:36.091]  cpu      accepted (516/0) diff 399 (922 ms)
+[2023-12-28 15:57:39.289]  cpu      accepted (517/0) diff 399 (781 ms)
+[2023-12-28 15:57:55.984]  cpu      accepted (518/0) diff 399 (864 ms)
+[2023-12-28 15:58:33.182]  miner    speed 10s/60s/15m 15.04 14.68 14.79 H/s max 21.87 H/s
+[2023-12-28 15:58:39.119]  cpu      accepted (519/0) diff 399 (848 ms)
+[2023-12-28 15:58:51.205]  cpu      accepted (520/0) diff 399 (842 ms)
+[2023-12-28 15:59:05.698]  cpu      accepted (521/0) diff 399 (807 ms)
+[2023-12-28 15:59:12.577]  cpu      accepted (522/0) diff 399 (820 ms)
+[2023-12-28 15:59:33.232]  miner    speed 10s/60s/15m 14.72 14.83 14.78 H/s max 21.87 H/s
+[2023-12-28 15:59:59.081]  cpu      accepted (523/0) diff 399 (929 ms)
+[2023-12-28 16:00:05.477]  cpu      accepted (524/0) diff 399 (863 ms)
+[2023-12-28 16:00:07.916]  cpu      accepted (525/0) diff 399 (874 ms)
+[2023-12-28 16:00:13.015]  net      new job from gulf.moneroocean.stream:10128 diff 409 algo rx/0 height 151672
+[2023-12-28 16:00:26.156]  cpu      accepted (526/0) diff 409 (1466 ms)
+[2023-12-28 16:00:33.280]  miner    speed 10s/60s/15m 14.51 14.63 14.76 H/s max 21.87 H/s
+[2023-12-28 16:00:54.767]  cpu      accepted (527/0) diff 409 (830 ms)
+[2023-12-28 16:01:08.047]  cpu      accepted (528/0) diff 409 (808 ms)
+[2023-12-28 16:01:24.107]  cpu      accepted (529/0) diff 409 (817 ms)
+[2023-12-28 16:01:27.948]  net      new job from gulf.moneroocean.stream:10128 diff 457 algo rx/0 height 151673
+[2023-12-28 16:01:32.377]  cpu      accepted (530/0) diff 457 (856 ms)
+[2023-12-28 16:01:33.330]  miner    speed 10s/60s/15m 14.72 14.71 14.75 H/s max 21.87 H/s
+[2023-12-28 16:01:40.185]  net      new job from gulf.moneroocean.stream:10128 diff 457 algo rx/0 height 151674
+[2023-12-28 16:01:41.101]  cpu      accepted (531/0) diff 457 (1277 ms)
+[2023-12-28 16:02:29.889]  cpu      accepted (532/0) diff 457 (817 ms)
+[2023-12-28 16:02:33.384]  miner    speed 10s/60s/15m 14.83 14.74 14.74 H/s max 21.87 H/s
+[2023-12-28 16:02:53.797]  net      new job from gulf.moneroocean.stream:10128 diff 460 algo rx/0 height 151675
+[2023-12-28 16:03:21.796]  cpu      accepted (533/0) diff 460 (925 ms)
+[2023-12-28 16:03:33.434]  miner    speed 10s/60s/15m 14.72 14.68 14.73 H/s max 21.87 H/s
+[2023-12-28 16:04:19.320]  cpu      accepted (534/0) diff 460 (855 ms)
+[2023-12-28 16:04:20.146]  net      new job from gulf.moneroocean.stream:10128 diff 453 algo rx/0 height 151676
+[2023-12-28 16:04:29.921]  cpu      accepted (535/0) diff 453 (843 ms)
+[2023-12-28 16:04:33.486]  miner    speed 10s/60s/15m 14.72 14.78 14.73 H/s max 21.87 H/s
+[2023-12-28 16:04:35.321]  cpu      accepted (536/0) diff 453 (804 ms)
+[2023-12-28 16:05:20.645]  cpu      accepted (537/0) diff 453 (792 ms)
+[2023-12-28 16:05:33.544]  miner    speed 10s/60s/15m 15.14 14.79 14.73 H/s max 21.87 H/s
+[2023-12-28 16:05:57.895]  cpu      accepted (538/0) diff 453 (880 ms)
+[2023-12-28 16:06:19.561]  cpu      accepted (539/0) diff 453 (839 ms)
+[2023-12-28 16:06:33.603]  miner    speed 10s/60s/15m 14.83 14.93 14.74 H/s max 21.87 H/s
+[2023-12-28 16:06:33.865]  cpu      accepted (540/0) diff 453 (848 ms)
+[2023-12-28 16:07:24.425]  net      new job from gulf.moneroocean.stream:10128 diff 456 algo rx/0 height 151677
+[2023-12-28 16:07:33.665]  miner    speed 10s/60s/15m 14.83 14.79 14.75 H/s max 21.87 H/s
+[2023-12-28 16:08:00.952]  cpu      accepted (541/0) diff 456 (818 ms)
+[2023-12-28 16:08:07.615]  cpu      accepted (542/0) diff 456 (846 ms)
+[2023-12-28 16:08:33.727]  miner    speed 10s/60s/15m 14.72 14.74 14.75 H/s max 21.87 H/s
+[2023-12-28 16:09:04.698]  cpu      accepted (543/0) diff 456 (867 ms)
+[2023-12-28 16:09:07.707]  cpu      accepted (544/0) diff 456 (855 ms)
+[2023-12-28 16:09:29.877]  cpu      accepted (545/0) diff 456 (871 ms)
+[2023-12-28 16:09:33.673]  cpu      accepted (546/0) diff 456 (866 ms)
+[2023-12-28 16:09:33.797]  miner    speed 10s/60s/15m 14.51 14.72 14.74 H/s max 21.87 H/s
+[2023-12-28 16:09:39.505]  cpu      accepted (547/0) diff 456 (885 ms)
+[2023-12-28 16:10:06.014]  net      new job from gulf.moneroocean.stream:10128 diff 456 algo rx/0 height 151678
+[2023-12-28 16:10:33.871]  miner    speed 10s/60s/15m 14.72 14.69 14.74 H/s max 21.87 H/s
+[2023-12-28 16:10:40.231]  cpu      accepted (548/0) diff 456 (798 ms)
+[2023-12-28 16:10:43.488]  cpu      accepted (549/0) diff 456 (848 ms)
+[2023-12-28 16:11:02.848]  cpu      accepted (550/0) diff 456 (933 ms)
+[2023-12-28 16:11:12.580]  net      new job from gulf.moneroocean.stream:10128 diff 460 algo rx/0 height 151679
+[2023-12-28 16:11:33.949]  miner    speed 10s/60s/15m 14.72 14.72 14.74 H/s max 21.87 H/s
+[2023-12-28 16:11:39.323]  cpu      accepted (551/0) diff 460 (827 ms)
+[2023-12-28 16:11:43.660]  cpu      accepted (552/0) diff 460 (845 ms)
+[2023-12-28 16:12:06.145]  cpu      accepted (553/0) diff 460 (825 ms)
+[2023-12-28 16:12:19.056]  net      new job from gulf.moneroocean.stream:10128 diff 466 algo rx/0 height 151680
+[2023-12-28 16:12:34.011]  miner    speed 10s/60s/15m 14.72 14.72 14.74 H/s max 21.87 H/s
+[2023-12-28 16:12:43.137]  cpu      accepted (554/0) diff 466 (877 ms)
+[2023-12-28 16:12:45.878]  cpu      accepted (555/0) diff 466 (860 ms)
+[2023-12-28 16:12:55.097]  net      new job from gulf.moneroocean.stream:10128 diff 466 algo rx/0 height 151681
+[2023-12-28 16:13:30.742]  net      new job from gulf.moneroocean.stream:10128 diff 466 algo rx/0 height 151682
+[2023-12-28 16:13:34.059]  miner    speed 10s/60s/15m 14.52 14.63 14.74 H/s max 21.87 H/s
+[2023-12-28 16:14:04.295]  cpu      accepted (556/0) diff 466 (857 ms)
+[2023-12-28 16:14:34.107]  miner    speed 10s/60s/15m 14.83 14.73 14.73 H/s max 21.87 H/s
+[2023-12-28 16:14:39.903]  cpu      accepted (557/0) diff 466 (953 ms)
+[2023-12-28 16:15:11.756]  cpu      accepted (558/0) diff 466 (853 ms)
+[2023-12-28 16:15:34.157]  miner    speed 10s/60s/15m 14.73 14.69 14.74 H/s max 21.87 H/s
+[2023-12-28 16:15:34.791]  cpu      accepted (559/0) diff 466 (808 ms)
+[2023-12-28 16:16:26.351]  cpu      accepted (560/0) diff 466 (845 ms)
+[2023-12-28 16:16:34.012]  net      new job from gulf.moneroocean.stream:10128 diff 460 algo rx/0 height 151683
+[2023-12-28 16:16:34.204]  miner    speed 10s/60s/15m 14.83 14.85 14.75 H/s max 21.87 H/s
+[2023-12-28 16:16:52.033]  cpu      accepted (561/0) diff 460 (846 ms)
+[2023-12-28 16:17:34.254]  miner    speed 10s/60s/15m 14.72 14.76 14.75 H/s max 21.87 H/s
+[2023-12-28 16:17:54.251]  net      new job from gulf.moneroocean.stream:10128 diff 460 algo rx/0 height 151684
+[2023-12-28 16:18:19.410]  cpu      accepted (562/0) diff 460 (900 ms)
+[2023-12-28 16:18:34.308]  miner    speed 10s/60s/15m 14.62 14.68 14.75 H/s max 21.87 H/s
+[2023-12-28 16:18:41.308]  cpu      accepted (563/0) diff 460 (825 ms)
+[2023-12-28 16:18:56.977]  net      new job from gulf.moneroocean.stream:10128 diff 454 algo rx/0 height 151685
+[2023-12-28 16:18:59.276]  cpu      accepted (564/0) diff 454 (835 ms)
+[2023-12-28 16:19:34.363]  miner    speed 10s/60s/15m 14.41 14.66 14.74 H/s max 21.87 H/s
+[2023-12-28 16:19:44.086]  cpu      accepted (565/0) diff 454 (892 ms)
+[2023-12-28 16:19:56.284]  cpu      accepted (566/0) diff 454 (842 ms)
+[2023-12-28 16:20:34.419]  miner    speed 10s/60s/15m 14.51 14.63 14.73 H/s max 21.87 H/s
+[2023-12-28 16:21:34.477]  miner    speed 10s/60s/15m 14.72 14.74 14.72 H/s max 21.87 H/s
+[2023-12-28 16:22:01.089]  cpu      accepted (567/0) diff 454 (884 ms)
+[2023-12-28 16:22:34.537]  miner    speed 10s/60s/15m 14.62 14.71 14.71 H/s max 21.87 H/s
+[2023-12-28 16:23:33.765]  cpu      accepted (568/0) diff 454 (829 ms)
+[2023-12-28 16:23:34.604]  miner    speed 10s/60s/15m 14.62 14.69 14.71 H/s max 21.87 H/s
+[2023-12-28 16:24:06.760]  cpu      accepted (569/0) diff 454 (859 ms)
+[2023-12-28 16:24:07.171]  cpu      accepted (570/0) diff 454 (888 ms)
+[2023-12-28 16:24:34.676]  miner    speed 10s/60s/15m 14.61 14.87 14.72 H/s max 21.87 H/s
+[2023-12-28 16:25:04.732]  cpu      accepted (571/0) diff 454 (879 ms)
+[2023-12-28 16:25:34.753]  miner    speed 10s/60s/15m 14.61 14.69 14.72 H/s max 21.87 H/s
+[2023-12-28 16:25:46.224]  cpu      accepted (572/0) diff 454 (870 ms)
+[2023-12-28 16:26:04.431]  net      new job from gulf.moneroocean.stream:10128 diff 443 algo rx/0 height 151686
+[2023-12-28 16:26:31.775]  cpu      accepted (573/0) diff 443 (898 ms)
+[2023-12-28 16:26:32.287]  cpu      accepted (574/0) diff 443 (1054 ms)
+[2023-12-28 16:26:34.828]  miner    speed 10s/60s/15m 14.62 14.60 14.71 H/s max 21.87 H/s
+[2023-12-28 16:26:43.773]  net      new job from gulf.moneroocean.stream:10128 diff 440 algo rx/0 height 151687
+[2023-12-28 16:26:50.757]  cpu      accepted (575/0) diff 440 (877 ms)
+[2023-12-28 16:27:24.176]  cpu      accepted (576/0) diff 440 (878 ms)
+[2023-12-28 16:27:34.900]  miner    speed 10s/60s/15m 14.72 14.71 14.71 H/s max 21.87 H/s
+[2023-12-28 16:28:23.041]  cpu      accepted (577/0) diff 440 (917 ms)
+[2023-12-28 16:28:24.282]  net      new job from gulf.moneroocean.stream:10128 diff 441 algo rx/0 height 151688
+[2023-12-28 16:28:34.950]  miner    speed 10s/60s/15m 14.62 14.73 14.72 H/s max 21.87 H/s
+[2023-12-28 16:28:35.389]  cpu      accepted (578/0) diff 441 (940 ms)
+[2023-12-28 16:29:35.000]  miner    speed 10s/60s/15m 14.72 14.78 14.72 H/s max 21.87 H/s
+[2023-12-28 16:29:53.346]  cpu      accepted (579/0) diff 441 (946 ms)
+[2023-12-28 16:30:02.257]  cpu      accepted (580/0) diff 441 (920 ms)
+[2023-12-28 16:30:35.043]  miner    speed 10s/60s/15m 14.83 14.90 14.73 H/s max 21.87 H/s
+[2023-12-28 16:30:36.994]  cpu      accepted (581/0) diff 441 (908 ms)
+[2023-12-28 16:30:37.468]  net      new job from gulf.moneroocean.stream:10128 diff 441 algo rx/0 height 151689
+[2023-12-28 16:30:53.097]  cpu      accepted (582/0) diff 441 (897 ms)
+[2023-12-28 16:30:56.855]  net      new job from gulf.moneroocean.stream:10128 diff 441 algo rx/0 height 151690
+[2023-12-28 16:31:09.851]  cpu      accepted (583/0) diff 441 (926 ms)
+[2023-12-28 16:31:14.487]  cpu      accepted (584/0) diff 441 (916 ms)
+[2023-12-28 16:31:16.945]  cpu      accepted (585/0) diff 441 (922 ms)
+[2023-12-28 16:31:35.088]  miner    speed 10s/60s/15m 14.62 14.71 14.72 H/s max 21.87 H/s
+[2023-12-28 16:32:01.525]  net      new job from gulf.moneroocean.stream:10128 diff 445 algo rx/0 height 151691
+[2023-12-28 16:32:21.169]  net      new job from gulf.moneroocean.stream:10128 diff 443 algo rx/0 height 151692
+[2023-12-28 16:32:35.135]  miner    speed 10s/60s/15m 14.73 14.76 14.72 H/s max 21.87 H/s
+[2023-12-28 16:32:55.354]  net      new job from gulf.moneroocean.stream:10128 diff 443 algo rx/0 height 151693
+[2023-12-28 16:33:11.616]  cpu      accepted (586/0) diff 443 (930 ms)
+[2023-12-28 16:33:35.188]  miner    speed 10s/60s/15m 15.15 14.89 14.74 H/s max 21.87 H/s
+[2023-12-28 16:34:10.883]  cpu      accepted (587/0) diff 443 (921 ms)
+[2023-12-28 16:34:35.069]  cpu      accepted (588/0) diff 443 (930 ms)
+[2023-12-28 16:34:35.235]  miner    speed 10s/60s/15m 15.04 14.86 14.75 H/s max 21.87 H/s
+[2023-12-28 16:34:35.611]  cpu      accepted (589/0) diff 443 (937 ms)
+[2023-12-28 16:35:17.678]  cpu      accepted (590/0) diff 443 (884 ms)
+[2023-12-28 16:35:35.284]  miner    speed 10s/60s/15m 14.72 14.84 14.77 H/s max 21.87 H/s
+[2023-12-28 16:36:10.172]  cpu      accepted (591/0) diff 443 (903 ms)
+[2023-12-28 16:36:35.334]  miner    speed 10s/60s/15m 14.72 14.76 14.77 H/s max 21.87 H/s
+[2023-12-28 16:36:55.318]  cpu      accepted (592/0) diff 443 (859 ms)
+[2023-12-28 16:37:17.065]  cpu      accepted (593/0) diff 443 (900 ms)
+[2023-12-28 16:37:19.209]  cpu      accepted (594/0) diff 443 (872 ms)
+[2023-12-28 16:37:21.773]  cpu      accepted (595/0) diff 443 (874 ms)
+[2023-12-28 16:37:35.392]  miner    speed 10s/60s/15m 14.72 14.78 14.77 H/s max 21.87 H/s
+[2023-12-28 16:38:17.479]  cpu      accepted (596/0) diff 443 (893 ms)
+[2023-12-28 16:38:35.450]  miner    speed 10s/60s/15m 14.83 14.83 14.78 H/s max 21.87 H/s
+[2023-12-28 16:38:56.293]  cpu      accepted (597/0) diff 443 (895 ms)
+[2023-12-28 16:39:35.510]  miner    speed 10s/60s/15m 14.83 14.84 14.78 H/s max 21.87 H/s
+[2023-12-28 16:39:42.373]  net      new job from gulf.moneroocean.stream:10128 diff 438 algo rx/0 height 151694
+[2023-12-28 16:40:00.731]  cpu      accepted (598/0) diff 438 (852 ms)
+[2023-12-28 16:40:14.335]  cpu      accepted (599/0) diff 438 (910 ms)
+[2023-12-28 16:40:30.402]  cpu      accepted (600/0) diff 438 (937 ms)
+[2023-12-28 16:40:35.571]  miner    speed 10s/60s/15m 14.72 14.76 14.78 H/s max 21.87 H/s
+[2023-12-28 16:40:35.942]  cpu      accepted (601/0) diff 438 (896 ms)
+[2023-12-28 16:40:52.417]  net      new job from gulf.moneroocean.stream:10128 diff 438 algo rx/0 height 151695
+[2023-12-28 16:41:35.640]  miner    speed 10s/60s/15m 14.82 14.92 14.81 H/s max 21.87 H/s
+[2023-12-28 16:41:40.361]  cpu      accepted (602/0) diff 438 (894 ms)
+[2023-12-28 16:41:57.846]  cpu      accepted (603/0) diff 438 (864 ms)
+[2023-12-28 16:42:29.384]  net      new job from gulf.moneroocean.stream:10128 diff 438 algo rx/0 height 151696
+[2023-12-28 16:42:34.513]  cpu      accepted (604/0) diff 438 (853 ms)
+[2023-12-28 16:42:35.706]  miner    speed 10s/60s/15m 14.72 14.81 14.81 H/s max 21.87 H/s
+[2023-12-28 16:43:35.784]  miner    speed 10s/60s/15m 14.82 14.77 14.81 H/s max 21.87 H/s
+[2023-12-28 16:43:36.425]  cpu      accepted (605/0) diff 438 (870 ms)
+[2023-12-28 16:43:41.561]  cpu      accepted (606/0) diff 438 (872 ms)
+[2023-12-28 16:43:49.156]  net      new job from gulf.moneroocean.stream:10128 diff 436 algo rx/0 height 151697
+[2023-12-28 16:43:55.709]  net      new job from gulf.moneroocean.stream:10128 diff 436 algo rx/0 height 151698
+[2023-12-28 16:43:56.182]  cpu      accepted (607/0) diff 436 (1115 ms)
+[2023-12-28 16:44:02.605]  net      new job from gulf.moneroocean.stream:10128 diff 436 algo rx/0 height 151699
+[2023-12-28 16:44:03.523]  cpu      accepted (608/0) diff 436 (1026 ms)
+[2023-12-28 16:44:35.861]  miner    speed 10s/60s/15m 14.82 14.87 14.82 H/s max 21.87 H/s
+[2023-12-28 16:44:51.728]  net      new job from gulf.moneroocean.stream:10128 diff 441 algo rx/0 height 151700
+[2023-12-28 16:45:05.413]  cpu      accepted (609/0) diff 441 (890 ms)
+[2023-12-28 16:45:30.202]  cpu      accepted (610/0) diff 441 (862 ms)
+[2023-12-28 16:45:35.914]  miner    speed 10s/60s/15m 14.83 14.81 14.81 H/s max 21.87 H/s
+[2023-12-28 16:45:51.920]  cpu      accepted (611/0) diff 441 (880 ms)
+[2023-12-28 16:46:35.963]  miner    speed 10s/60s/15m 14.73 14.83 14.82 H/s max 21.87 H/s
+[2023-12-28 16:46:43.140]  cpu      accepted (612/0) diff 441 (892 ms)
+[2023-12-28 16:46:46.507]  cpu      accepted (613/0) diff 441 (1013 ms)
+[2023-12-28 16:47:11.305]  net      new job from gulf.moneroocean.stream:10128 diff 438 algo rx/0 height 151701
+[2023-12-28 16:47:30.044]  cpu      accepted (614/0) diff 438 (823 ms)
+[2023-12-28 16:47:30.476]  cpu      accepted (615/0) diff 438 (1050 ms)
+[2023-12-28 16:47:36.007]  miner    speed 10s/60s/15m 14.73 14.76 14.82 H/s max 21.87 H/s
+[2023-12-28 16:47:45.121]  net      new job from gulf.moneroocean.stream:10128 diff 438 algo rx/0 height 151702
+[2023-12-28 16:47:54.260]  cpu      accepted (616/0) diff 438 (939 ms)
+[2023-12-28 16:47:57.911]  cpu      accepted (617/0) diff 438 (893 ms)
+[2023-12-28 16:48:28.515]  cpu      accepted (618/0) diff 438 (901 ms)
+[2023-12-28 16:48:36.055]  miner    speed 10s/60s/15m 14.72 14.78 14.81 H/s max 21.87 H/s
+[2023-12-28 16:48:49.613]  net      new job from gulf.moneroocean.stream:10128 diff 443 algo rx/0 height 151703
+[2023-12-28 16:48:57.581]  cpu      accepted (619/0) diff 443 (871 ms)
+[2023-12-28 16:49:35.883]  cpu      accepted (620/0) diff 443 (887 ms)
+[2023-12-28 16:49:36.106]  miner    speed 10s/60s/15m 14.72 14.81 14.81 H/s max 21.87 H/s
+[2023-12-28 16:50:04.513]  cpu      accepted (621/0) diff 443 (885 ms)
+[2023-12-28 16:50:14.833]  cpu      accepted (622/0) diff 443 (926 ms)
+[2023-12-28 16:50:36.153]  miner    speed 10s/60s/15m 14.62 14.73 14.80 H/s max 21.87 H/s
+[2023-12-28 16:50:44.924]  cpu      accepted (623/0) diff 443 (870 ms)
+[2023-12-28 16:51:36.200]  miner    speed 10s/60s/15m 14.73 14.76 14.80 H/s max 21.87 H/s
+[2023-12-28 16:51:45.256]  cpu      accepted (624/0) diff 443 (945 ms)
+[2023-12-28 16:51:55.320]  cpu      accepted (625/0) diff 443 (938 ms)
+[2023-12-28 16:52:33.444]  cpu      accepted (626/0) diff 443 (867 ms)
+[2023-12-28 16:52:36.250]  miner    speed 10s/60s/15m 15.04 14.93 14.81 H/s max 21.87 H/s
+[2023-12-28 16:53:08.803]  cpu      accepted (627/0) diff 443 (1106 ms)
+[2023-12-28 16:53:20.441]  cpu      accepted (628/0) diff 443 (848 ms)
+[2023-12-28 16:53:36.300]  miner    speed 10s/60s/15m 14.83 14.91 14.82 H/s max 21.87 H/s
+[2023-12-28 16:54:19.281]  cpu      accepted (629/0) diff 443 (889 ms)
+[2023-12-28 16:54:36.355]  miner    speed 10s/60s/15m 14.83 14.86 14.82 H/s max 21.87 H/s
+[2023-12-28 16:55:09.677]  cpu      accepted (630/0) diff 443 (830 ms)
+[2023-12-28 16:55:27.391]  cpu      accepted (631/0) diff 443 (902 ms)
+[2023-12-28 16:55:36.410]  miner    speed 10s/60s/15m 14.93 14.83 14.82 H/s max 21.87 H/s
+[2023-12-28 16:55:46.752]  cpu      accepted (632/0) diff 443 (901 ms)
+[2023-12-28 16:56:28.724]  cpu      accepted (633/0) diff 443 (830 ms)
+[2023-12-28 16:56:36.466]  miner    speed 10s/60s/15m 14.73 14.81 14.82 H/s max 21.87 H/s
+[2023-12-28 16:56:51.089]  cpu      accepted (634/0) diff 443 (861 ms)
+[2023-12-28 16:57:13.477]  cpu      accepted (635/0) diff 443 (848 ms)
+[2023-12-28 16:57:36.525]  miner    speed 10s/60s/15m 14.72 14.76 14.82 H/s max 21.87 H/s
+[2023-12-28 16:58:04.073]  cpu      accepted (636/0) diff 443 (848 ms)
+[2023-12-28 16:58:36.590]  miner    speed 10s/60s/15m 14.61 14.71 14.81 H/s max 21.87 H/s
+[2023-12-28 16:58:37.230]  cpu      accepted (637/0) diff 443 (827 ms)
+[2023-12-28 16:58:38.167]  cpu      accepted (638/0) diff 443 (927 ms)
+[2023-12-28 16:59:21.989]  cpu      accepted (639/0) diff 443 (835 ms)
+[2023-12-28 16:59:36.665]  miner    speed 10s/60s/15m 14.72 14.59 14.79 H/s max 21.87 H/s
+[2023-12-28 16:59:50.944]  cpu      accepted (640/0) diff 443 (875 ms)
+[2023-12-28 16:59:56.146]  net      new job from gulf.moneroocean.stream:10128 diff 441 algo rx/0 height 151704
+[2023-12-28 17:00:01.555]  cpu      accepted (641/0) diff 441 (798 ms)
+[2023-12-28 17:00:04.707]  cpu      accepted (642/0) diff 441 (936 ms)
+[2023-12-28 17:00:12.529]  cpu      accepted (643/0) diff 441 (1066 ms)
+[2023-12-28 17:00:28.292]  cpu      accepted (644/0) diff 441 (1055 ms)
+[2023-12-28 17:00:30.973]  cpu      accepted (645/0) diff 441 (1049 ms)
+[2023-12-28 17:00:36.735]  miner    speed 10s/60s/15m 14.72 14.62 14.78 H/s max 21.87 H/s
+[2023-12-28 17:01:36.817]  miner    speed 10s/60s/15m 14.72 14.67 14.77 H/s max 21.87 H/s
+[2023-12-28 17:01:38.696]  cpu      accepted (646/0) diff 441 (1142 ms)
+[2023-12-28 17:02:05.493]  cpu      accepted (647/0) diff 441 (1051 ms)
+[2023-12-28 17:02:06.464]  cpu      accepted (648/0) diff 441 (1011 ms)
+[2023-12-28 17:02:25.512]  cpu      accepted (649/0) diff 441 (1053 ms)
+[2023-12-28 17:02:29.429]  cpu      accepted (650/0) diff 441 (1133 ms)
+[2023-12-28 17:02:36.879]  miner    speed 10s/60s/15m 14.73 14.66 14.76 H/s max 21.87 H/s
+[2023-12-28 17:02:44.283]  net      new job from gulf.moneroocean.stream:10128 diff 439 algo rx/0 height 151705
+[2023-12-28 17:02:53.297]  cpu      accepted (651/0) diff 439 (1026 ms)
+[2023-12-28 17:02:53.757]  cpu      accepted (652/0) diff 439 (1087 ms)
+[2023-12-28 17:03:34.185]  cpu      accepted (653/0) diff 439 (1015 ms)
+[2023-12-28 17:03:36.928]  miner    speed 10s/60s/15m 14.83 14.95 14.78 H/s max 21.87 H/s
+[2023-12-28 17:03:41.345]  net      new job from gulf.moneroocean.stream:10128 diff 446 algo rx/0 height 151706
+[2023-12-28 17:04:14.797]  cpu      accepted (654/0) diff 446 (1040 ms)
+[2023-12-28 17:04:36.971]  miner    speed 10s/60s/15m 14.83 14.93 14.78 H/s max 21.87 H/s
+[2023-12-28 17:04:39.614]  cpu      accepted (655/0) diff 446 (1063 ms)
+[2023-12-28 17:04:47.955]  cpu      accepted (656/0) diff 446 (1037 ms)
+[2023-12-28 17:04:53.213]  net      new job from gulf.moneroocean.stream:10128 diff 446 algo rx/0 height 151707
+[2023-12-28 17:05:05.399]  net      new job from gulf.moneroocean.stream:10128 diff 446 algo rx/0 height 151708
+[2023-12-28 17:05:37.014]  miner    speed 10s/60s/15m 15.04 14.95 14.80 H/s max 21.87 H/s
+[2023-12-28 17:05:55.066]  net      new job from gulf.moneroocean.stream:10128 diff 446 algo rx/0 height 151709
+[2023-12-28 17:06:06.940]  cpu      accepted (657/0) diff 446 (853 ms)
+[2023-12-28 17:06:13.917]  cpu      accepted (658/0) diff 446 (842 ms)
+[2023-12-28 17:06:21.856]  cpu      accepted (659/0) diff 446 (836 ms)
+[2023-12-28 17:06:28.088]  cpu      accepted (660/0) diff 446 (844 ms)
+[2023-12-28 17:06:37.060]  miner    speed 10s/60s/15m 14.83 14.91 14.81 H/s max 21.87 H/s
+[2023-12-28 17:07:34.036]  cpu      accepted (661/0) diff 446 (842 ms)
+[2023-12-28 17:07:37.106]  miner    speed 10s/60s/15m 14.83 14.96 14.81 H/s max 21.87 H/s
+[2023-12-28 17:07:41.795]  cpu      accepted (662/0) diff 446 (859 ms)
+[2023-12-28 17:07:56.629]  net      new job from gulf.moneroocean.stream:10128 diff 446 algo rx/0 height 151710
+[2023-12-28 17:08:04.155]  net      new job from gulf.moneroocean.stream:10128 diff 446 algo rx/0 height 151711
+[2023-12-28 17:08:08.752]  cpu      accepted (663/0) diff 446 (842 ms)
+[2023-12-28 17:08:09.491]  cpu      accepted (664/0) diff 446 (927 ms)
+[2023-12-28 17:08:13.306]  net      new job from gulf.moneroocean.stream:10128 diff 446 algo rx/0 height 151712
+[2023-12-28 17:08:22.733]  cpu      accepted (665/0) diff 446 (859 ms)
+[2023-12-28 17:08:31.191]  cpu      accepted (666/0) diff 446 (837 ms)
+[2023-12-28 17:08:37.157]  miner    speed 10s/60s/15m 14.93 14.91 14.81 H/s max 21.87 H/s
+[2023-12-28 17:09:37.208]  miner    speed 10s/60s/15m 14.83 14.88 14.81 H/s max 21.87 H/s
+[2023-12-28 17:09:50.668]  cpu      accepted (667/0) diff 446 (834 ms)
+[2023-12-28 17:10:03.709]  cpu      accepted (668/0) diff 446 (799 ms)
+[2023-12-28 17:10:05.511]  cpu      accepted (669/0) diff 446 (847 ms)
+[2023-12-28 17:10:24.085]  cpu      accepted (670/0) diff 446 (853 ms)
+[2023-12-28 17:10:25.184]  cpu      accepted (671/0) diff 446 (881 ms)
+[2023-12-28 17:10:35.636]  cpu      accepted (672/0) diff 446 (836 ms)
+[2023-12-28 17:10:37.252]  miner    speed 10s/60s/15m 15.04 14.88 14.81 H/s max 21.87 H/s
+[2023-12-28 17:11:07.064]  cpu      accepted (673/0) diff 446 (914 ms)
+[2023-12-28 17:11:31.407]  cpu      accepted (674/0) diff 446 (844 ms)
+[2023-12-28 17:11:37.304]  miner    speed 10s/60s/15m 15.04 15.00 14.82 H/s max 21.87 H/s
+[2023-12-28 17:12:06.139]  cpu      accepted (675/0) diff 446 (841 ms)
+[2023-12-28 17:12:08.001]  cpu      accepted (676/0) diff 446 (832 ms)
+[2023-12-28 17:12:22.678]  cpu      accepted (677/0) diff 446 (841 ms)
+[2023-12-28 17:12:37.353]  miner    speed 10s/60s/15m 15.04 15.00 14.84 H/s max 21.87 H/s
+[2023-12-28 17:12:40.790]  net      dev donate started
+[2023-12-28 17:12:40.791]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151712
+[2023-12-28 17:13:04.139]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151712
+[2023-12-28 17:13:34.135]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151712
+[2023-12-28 17:13:37.402]  miner    speed 10s/60s/15m 14.83 14.86 14.85 H/s max 21.87 H/s
+[2023-12-28 17:13:40.789]  net      dev donate finished
+[2023-12-28 17:13:40.790]  net      new job from gulf.moneroocean.stream:10128 diff 446 algo rx/0 height 151712
+[2023-12-28 17:14:01.349]  cpu      accepted (678/0) diff 446 (938 ms)
+[2023-12-28 17:14:25.924]  cpu      accepted (679/0) diff 446 (850 ms)
+[2023-12-28 17:14:30.148]  cpu      accepted (680/0) diff 446 (859 ms)
+[2023-12-28 17:14:37.457]  miner    speed 10s/60s/15m 14.93 14.86 14.87 H/s max 21.87 H/s
+[2023-12-28 17:14:47.282]  cpu      accepted (681/0) diff 446 (823 ms)
+[2023-12-28 17:14:59.147]  cpu      accepted (682/0) diff 446 (828 ms)
+[2023-12-28 17:15:13.188]  cpu      accepted (683/0) diff 446 (840 ms)
+[2023-12-28 17:15:27.685]  cpu      accepted (684/0) diff 446 (1027 ms)
+[2023-12-28 17:15:37.511]  miner    speed 10s/60s/15m 15.04 14.93 14.89 H/s max 21.87 H/s
+[2023-12-28 17:16:00.876]  net      new job from gulf.moneroocean.stream:10128 diff 468 algo rx/0 height 151713
+[2023-12-28 17:16:29.877]  cpu      accepted (685/0) diff 468 (862 ms)
+[2023-12-28 17:16:37.569]  miner    speed 10s/60s/15m 15.04 15.01 14.91 H/s max 21.87 H/s
+[2023-12-28 17:17:01.763]  cpu      accepted (686/0) diff 468 (835 ms)
+[2023-12-28 17:17:14.785]  cpu      accepted (687/0) diff 468 (820 ms)
+[2023-12-28 17:17:37.630]  miner    speed 10s/60s/15m 14.93 15.01 14.93 H/s max 21.87 H/s
+[2023-12-28 17:18:18.689]  cpu      accepted (688/0) diff 468 (857 ms)
+[2023-12-28 17:18:30.796]  cpu      accepted (689/0) diff 468 (846 ms)
+[2023-12-28 17:18:37.697]  miner    speed 10s/60s/15m 15.03 15.13 14.94 H/s max 21.87 H/s
+[2023-12-28 17:18:45.433]  cpu      accepted (690/0) diff 468 (859 ms)
+[2023-12-28 17:19:02.270]  cpu      accepted (691/0) diff 468 (824 ms)
+[2023-12-28 17:19:26.979]  cpu      accepted (692/0) diff 468 (871 ms)
+[2023-12-28 17:19:37.763]  miner    speed 10s/60s/15m 15.25 15.16 14.96 H/s max 21.87 H/s
+[2023-12-28 17:19:43.285]  net      new job from gulf.moneroocean.stream:10128 diff 467 algo rx/0 height 151714
+[2023-12-28 17:20:07.096]  cpu      accepted (693/0) diff 467 (855 ms)
+[2023-12-28 17:20:22.243]  cpu      accepted (694/0) diff 467 (858 ms)
+[2023-12-28 17:20:29.113]  cpu      accepted (695/0) diff 467 (845 ms)
+[2023-12-28 17:20:37.834]  miner    speed 10s/60s/15m 15.14 15.14 14.97 H/s max 21.87 H/s
+[2023-12-28 17:20:47.396]  cpu      accepted (696/0) diff 467 (854 ms)
+[2023-12-28 17:21:25.984]  cpu      accepted (697/0) diff 467 (859 ms)
+[2023-12-28 17:21:37.910]  miner    speed 10s/60s/15m 14.93 15.04 14.98 H/s max 21.87 H/s
+[2023-12-28 17:21:38.936]  cpu      accepted (698/0) diff 467 (866 ms)
+[2023-12-28 17:22:34.862]  cpu      accepted (699/0) diff 467 (854 ms)
+[2023-12-28 17:22:37.979]  miner    speed 10s/60s/15m 14.93 15.07 14.99 H/s max 21.87 H/s
+[2023-12-28 17:22:42.387]  net      new job from gulf.moneroocean.stream:10128 diff 470 algo rx/0 height 151715
+[2023-12-28 17:22:51.250]  cpu      accepted (700/0) diff 470 (852 ms)
+[2023-12-28 17:23:12.469]  cpu      accepted (701/0) diff 470 (840 ms)
+[2023-12-28 17:23:38.028]  miner    speed 10s/60s/15m 15.25 15.15 15.01 H/s max 21.87 H/s
+[2023-12-28 17:23:45.909]  cpu      accepted (702/0) diff 470 (857 ms)
+[2023-12-28 17:24:38.074]  miner    speed 10s/60s/15m 15.04 15.13 15.02 H/s max 21.87 H/s
+[2023-12-28 17:24:54.453]  cpu      accepted (703/0) diff 470 (848 ms)
+[2023-12-28 17:25:38.125]  miner    speed 10s/60s/15m 15.25 15.10 15.04 H/s max 21.87 H/s
+[2023-12-28 17:26:01.224]  cpu      accepted (704/0) diff 470 (1519 ms)
+[2023-12-28 17:26:38.167]  miner    speed 10s/60s/15m 15.15 15.13 15.05 H/s max 21.87 H/s
+[2023-12-28 17:26:58.328]  cpu      accepted (705/0) diff 470 (943 ms)
+[2023-12-28 17:27:38.213]  miner    speed 10s/60s/15m 14.94 15.06 15.05 H/s max 21.87 H/s
+[2023-12-28 17:27:49.206]  cpu      accepted (706/0) diff 470 (933 ms)
+[2023-12-28 17:27:49.646]  cpu      accepted (707/0) diff 470 (1275 ms)
+[2023-12-28 17:28:38.260]  miner    speed 10s/60s/15m 15.15 15.10 15.07 H/s max 21.87 H/s
+[2023-12-28 17:28:42.769]  cpu      accepted (708/0) diff 470 (928 ms)
+[2023-12-28 17:29:38.312]  miner    speed 10s/60s/15m 15.15 15.16 15.09 H/s max 21.87 H/s
+[2023-12-28 17:29:48.780]  net      new job from gulf.moneroocean.stream:10128 diff 460 algo rx/0 height 151716
+[2023-12-28 17:30:01.756]  cpu      accepted (709/0) diff 460 (914 ms)
+[2023-12-28 17:30:15.407]  net      new job from gulf.moneroocean.stream:10128 diff 460 algo rx/0 height 151717
+[2023-12-28 17:30:38.360]  miner    speed 10s/60s/15m 15.15 15.01 15.09 H/s max 21.87 H/s
+[2023-12-28 17:30:50.041]  cpu      accepted (710/0) diff 460 (923 ms)
+[2023-12-28 17:31:38.412]  miner    speed 10s/60s/15m 15.04 14.98 15.09 H/s max 21.87 H/s
+[2023-12-28 17:31:55.631]  cpu      accepted (711/0) diff 460 (925 ms)
+[2023-12-28 17:32:15.301]  cpu      accepted (712/0) diff 460 (930 ms)
+[2023-12-28 17:32:38.465]  miner    speed 10s/60s/15m 15.14 15.06 15.10 H/s max 21.87 H/s
+[2023-12-28 17:32:40.407]  net      new job from gulf.moneroocean.stream:10128 diff 455 algo rx/0 height 151718
+[2023-12-28 17:32:50.131]  net      new job from gulf.moneroocean.stream:10128 diff 455 algo rx/0 height 151719
+[2023-12-28 17:33:38.520]  miner    speed 10s/60s/15m 15.14 15.11 15.10 H/s max 21.87 H/s
+[2023-12-28 17:34:14.671]  cpu      accepted (713/0) diff 455 (924 ms)
+[2023-12-28 17:34:38.575]  miner    speed 10s/60s/15m 15.35 15.20 15.10 H/s max 21.87 H/s
+[2023-12-28 17:34:54.046]  cpu      accepted (714/0) diff 455 (923 ms)
+[2023-12-28 17:35:23.321]  cpu      accepted (715/0) diff 455 (911 ms)
+[2023-12-28 17:35:28.935]  cpu      accepted (716/0) diff 455 (947 ms)
+[2023-12-28 17:35:38.637]  miner    speed 10s/60s/15m 15.25 15.16 15.10 H/s max 21.87 H/s
+[2023-12-28 17:35:45.918]  cpu      accepted (717/0) diff 455 (914 ms)
+[2023-12-28 17:35:49.869]  cpu      accepted (718/0) diff 455 (925 ms)
+[2023-12-28 17:36:38.699]  miner    speed 10s/60s/15m 15.14 15.14 15.10 H/s max 21.87 H/s
+[2023-12-28 17:37:12.392]  cpu      accepted (719/0) diff 455 (950 ms)
+[2023-12-28 17:37:37.545]  cpu      accepted (720/0) diff 455 (912 ms)
+[2023-12-28 17:37:38.769]  miner    speed 10s/60s/15m 15.14 15.13 15.11 H/s max 21.87 H/s
+[2023-12-28 17:38:01.124]  net      new job from gulf.moneroocean.stream:10128 diff 447 algo rx/0 height 151720
+[2023-12-28 17:38:38.847]  miner    speed 10s/60s/15m 15.14 15.12 15.10 H/s max 21.87 H/s
+[2023-12-28 17:38:48.141]  cpu      accepted (721/0) diff 447 (903 ms)
+[2023-12-28 17:39:35.587]  cpu      accepted (722/0) diff 447 (917 ms)
+[2023-12-28 17:39:38.922]  miner    speed 10s/60s/15m 15.14 15.12 15.10 H/s max 21.87 H/s
+[2023-12-28 17:39:49.727]  cpu      accepted (723/0) diff 447 (943 ms)
+[2023-12-28 17:39:53.049]  cpu      accepted (724/0) diff 447 (914 ms)
+[2023-12-28 17:40:32.919]  cpu      accepted (725/0) diff 447 (932 ms)
+[2023-12-28 17:40:38.993]  miner    speed 10s/60s/15m 14.93 15.01 15.10 H/s max 21.87 H/s
+[2023-12-28 17:40:50.661]  cpu      accepted (726/0) diff 447 (953 ms)
+[2023-12-28 17:41:03.116]  cpu      accepted (727/0) diff 447 (958 ms)
+[2023-12-28 17:41:39.043]  miner    speed 10s/60s/15m 15.04 14.93 15.08 H/s max 21.87 H/s
+[2023-12-28 17:42:00.639]  cpu      accepted (728/0) diff 447 (935 ms)
+[2023-12-28 17:42:39.091]  miner    speed 10s/60s/15m 14.83 14.88 15.07 H/s max 21.87 H/s
+[2023-12-28 17:42:45.121]  cpu      accepted (729/0) diff 447 (931 ms)
+[2023-12-28 17:42:57.665]  cpu      accepted (730/0) diff 447 (931 ms)
+[2023-12-28 17:43:02.317]  cpu      accepted (731/0) diff 447 (946 ms)
+[2023-12-28 17:43:02.885]  cpu      accepted (732/0) diff 447 (904 ms)
+[2023-12-28 17:43:39.136]  miner    speed 10s/60s/15m 15.04 14.95 15.06 H/s max 21.87 H/s
+[2023-12-28 17:44:33.244]  cpu      accepted (733/0) diff 447 (875 ms)
+[2023-12-28 17:44:34.575]  cpu      accepted (734/0) diff 447 (872 ms)
+[2023-12-28 17:44:39.184]  miner    speed 10s/60s/15m 15.14 15.05 15.05 H/s max 21.87 H/s
+[2023-12-28 17:44:44.480]  net      new job from gulf.moneroocean.stream:10128 diff 445 algo rx/0 height 151721
+[2023-12-28 17:45:13.072]  cpu      accepted (735/0) diff 445 (859 ms)
+[2023-12-28 17:45:30.325]  cpu      accepted (736/0) diff 445 (875 ms)
+[2023-12-28 17:45:39.230]  miner    speed 10s/60s/15m 15.25 15.23 15.07 H/s max 21.87 H/s
+[2023-12-28 17:45:45.613]  cpu      accepted (737/0) diff 445 (891 ms)
+[2023-12-28 17:45:49.096]  net      new job from gulf.moneroocean.stream:10128 diff 447 algo rx/0 height 151722
+[2023-12-28 17:46:39.273]  miner    speed 10s/60s/15m 15.57 15.18 15.08 H/s max 21.87 H/s
+[2023-12-28 17:46:53.839]  cpu      accepted (738/0) diff 447 (877 ms)
+[2023-12-28 17:46:59.122]  cpu      accepted (739/0) diff 447 (877 ms)
+[2023-12-28 17:47:01.492]  net      new job from gulf.moneroocean.stream:10128 diff 447 algo rx/0 height 151723
+[2023-12-28 17:47:30.275]  net      new job from gulf.moneroocean.stream:10128 diff 447 algo rx/0 height 151724
+[2023-12-28 17:47:39.319]  miner    speed 10s/60s/15m 15.15 15.13 15.08 H/s max 21.87 H/s
+[2023-12-28 17:48:39.366]  miner    speed 10s/60s/15m 15.25 15.28 15.10 H/s max 21.87 H/s
+[2023-12-28 17:48:39.371]  cpu      accepted (740/0) diff 447 (861 ms)
+[2023-12-28 17:48:57.680]  cpu      accepted (741/0) diff 447 (917 ms)
+[2023-12-28 17:49:12.943]  cpu      accepted (742/0) diff 447 (892 ms)
+[2023-12-28 17:49:39.422]  miner    speed 10s/60s/15m 15.14 15.21 15.10 H/s max 21.87 H/s
+[2023-12-28 17:49:58.533]  cpu      accepted (743/0) diff 447 (884 ms)
+[2023-12-28 17:50:26.491]  cpu      accepted (744/0) diff 447 (876 ms)
+[2023-12-28 17:50:39.474]  miner    speed 10s/60s/15m 15.36 15.26 15.11 H/s max 21.87 H/s
+[2023-12-28 17:50:46.251]  cpu      accepted (745/0) diff 447 (903 ms)
+[2023-12-28 17:51:26.289]  cpu      accepted (746/0) diff 447 (903 ms)
+[2023-12-28 17:51:39.527]  miner    speed 10s/60s/15m 15.56 15.31 15.12 H/s max 21.87 H/s
+[2023-12-28 17:52:11.348]  cpu      accepted (747/0) diff 447 (878 ms)
+[2023-12-28 17:52:14.055]  cpu      accepted (748/0) diff 447 (893 ms)
+[2023-12-28 17:52:29.995]  net      new job from gulf.moneroocean.stream:10128 diff 445 algo rx/0 height 151725
+[2023-12-28 17:52:35.927]  cpu      accepted (749/0) diff 445 (901 ms)
+[2023-12-28 17:52:39.581]  miner    speed 10s/60s/15m 15.35 15.30 15.13 H/s max 21.87 H/s
+[2023-12-28 17:52:48.999]  cpu      accepted (750/0) diff 445 (883 ms)
+[2023-12-28 17:53:39.641]  miner    speed 10s/60s/15m 15.56 15.43 15.15 H/s max 21.87 H/s
+[2023-12-28 17:53:40.732]  cpu      accepted (751/0) diff 445 (850 ms)
+[2023-12-28 17:53:52.883]  cpu      accepted (752/0) diff 445 (854 ms)
+[2023-12-28 17:53:58.691]  cpu      accepted (753/0) diff 445 (831 ms)
+[2023-12-28 17:54:14.629]  cpu      accepted (754/0) diff 445 (831 ms)
+[2023-12-28 17:54:39.702]  miner    speed 10s/60s/15m 15.25 15.28 15.16 H/s max 21.87 H/s
+[2023-12-28 17:55:04.315]  cpu      accepted (755/0) diff 445 (861 ms)
+[2023-12-28 17:55:13.125]  net      new job from gulf.moneroocean.stream:10128 diff 449 algo rx/0 height 151726
+[2023-12-28 17:55:39.771]  miner    speed 10s/60s/15m 15.14 15.16 15.17 H/s max 21.87 H/s
+[2023-12-28 17:55:55.455]  cpu      accepted (756/0) diff 449 (878 ms)
+[2023-12-28 17:56:23.944]  cpu      accepted (757/0) diff 449 (860 ms)
+[2023-12-28 17:56:39.848]  miner    speed 10s/60s/15m 15.35 15.39 15.21 H/s max 21.87 H/s
+[2023-12-28 17:56:43.173]  cpu      accepted (758/0) diff 449 (879 ms)
+[2023-12-28 17:57:00.924]  cpu      accepted (759/0) diff 449 (851 ms)
+[2023-12-28 17:57:39.925]  miner    speed 10s/60s/15m 15.35 15.17 15.23 H/s max 21.87 H/s
+[2023-12-28 17:57:46.901]  net      new job from gulf.moneroocean.stream:10128 diff 447 algo rx/0 height 151727
+[2023-12-28 17:57:48.130]  cpu      accepted (760/0) diff 447 (862 ms)
+[2023-12-28 17:57:58.041]  cpu      accepted (761/0) diff 447 (847 ms)
+[2023-12-28 17:58:08.592]  cpu      accepted (762/0) diff 447 (848 ms)
+[2023-12-28 17:58:17.809]  net      new job from gulf.moneroocean.stream:10128 diff 449 algo rx/0 height 151728
+[2023-12-28 17:58:18.603]  cpu      accepted (763/0) diff 447 (896 ms)
+[2023-12-28 17:58:33.673]  cpu      accepted (764/0) diff 449 (858 ms)
+[2023-12-28 17:58:39.993]  miner    speed 10s/60s/15m 15.04 14.97 15.23 H/s max 21.87 H/s
+[2023-12-28 17:59:14.053]  cpu      accepted (765/0) diff 449 (853 ms)
+[2023-12-28 17:59:40.043]  miner    speed 10s/60s/15m 14.94 14.96 15.22 H/s max 21.87 H/s
+[2023-12-28 17:59:49.294]  cpu      accepted (766/0) diff 449 (878 ms)
+[2023-12-28 17:59:54.885]  cpu      accepted (767/0) diff 449 (870 ms)
+[2023-12-28 18:00:06.508]  net      new job from gulf.moneroocean.stream:10128 diff 451 algo rx/0 height 151729
+[2023-12-28 18:00:06.897]  cpu      accepted (768/0) diff 449 (1494 ms)
+[2023-12-28 18:00:08.282]  net      new job from gulf.moneroocean.stream:10128 diff 451 algo rx/0 height 151730
+[2023-12-28 18:00:40.088]  miner    speed 10s/60s/15m 15.15 15.13 15.21 H/s max 21.87 H/s
+[2023-12-28 18:00:41.585]  cpu      accepted (769/0) diff 451 (875 ms)
+[2023-12-28 18:01:08.668]  cpu      accepted (770/0) diff 451 (848 ms)
+[2023-12-28 18:01:13.713]  cpu      accepted (771/0) diff 451 (841 ms)
+[2023-12-28 18:01:26.972]  cpu      accepted (772/0) diff 451 (855 ms)
+[2023-12-28 18:01:35.681]  cpu      accepted (773/0) diff 451 (846 ms)
+[2023-12-28 18:01:40.136]  miner    speed 10s/60s/15m 15.25 15.16 15.22 H/s max 21.87 H/s
+[2023-12-28 18:02:28.544]  cpu      accepted (774/0) diff 451 (874 ms)
+[2023-12-28 18:02:40.182]  miner    speed 10s/60s/15m 15.36 15.22 15.22 H/s max 21.87 H/s
+[2023-12-28 18:02:43.622]  cpu      accepted (775/0) diff 451 (900 ms)
+[2023-12-28 18:03:12.601]  net      new job from gulf.moneroocean.stream:10128 diff 474 algo rx/0 height 151731
+[2023-12-28 18:03:31.456]  cpu      accepted (776/0) diff 474 (844 ms)
+[2023-12-28 18:03:32.392]  net      new job from gulf.moneroocean.stream:10128 diff 473 algo rx/0 height 151732
+[2023-12-28 18:03:40.224]  miner    speed 10s/60s/15m 15.15 15.32 15.22 H/s max 21.87 H/s
+[2023-12-28 18:03:41.239]  net      new job from gulf.moneroocean.stream:10128 diff 473 algo rx/0 height 151733
+[2023-12-28 18:04:26.218]  cpu      accepted (777/0) diff 473 (857 ms)
+[2023-12-28 18:04:40.269]  miner    speed 10s/60s/15m 15.46 15.40 15.23 H/s max 21.87 H/s
+[2023-12-28 18:04:52.337]  cpu      accepted (778/0) diff 473 (850 ms)
+[2023-12-28 18:05:18.103]  net      new job from gulf.moneroocean.stream:10128 diff 470 algo rx/0 height 151734
+[2023-12-28 18:05:20.826]  cpu      accepted (779/0) diff 470 (883 ms)
+[2023-12-28 18:05:40.321]  miner    speed 10s/60s/15m 15.57 15.38 15.24 H/s max 21.87 H/s
+[2023-12-28 18:06:27.166]  cpu      accepted (780/0) diff 470 (930 ms)
+[2023-12-28 18:06:40.373]  miner    speed 10s/60s/15m 15.36 15.38 15.25 H/s max 21.87 H/s
+[2023-12-28 18:07:11.741]  cpu      accepted (781/0) diff 470 (862 ms)
+[2023-12-28 18:07:40.424]  miner    speed 10s/60s/15m 15.36 15.42 15.25 H/s max 21.87 H/s
+[2023-12-28 18:08:40.474]  miner    speed 10s/60s/15m 15.25 15.37 15.25 H/s max 21.87 H/s
+[2023-12-28 18:08:48.819]  cpu      accepted (782/0) diff 470 (854 ms)
+[2023-12-28 18:08:56.456]  cpu      accepted (783/0) diff 470 (882 ms)
+[2023-12-28 18:09:03.056]  cpu      accepted (784/0) diff 470 (855 ms)
+[2023-12-28 18:09:18.651]  net      new job from gulf.moneroocean.stream:10128 diff 463 algo rx/0 height 151735
+[2023-12-28 18:09:29.807]  net      new job from gulf.moneroocean.stream:10128 diff 463 algo rx/0 height 151736
+[2023-12-28 18:09:37.589]  cpu      accepted (785/0) diff 463 (936 ms)
+[2023-12-28 18:09:40.523]  miner    speed 10s/60s/15m 14.93 15.11 15.24 H/s max 21.87 H/s
+[2023-12-28 18:09:40.651]  cpu      accepted (786/0) diff 463 (912 ms)
+[2023-12-28 18:09:56.985]  cpu      accepted (787/0) diff 463 (935 ms)
+[2023-12-28 18:10:06.569]  cpu      accepted (788/0) diff 463 (877 ms)
+[2023-12-28 18:10:18.146]  cpu      accepted (789/0) diff 463 (868 ms)
+[2023-12-28 18:10:40.574]  miner    speed 10s/60s/15m 14.83 14.93 15.22 H/s max 21.87 H/s
+[2023-12-28 18:10:44.149]  net      new job from gulf.moneroocean.stream:10128 diff 470 algo rx/0 height 151737
+[2023-12-28 18:11:05.312]  cpu      accepted (790/0) diff 470 (839 ms)
+[2023-12-28 18:11:40.632]  miner    speed 10s/60s/15m 14.83 14.88 15.19 H/s max 21.87 H/s
+[2023-12-28 18:12:13.712]  cpu      accepted (791/0) diff 470 (846 ms)
+[2023-12-28 18:12:40.692]  miner    speed 10s/60s/15m 14.93 14.94 15.17 H/s max 21.87 H/s
+[2023-12-28 18:12:50.055]  cpu      accepted (792/0) diff 470 (853 ms)
+[2023-12-28 18:13:04.439]  net      new job from gulf.moneroocean.stream:10128 diff 466 algo rx/0 height 151738
+[2023-12-28 18:13:34.133]  cpu      accepted (793/0) diff 466 (837 ms)
+[2023-12-28 18:13:40.755]  miner    speed 10s/60s/15m 15.14 15.11 15.18 H/s max 21.87 H/s
+[2023-12-28 18:14:24.475]  cpu      accepted (794/0) diff 466 (870 ms)
+[2023-12-28 18:14:27.768]  cpu      accepted (795/0) diff 466 (843 ms)
+[2023-12-28 18:14:31.441]  cpu      accepted (796/0) diff 466 (853 ms)
+[2023-12-28 18:14:40.825]  miner    speed 10s/60s/15m 15.14 15.21 15.20 H/s max 21.87 H/s
+[2023-12-28 18:14:46.507]  cpu      accepted (797/0) diff 466 (848 ms)
+[2023-12-28 18:14:57.313]  cpu      accepted (798/0) diff 466 (897 ms)
+[2023-12-28 18:15:39.597]  cpu      accepted (799/0) diff 466 (835 ms)
+[2023-12-28 18:15:40.900]  miner    speed 10s/60s/15m 15.25 15.26 15.20 H/s max 21.87 H/s
+[2023-12-28 18:16:36.429]  cpu      accepted (800/0) diff 466 (959 ms)
+[2023-12-28 18:16:40.977]  miner    speed 10s/60s/15m 15.14 15.11 15.20 H/s max 21.87 H/s
+[2023-12-28 18:16:50.421]  cpu      accepted (801/0) diff 466 (903 ms)
+[2023-12-28 18:16:52.231]  cpu      accepted (802/0) diff 466 (861 ms)
+[2023-12-28 18:17:41.044]  miner    speed 10s/60s/15m 15.25 15.23 15.20 H/s max 21.87 H/s
+[2023-12-28 18:18:10.517]  net      new job from gulf.moneroocean.stream:10128 diff 469 algo rx/0 height 151739
+[2023-12-28 18:18:19.535]  cpu      accepted (803/0) diff 469 (871 ms)
+[2023-12-28 18:18:23.011]  net      new job from gulf.moneroocean.stream:10128 diff 463 algo rx/0 height 151740
+[2023-12-28 18:18:41.094]  miner    speed 10s/60s/15m 15.35 15.35 15.20 H/s max 21.87 H/s
+[2023-12-28 18:19:41.141]  miner    speed 10s/60s/15m 15.36 15.38 15.20 H/s max 21.87 H/s
+[2023-12-28 18:19:53.316]  cpu      accepted (804/0) diff 463 (887 ms)
+[2023-12-28 18:19:56.259]  cpu      accepted (805/0) diff 463 (866 ms)
+[2023-12-28 18:20:41.187]  miner    speed 10s/60s/15m 15.67 15.42 15.20 H/s max 21.87 H/s
+[2023-12-28 18:21:03.504]  cpu      accepted (806/0) diff 463 (887 ms)
+[2023-12-28 18:21:06.036]  net      new job from gulf.moneroocean.stream:10128 diff 460 algo rx/0 height 151741
+[2023-12-28 18:21:16.665]  cpu      accepted (807/0) diff 460 (871 ms)
+[2023-12-28 18:21:41.230]  miner    speed 10s/60s/15m 15.57 15.47 15.21 H/s max 21.87 H/s
+[2023-12-28 18:21:59.015]  cpu      accepted (808/0) diff 460 (884 ms)
+[2023-12-28 18:22:03.352]  cpu      accepted (809/0) diff 460 (853 ms)
+[2023-12-28 18:22:33.910]  cpu      accepted (810/0) diff 460 (875 ms)
+[2023-12-28 18:22:41.274]  miner    speed 10s/60s/15m 15.57 15.52 15.21 H/s max 21.87 H/s
+[2023-12-28 18:22:54.524]  cpu      accepted (811/0) diff 460 (863 ms)
+[2023-12-28 18:23:09.117]  cpu      accepted (812/0) diff 460 (888 ms)
+[2023-12-28 18:23:41.320]  miner    speed 10s/60s/15m 15.56 15.48 15.22 H/s max 21.87 H/s
+[2023-12-28 18:23:48.877]  net      new job from gulf.moneroocean.stream:10128 diff 463 algo rx/0 height 151742
+[2023-12-28 18:23:57.073]  cpu      accepted (813/0) diff 463 (919 ms)
+[2023-12-28 18:24:41.361]  miner    speed 10s/60s/15m 15.57 15.45 15.24 H/s max 21.87 H/s
+[2023-12-28 18:24:56.784]  cpu      accepted (814/0) diff 463 (879 ms)
+[2023-12-28 18:25:33.547]  cpu      accepted (815/0) diff 463 (888 ms)
+[2023-12-28 18:25:41.410]  miner    speed 10s/60s/15m 15.35 15.60 15.29 H/s max 21.87 H/s
+[2023-12-28 18:25:49.958]  cpu      accepted (816/0) diff 463 (890 ms)
+[2023-12-28 18:26:19.108]  cpu      accepted (817/0) diff 463 (902 ms)
+[2023-12-28 18:26:19.603]  net      new job from gulf.moneroocean.stream:10128 diff 458 algo rx/0 height 151743
+[2023-12-28 18:26:41.458]  miner    speed 10s/60s/15m 15.14 15.23 15.31 H/s max 21.87 H/s
+[2023-12-28 18:26:51.636]  net      new job from gulf.moneroocean.stream:10128 diff 458 algo rx/0 height 151744
+[2023-12-28 18:26:55.265]  cpu      accepted (818/0) diff 458 (885 ms)
+[2023-12-28 18:27:28.205]  net      new job from gulf.moneroocean.stream:10128 diff 458 algo rx/0 height 151745
+[2023-12-28 18:27:41.509]  miner    speed 10s/60s/15m 14.94 14.98 15.32 H/s max 21.87 H/s
+[2023-12-28 18:28:18.424]  cpu      accepted (819/0) diff 458 (1596 ms)
+[2023-12-28 18:28:29.052]  cpu      accepted (820/0) diff 458 (874 ms)
+[2023-12-28 18:28:31.072]  net      new job from gulf.moneroocean.stream:10128 diff 452 algo rx/0 height 151746
+[2023-12-28 18:28:37.912]  cpu      accepted (821/0) diff 452 (881 ms)
+[2023-12-28 18:28:41.555]  miner    speed 10s/60s/15m 15.04 15.05 15.31 H/s max 21.87 H/s
+[2023-12-28 18:28:41.847]  cpu      accepted (822/0) diff 452 (864 ms)
+[2023-12-28 18:29:31.323]  cpu      accepted (823/0) diff 452 (851 ms)
+[2023-12-28 18:29:41.610]  miner    speed 10s/60s/15m 15.14 15.10 15.30 H/s max 21.87 H/s
+[2023-12-28 18:29:52.169]  net      new job from gulf.moneroocean.stream:10128 diff 458 algo rx/0 height 151747
+[2023-12-28 18:29:57.904]  cpu      accepted (824/0) diff 458 (827 ms)
+[2023-12-28 18:30:14.441]  cpu      accepted (825/0) diff 458 (825 ms)
+[2023-12-28 18:30:41.261]  cpu      accepted (826/0) diff 458 (868 ms)
+[2023-12-28 18:30:41.666]  miner    speed 10s/60s/15m 14.83 14.99 15.29 H/s max 21.87 H/s
+[2023-12-28 18:30:41.697]  cpu      accepted (827/0) diff 458 (1060 ms)
+[2023-12-28 18:30:48.982]  cpu      accepted (828/0) diff 458 (874 ms)
+[2023-12-28 18:31:41.723]  miner    speed 10s/60s/15m 14.83 14.89 15.27 H/s max 21.87 H/s
+[2023-12-28 18:32:25.468]  cpu      accepted (829/0) diff 458 (910 ms)
+[2023-12-28 18:32:41.785]  miner    speed 10s/60s/15m 14.83 14.82 15.25 H/s max 21.87 H/s
+[2023-12-28 18:33:01.747]  cpu      accepted (830/0) diff 458 (905 ms)
+[2023-12-28 18:33:07.425]  cpu      accepted (831/0) diff 458 (867 ms)
+[2023-12-28 18:33:10.062]  cpu      accepted (832/0) diff 458 (860 ms)
+[2023-12-28 18:33:16.937]  cpu      accepted (833/0) diff 458 (845 ms)
+[2023-12-28 18:33:17.648]  cpu      accepted (834/0) diff 458 (852 ms)
+[2023-12-28 18:33:41.849]  miner    speed 10s/60s/15m 14.61 14.79 15.21 H/s max 21.87 H/s
+[2023-12-28 18:33:48.410]  net      new job from gulf.moneroocean.stream:10128 diff 463 algo rx/0 height 151748
+[2023-12-28 18:34:41.918]  miner    speed 10s/60s/15m 15.03 14.84 15.17 H/s max 21.87 H/s
+[2023-12-28 18:34:44.173]  cpu      accepted (835/0) diff 463 (880 ms)
+[2023-12-28 18:34:55.589]  net      new job from gulf.moneroocean.stream:10128 diff 463 algo rx/0 height 151749
+[2023-12-28 18:34:59.814]  cpu      accepted (836/0) diff 463 (884 ms)
+[2023-12-28 18:35:11.973]  cpu      accepted (837/0) diff 463 (879 ms)
+[2023-12-28 18:35:41.993]  miner    speed 10s/60s/15m 15.03 15.07 15.15 H/s max 21.87 H/s
+[2023-12-28 18:35:54.725]  cpu      accepted (838/0) diff 463 (866 ms)
+[2023-12-28 18:36:25.008]  cpu      accepted (839/0) diff 463 (881 ms)
+[2023-12-28 18:36:42.073]  miner    speed 10s/60s/15m 15.14 15.19 15.13 H/s max 21.87 H/s
+[2023-12-28 18:36:48.841]  net      new job from gulf.moneroocean.stream:10128 diff 463 algo rx/0 height 151750
+[2023-12-28 18:37:22.325]  net      new job from gulf.moneroocean.stream:10128 diff 460 algo rx/0 height 151751
+[2023-12-28 18:37:42.139]  miner    speed 10s/60s/15m 15.04 15.11 15.11 H/s max 21.87 H/s
+[2023-12-28 18:38:42.187]  miner    speed 10s/60s/15m 15.04 14.91 15.07 H/s max 21.87 H/s
+[2023-12-28 18:39:37.702]  net      new job from gulf.moneroocean.stream:10128 diff 451 algo rx/0 height 151752
+[2023-12-28 18:39:42.233]  miner    speed 10s/60s/15m 14.52 14.71 15.02 H/s max 21.87 H/s
+[2023-12-28 18:40:08.792]  cpu      accepted (840/0) diff 451 (861 ms)
+[2023-12-28 18:40:22.244]  net      new job from gulf.moneroocean.stream:10128 diff 448 algo rx/0 height 151753
+[2023-12-28 18:40:42.281]  miner    speed 10s/60s/15m 14.41 14.44 14.94 H/s max 21.87 H/s
+[2023-12-28 18:40:56.421]  cpu      accepted (841/0) diff 448 (853 ms)
+[2023-12-28 18:41:07.673]  cpu      accepted (842/0) diff 448 (849 ms)
+[2023-12-28 18:41:42.325]  miner    speed 10s/60s/15m 14.31 14.29 14.88 H/s max 21.87 H/s
+[2023-12-28 18:41:59.150]  cpu      accepted (843/0) diff 448 (833 ms)
+[2023-12-28 18:42:05.425]  cpu      accepted (844/0) diff 448 (855 ms)
+[2023-12-28 18:42:42.380]  miner    speed 10s/60s/15m 14.20 14.12 14.82 H/s max 21.87 H/s
+[2023-12-28 18:43:13.627]  net      new job from gulf.moneroocean.stream:10128 diff 448 algo rx/0 height 151754
+[2023-12-28 18:43:23.392]  net      new job from gulf.moneroocean.stream:10128 diff 444 algo rx/0 height 151755
+[2023-12-28 18:43:42.430]  miner    speed 10s/60s/15m 14.20 14.02 14.76 H/s max 21.87 H/s
+[2023-12-28 18:44:07.121]  net      new job from gulf.moneroocean.stream:10128 diff 444 algo rx/0 height 151756
+[2023-12-28 18:44:39.633]  cpu      accepted (845/0) diff 444 (896 ms)
+[2023-12-28 18:44:42.483]  miner    speed 10s/60s/15m 13.78 13.85 14.67 H/s max 21.87 H/s
+[2023-12-28 18:44:44.923]  cpu      accepted (846/0) diff 444 (889 ms)
+[2023-12-28 18:45:12.453]  net      new job from gulf.moneroocean.stream:10128 diff 440 algo rx/0 height 151757
+[2023-12-28 18:45:15.541]  cpu      accepted (847/0) diff 440 (866 ms)
+[2023-12-28 18:45:42.236]  cpu      accepted (848/0) diff 440 (866 ms)
+[2023-12-28 18:45:42.535]  miner    speed 10s/60s/15m 13.99 13.80 14.59 H/s max 21.87 H/s
+[2023-12-28 18:45:52.478]  cpu      accepted (849/0) diff 440 (898 ms)
+[2023-12-28 18:45:53.311]  cpu      accepted (850/0) diff 440 (874 ms)
+[2023-12-28 18:46:02.219]  net      new job from gulf.moneroocean.stream:10128 diff 442 algo rx/0 height 151758
+[2023-12-28 18:46:05.001]  cpu      accepted (851/0) diff 442 (883 ms)
+[2023-12-28 18:46:17.473]  net      new job from gulf.moneroocean.stream:10128 diff 446 algo rx/0 height 151759
+[2023-12-28 18:46:38.078]  cpu      accepted (852/0) diff 446 (881 ms)
+[2023-12-28 18:46:42.590]  miner    speed 10s/60s/15m 13.67 13.70 14.51 H/s max 21.87 H/s
+[2023-12-28 18:46:51.949]  cpu      accepted (853/0) diff 446 (895 ms)
+[2023-12-28 18:46:57.913]  cpu      accepted (854/0) diff 446 (903 ms)
+[2023-12-28 18:47:28.104]  cpu      accepted (855/0) diff 446 (931 ms)
+[2023-12-28 18:47:42.647]  miner    speed 10s/60s/15m 13.57 13.62 14.43 H/s max 21.87 H/s
+[2023-12-28 18:47:57.311]  net      new job from gulf.moneroocean.stream:10128 diff 448 algo rx/0 height 151760
+[2023-12-28 18:48:15.577]  cpu      accepted (856/0) diff 448 (854 ms)
+[2023-12-28 18:48:42.708]  miner    speed 10s/60s/15m 13.67 13.57 14.35 H/s max 21.87 H/s
+[2023-12-28 18:48:43.651]  cpu      accepted (857/0) diff 448 (898 ms)
+[2023-12-28 18:49:42.773]  miner    speed 10s/60s/15m 13.56 13.51 14.26 H/s max 21.87 H/s
+[2023-12-28 18:50:29.680]  cpu      accepted (858/0) diff 448 (840 ms)
+[2023-12-28 18:50:33.684]  cpu      accepted (859/0) diff 448 (869 ms)
+[2023-12-28 18:50:42.848]  miner    speed 10s/60s/15m 13.46 13.46 14.15 H/s max 21.87 H/s
+[2023-12-28 18:51:15.573]  cpu      accepted (860/0) diff 448 (830 ms)
+[2023-12-28 18:51:25.180]  cpu      accepted (861/0) diff 448 (854 ms)
+[2023-12-28 18:51:35.331]  cpu      accepted (862/0) diff 448 (865 ms)
+[2023-12-28 18:51:42.925]  miner    speed 10s/60s/15m 13.35 13.38 14.03 H/s max 21.87 H/s
+[2023-12-28 18:52:16.796]  net      new job from gulf.moneroocean.stream:10128 diff 444 algo rx/0 height 151761
+[2023-12-28 18:52:43.005]  miner    speed 10s/60s/15m 13.35 13.31 13.91 H/s max 21.87 H/s
+[2023-12-28 18:52:43.628]  cpu      accepted (863/0) diff 444 (865 ms)
+[2023-12-28 18:52:54.845]  cpu      accepted (864/0) diff 444 (836 ms)
+[2023-12-28 18:52:59.855]  cpu      accepted (865/0) diff 444 (889 ms)
+[2023-12-28 18:53:08.686]  cpu      accepted (866/0) diff 444 (854 ms)
+[2023-12-28 18:53:10.259]  net      new job from gulf.moneroocean.stream:10128 diff 444 algo rx/0 height 151762
+[2023-12-28 18:53:42.164]  net      new job from gulf.moneroocean.stream:10128 diff 448 algo rx/0 height 151763
+[2023-12-28 18:53:43.075]  miner    speed 10s/60s/15m 13.35 13.38 13.81 H/s max 21.87 H/s
+[2023-12-28 18:53:49.858]  net      dev donate started
+[2023-12-28 18:53:49.858]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151763
+[2023-12-28 18:54:31.617]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151764
+[2023-12-28 18:54:43.131]  miner    speed 10s/60s/15m 13.46 13.35 13.72 H/s max 21.87 H/s
+[2023-12-28 18:54:49.856]  net      dev donate finished
+[2023-12-28 18:54:49.857]  net      new job from gulf.moneroocean.stream:10128 diff 444 algo rx/0 height 151764
+[2023-12-28 18:55:00.951]  net      new job from gulf.moneroocean.stream:10128 diff 444 algo rx/0 height 151765
+[2023-12-28 18:55:09.924]  cpu      accepted (867/0) diff 444 (890 ms)
+[2023-12-28 18:55:43.181]  miner    speed 10s/60s/15m 13.46 13.28 13.64 H/s max 21.87 H/s
+[2023-12-28 18:56:22.953]  cpu      accepted (868/0) diff 444 (843 ms)
+[2023-12-28 18:56:29.997]  cpu      accepted (869/0) diff 444 (833 ms)
+[2023-12-28 18:56:33.929]  net      new job from gulf.moneroocean.stream:10128 diff 438 algo rx/0 height 151766
+[2023-12-28 18:56:43.226]  miner    speed 10s/60s/15m 13.04 13.27 13.57 H/s max 21.87 H/s
+[2023-12-28 18:57:34.158]  cpu      accepted (870/0) diff 438 (854 ms)
+[2023-12-28 18:57:38.241]  net      new job from gulf.moneroocean.stream:10128 diff 438 algo rx/0 height 151767
+[2023-12-28 18:57:39.863]  cpu      accepted (871/0) diff 438 (820 ms)
+[2023-12-28 18:57:43.275]  miner    speed 10s/60s/15m 13.15 13.28 13.51 H/s max 21.87 H/s
+[2023-12-28 18:58:28.109]  net      new job from gulf.moneroocean.stream:10128 diff 438 algo rx/0 height 151768
+[2023-12-28 18:58:43.330]  miner    speed 10s/60s/15m 13.36 13.25 13.46 H/s max 21.87 H/s
+[2023-12-28 18:59:09.019]  cpu      accepted (872/0) diff 438 (864 ms)
+[2023-12-28 18:59:43.382]  miner    speed 10s/60s/15m 13.15 13.23 13.42 H/s max 21.87 H/s
+[2023-12-28 18:59:44.404]  cpu      accepted (873/0) diff 438 (853 ms)
+[2023-12-28 19:00:43.436]  miner    speed 10s/60s/15m 13.35 13.25 13.38 H/s max 21.87 H/s
+[2023-12-28 19:00:43.595]  cpu      accepted (874/0) diff 438 (872 ms)
+[2023-12-28 19:01:26.884]  cpu      accepted (875/0) diff 438 (847 ms)
+[2023-12-28 19:01:43.495]  miner    speed 10s/60s/15m 13.04 13.23 13.35 H/s max 21.87 H/s
+[2023-12-28 19:01:51.468]  cpu      accepted (876/0) diff 438 (862 ms)
+[2023-12-28 19:02:14.911]  cpu      accepted (877/0) diff 438 (865 ms)
+[2023-12-28 19:02:21.355]  cpu      accepted (878/0) diff 438 (863 ms)
+[2023-12-28 19:02:43.554]  miner    speed 10s/60s/15m 13.25 13.21 13.33 H/s max 21.87 H/s
+[2023-12-28 19:03:00.694]  net      new job from gulf.moneroocean.stream:10128 diff 396 algo rx/0 height 151769
+[2023-12-28 19:03:13.441]  cpu      accepted (879/0) diff 396 (865 ms)
+[2023-12-28 19:03:43.614]  miner    speed 10s/60s/15m 13.04 13.28 13.31 H/s max 21.87 H/s
+[2023-12-28 19:03:59.361]  cpu      accepted (880/0) diff 396 (854 ms)
+[2023-12-28 19:04:43.682]  miner    speed 10s/60s/15m 13.14 13.20 13.29 H/s max 21.87 H/s
+[2023-12-28 19:04:56.436]  cpu      accepted (881/0) diff 396 (874 ms)
+[2023-12-28 19:05:20.599]  cpu      accepted (882/0) diff 396 (866 ms)
+[2023-12-28 19:05:36.957]  net      new job from gulf.moneroocean.stream:10128 diff 390 algo rx/0 height 151770
+[2023-12-28 19:05:41.985]  cpu      accepted (883/0) diff 390 (863 ms)
+[2023-12-28 19:05:43.756]  miner    speed 10s/60s/15m 13.25 13.19 13.27 H/s max 21.87 H/s
+[2023-12-28 19:06:20.887]  net      new job from gulf.moneroocean.stream:10128 diff 390 algo rx/0 height 151771
+[2023-12-28 19:06:35.675]  net      new job from gulf.moneroocean.stream:10128 diff 390 algo rx/0 height 151772
+[2023-12-28 19:06:43.832]  miner    speed 10s/60s/15m 13.14 13.18 13.26 H/s max 21.87 H/s
+[2023-12-28 19:07:16.955]  cpu      accepted (884/0) diff 390 (854 ms)
+[2023-12-28 19:07:40.561]  net      new job from gulf.moneroocean.stream:10128 diff 384 algo rx/0 height 151773
+[2023-12-28 19:07:43.908]  miner    speed 10s/60s/15m 13.14 13.23 13.25 H/s max 21.87 H/s
+[2023-12-28 19:08:10.226]  cpu      accepted (885/0) diff 384 (849 ms)
+[2023-12-28 19:08:15.087]  cpu      accepted (886/0) diff 384 (871 ms)
+[2023-12-28 19:08:41.767]  cpu      accepted (887/0) diff 384 (856 ms)
+[2023-12-28 19:08:43.973]  miner    speed 10s/60s/15m 13.14 13.15 13.24 H/s max 21.87 H/s
+[2023-12-28 19:09:04.485]  cpu      accepted (888/0) diff 384 (957 ms)
+[2023-12-28 19:09:35.556]  cpu      accepted (889/0) diff 384 (968 ms)
+[2023-12-28 19:09:44.028]  miner    speed 10s/60s/15m 13.15 13.06 13.22 H/s max 21.87 H/s
+[2023-12-28 19:09:56.139]  net      new job from gulf.moneroocean.stream:10128 diff 387 algo rx/0 height 151774
+[2023-12-28 19:10:44.085]  miner    speed 10s/60s/15m 13.15 13.18 13.21 H/s max 21.87 H/s
+[2023-12-28 19:10:49.888]  cpu      accepted (890/0) diff 387 (963 ms)
+[2023-12-28 19:10:50.446]  net      new job from gulf.moneroocean.stream:10128 diff 384 algo rx/0 height 151775
+[2023-12-28 19:11:11.925]  net      new job from gulf.moneroocean.stream:10128 diff 384 algo rx/0 height 151776
+[2023-12-28 19:11:42.923]  cpu      accepted (891/0) diff 384 (976 ms)
+[2023-12-28 19:11:44.138]  miner    speed 10s/60s/15m 13.15 13.10 13.20 H/s max 21.87 H/s
+[2023-12-28 19:11:44.552]  cpu      accepted (892/0) diff 384 (996 ms)
+[2023-12-28 19:12:09.180]  cpu      accepted (893/0) diff 384 (1000 ms)
+[2023-12-28 19:12:44.188]  miner    speed 10s/60s/15m 13.25 13.15 13.19 H/s max 21.87 H/s
+[2023-12-28 19:13:32.719]  net      new job from gulf.moneroocean.stream:10128 diff 379 algo rx/0 height 151777
+[2023-12-28 19:13:44.243]  miner    speed 10s/60s/15m 13.04 13.13 13.18 H/s max 21.87 H/s
+[2023-12-28 19:14:44.301]  miner    speed 10s/60s/15m 13.15 13.06 13.17 H/s max 21.87 H/s
+[2023-12-28 19:15:12.713]  cpu      accepted (894/0) diff 379 (902 ms)
+[2023-12-28 19:15:44.355]  miner    speed 10s/60s/15m 13.04 13.08 13.16 H/s max 21.87 H/s
+[2023-12-28 19:16:02.477]  cpu      accepted (895/0) diff 379 (900 ms)
+[2023-12-28 19:16:44.412]  miner    speed 10s/60s/15m 12.93 13.03 13.15 H/s max 21.87 H/s
+[2023-12-28 19:16:44.947]  net      new job from gulf.moneroocean.stream:10128 diff 369 algo rx/0 height 151778
+[2023-12-28 19:17:33.873]  cpu      accepted (896/0) diff 369 (877 ms)
+[2023-12-28 19:17:39.612]  cpu      accepted (897/0) diff 369 (837 ms)
+[2023-12-28 19:17:44.471]  miner    speed 10s/60s/15m 13.04 13.08 13.14 H/s max 21.87 H/s
+[2023-12-28 19:17:45.617]  net      new job from gulf.moneroocean.stream:10128 diff 364 algo rx/0 height 151779
+[2023-12-28 19:17:58.457]  net      new job from gulf.moneroocean.stream:10128 diff 364 algo rx/0 height 151780
+[2023-12-28 19:18:00.390]  cpu      accepted (898/0) diff 364 (852 ms)
+[2023-12-28 19:18:29.076]  cpu      accepted (899/0) diff 364 (872 ms)
+[2023-12-28 19:18:31.824]  net      new job from gulf.moneroocean.stream:10128 diff 366 algo rx/0 height 151781
+[2023-12-28 19:18:44.543]  miner    speed 10s/60s/15m 13.03 12.99 13.12 H/s max 21.87 H/s
+[2023-12-28 19:19:27.033]  cpu      accepted (900/0) diff 366 (883 ms)
+[2023-12-28 19:19:34.721]  cpu      accepted (901/0) diff 366 (874 ms)
+[2023-12-28 19:19:35.469]  net      new job from gulf.moneroocean.stream:10128 diff 364 algo rx/0 height 151782
+[2023-12-28 19:19:44.623]  miner    speed 10s/60s/15m 13.03 13.06 13.11 H/s max 21.87 H/s
+[2023-12-28 19:20:09.632]  cpu      accepted (902/0) diff 364 (878 ms)
+[2023-12-28 19:20:12.343]  cpu      accepted (903/0) diff 364 (903 ms)
+[2023-12-28 19:20:16.607]  cpu      accepted (904/0) diff 364 (832 ms)
+[2023-12-28 19:20:25.222]  cpu      accepted (905/0) diff 364 (877 ms)
+[2023-12-28 19:20:35.831]  net      new job from gulf.moneroocean.stream:10128 diff 371 algo rx/0 height 151783
+[2023-12-28 19:20:44.696]  miner    speed 10s/60s/15m 12.83 13.04 13.10 H/s max 21.87 H/s
+[2023-12-28 19:20:47.477]  cpu      accepted (906/0) diff 371 (902 ms)
+[2023-12-28 19:21:42.361]  cpu      accepted (907/0) diff 371 (844 ms)
+[2023-12-28 19:21:44.771]  miner    speed 10s/60s/15m 13.14 13.06 13.09 H/s max 21.87 H/s
+[2023-12-28 19:21:46.657]  cpu      accepted (908/0) diff 371 (871 ms)
+[2023-12-28 19:22:01.547]  net      new job from gulf.moneroocean.stream:10128 diff 371 algo rx/0 height 151784
+[2023-12-28 19:22:44.837]  miner    speed 10s/60s/15m 12.94 13.06 13.08 H/s max 21.87 H/s
+[2023-12-28 19:22:54.742]  cpu      accepted (909/0) diff 371 (875 ms)
+[2023-12-28 19:22:59.508]  cpu      accepted (910/0) diff 371 (841 ms)
+[2023-12-28 19:23:43.553]  cpu      accepted (911/0) diff 371 (854 ms)
+[2023-12-28 19:23:44.894]  miner    speed 10s/60s/15m 12.83 13.00 13.07 H/s max 21.87 H/s
+[2023-12-28 19:24:44.944]  miner    speed 10s/60s/15m 13.04 13.05 13.07 H/s max 21.87 H/s
+[2023-12-28 19:25:04.640]  cpu      accepted (912/0) diff 371 (899 ms)
+[2023-12-28 19:25:08.013]  net      new job from gulf.moneroocean.stream:10128 diff 369 algo rx/0 height 151785
+[2023-12-28 19:25:13.578]  cpu      accepted (913/0) diff 369 (933 ms)
+[2023-12-28 19:25:40.146]  cpu      accepted (914/0) diff 369 (994 ms)
+[2023-12-28 19:25:44.060]  net      new job from gulf.moneroocean.stream:10128 diff 369 algo rx/0 height 151786
+[2023-12-28 19:25:44.997]  miner    speed 10s/60s/15m 12.94 13.05 13.06 H/s max 21.87 H/s
+[2023-12-28 19:25:49.561]  cpu      accepted (915/0) diff 369 (885 ms)
+[2023-12-28 19:26:00.959]  cpu      accepted (916/0) diff 369 (851 ms)
+[2023-12-28 19:26:16.708]  cpu      accepted (917/0) diff 369 (880 ms)
+[2023-12-28 19:26:45.053]  miner    speed 10s/60s/15m 13.04 12.98 13.05 H/s max 21.87 H/s
+[2023-12-28 19:26:56.838]  cpu      accepted (918/0) diff 369 (891 ms)
+[2023-12-28 19:27:17.662]  cpu      accepted (919/0) diff 369 (838 ms)
+[2023-12-28 19:27:45.108]  miner    speed 10s/60s/15m 12.93 13.03 13.05 H/s max 21.87 H/s
+[2023-12-28 19:28:14.840]  net      new job from gulf.moneroocean.stream:10128 diff 371 algo rx/0 height 151787
+[2023-12-28 19:28:18.897]  cpu      accepted (920/0) diff 371 (869 ms)
+[2023-12-28 19:28:45.162]  miner    speed 10s/60s/15m 13.04 13.05 13.04 H/s max 21.87 H/s
+[2023-12-28 19:28:54.397]  cpu      accepted (921/0) diff 371 (882 ms)
+[2023-12-28 19:29:05.825]  cpu      accepted (922/0) diff 371 (892 ms)
+[2023-12-28 19:29:15.427]  cpu      accepted (923/0) diff 371 (852 ms)
+[2023-12-28 19:29:28.766]  cpu      accepted (924/0) diff 371 (904 ms)
+[2023-12-28 19:29:33.277]  cpu      accepted (925/0) diff 371 (843 ms)
+[2023-12-28 19:29:35.501]  cpu      accepted (926/0) diff 371 (885 ms)
+[2023-12-28 19:29:37.635]  cpu      accepted (927/0) diff 371 (858 ms)
+[2023-12-28 19:29:45.220]  miner    speed 10s/60s/15m 13.04 13.05 13.04 H/s max 21.87 H/s
+[2023-12-28 19:29:50.701]  cpu      accepted (928/0) diff 371 (863 ms)
+[2023-12-28 19:30:25.068]  cpu      accepted (929/0) diff 371 (873 ms)
+[2023-12-28 19:30:45.278]  miner    speed 10s/60s/15m 13.04 13.06 13.04 H/s max 21.87 H/s
+[2023-12-28 19:30:54.568]  cpu      accepted (930/0) diff 371 (850 ms)
+[2023-12-28 19:30:59.253]  cpu      accepted (931/0) diff 371 (849 ms)
+[2023-12-28 19:31:17.886]  net      new job from gulf.moneroocean.stream:10128 diff 381 algo rx/0 height 151788
+[2023-12-28 19:31:45.338]  miner    speed 10s/60s/15m 12.83 12.96 13.03 H/s max 21.87 H/s
+[2023-12-28 19:31:49.205]  cpu      accepted (932/0) diff 381 (858 ms)
+[2023-12-28 19:32:45.400]  miner    speed 10s/60s/15m 13.04 13.01 13.03 H/s max 21.87 H/s
+[2023-12-28 19:32:48.920]  net      new job from gulf.moneroocean.stream:10128 diff 379 algo rx/0 height 151789
+[2023-12-28 19:32:51.506]  cpu      accepted (933/0) diff 379 (855 ms)
+[2023-12-28 19:33:45.475]  miner    speed 10s/60s/15m 13.03 12.99 13.03 H/s max 21.87 H/s
+[2023-12-28 19:34:00.191]  net      new job from gulf.moneroocean.stream:10128 diff 377 algo rx/0 height 151790
+[2023-12-28 19:34:22.341]  cpu      accepted (934/0) diff 377 (829 ms)
+[2023-12-28 19:34:45.548]  miner    speed 10s/60s/15m 13.03 13.01 13.02 H/s max 21.87 H/s
+[2023-12-28 19:35:34.291]  cpu      accepted (935/0) diff 377 (815 ms)
+[2023-12-28 19:35:38.277]  cpu      accepted (936/0) diff 377 (820 ms)
+[2023-12-28 19:35:45.623]  miner    speed 10s/60s/15m 12.83 12.94 13.02 H/s max 21.87 H/s
+[2023-12-28 19:35:57.032]  cpu      accepted (937/0) diff 377 (842 ms)
+[2023-12-28 19:36:02.853]  cpu      accepted (938/0) diff 377 (826 ms)
+[2023-12-28 19:36:24.233]  cpu      accepted (939/0) diff 377 (844 ms)
+[2023-12-28 19:36:24.688]  cpu      accepted (940/0) diff 377 (840 ms)
+[2023-12-28 19:36:45.683]  miner    speed 10s/60s/15m 13.04 12.96 13.01 H/s max 21.87 H/s
+[2023-12-28 19:37:32.731]  cpu      accepted (941/0) diff 377 (874 ms)
+[2023-12-28 19:37:36.224]  cpu      accepted (942/0) diff 377 (851 ms)
+[2023-12-28 19:37:41.129]  cpu      accepted (943/0) diff 377 (879 ms)
+[2023-12-28 19:37:45.738]  miner    speed 10s/60s/15m 13.04 13.01 13.01 H/s max 21.87 H/s
+[2023-12-28 19:37:46.025]  cpu      accepted (944/0) diff 377 (857 ms)
+[2023-12-28 19:38:20.224]  cpu      accepted (945/0) diff 377 (882 ms)
+[2023-12-28 19:38:32.785]  net      new job from gulf.moneroocean.stream:10128 diff 379 algo rx/0 height 151791
+[2023-12-28 19:38:45.793]  miner    speed 10s/60s/15m 13.04 13.03 13.01 H/s max 21.87 H/s
+[2023-12-28 19:38:51.013]  net      new job from gulf.moneroocean.stream:10128 diff 379 algo rx/0 height 151792
+[2023-12-28 19:38:52.936]  cpu      accepted (946/0) diff 379 (850 ms)
+[2023-12-28 19:39:19.047]  cpu      accepted (947/0) diff 379 (864 ms)
+[2023-12-28 19:39:19.807]  cpu      accepted (948/0) diff 379 (860 ms)
+[2023-12-28 19:39:45.177]  cpu      accepted (949/0) diff 379 (861 ms)
+[2023-12-28 19:39:45.844]  miner    speed 10s/60s/15m 13.04 12.96 13.01 H/s max 21.87 H/s
+[2023-12-28 19:40:15.375]  cpu      accepted (950/0) diff 379 (825 ms)
+[2023-12-28 19:40:16.200]  cpu      accepted (951/0) diff 379 (827 ms)
+[2023-12-28 19:40:38.356]  cpu      accepted (952/0) diff 379 (812 ms)
+[2023-12-28 19:40:45.899]  miner    speed 10s/60s/15m 13.15 13.05 13.01 H/s max 21.87 H/s
+[2023-12-28 19:41:36.969]  cpu      accepted (953/0) diff 379 (841 ms)
+[2023-12-28 19:41:45.958]  miner    speed 10s/60s/15m 13.15 13.05 13.01 H/s max 21.87 H/s
+[2023-12-28 19:41:46.771]  net      new job from gulf.moneroocean.stream:10128 diff 383 algo rx/0 height 151793
+[2023-12-28 19:42:38.550]  net      new job from gulf.moneroocean.stream:10128 diff 381 algo rx/0 height 151794
+[2023-12-28 19:42:46.014]  miner    speed 10s/60s/15m 13.04 13.01 13.01 H/s max 21.87 H/s
+[2023-12-28 19:43:06.339]  cpu      accepted (954/0) diff 381 (861 ms)
+[2023-12-28 19:43:46.073]  miner    speed 10s/60s/15m 13.25 13.03 13.01 H/s max 21.87 H/s
+[2023-12-28 19:44:36.425]  cpu      accepted (955/0) diff 381 (879 ms)
+[2023-12-28 19:44:41.642]  net      new job from gulf.moneroocean.stream:10128 diff 375 algo rx/0 height 151795
+[2023-12-28 19:44:46.133]  miner    speed 10s/60s/15m 13.04 13.01 13.00 H/s max 21.87 H/s
+[2023-12-28 19:45:06.821]  cpu      accepted (956/0) diff 375 (853 ms)
+[2023-12-28 19:45:46.194]  miner    speed 10s/60s/15m 13.14 13.01 13.00 H/s max 21.87 H/s
+[2023-12-28 19:46:05.361]  cpu      accepted (957/0) diff 375 (845 ms)
+[2023-12-28 19:46:16.668]  cpu      accepted (958/0) diff 375 (834 ms)
+[2023-12-28 19:46:40.619]  cpu      accepted (959/0) diff 375 (830 ms)
+[2023-12-28 19:46:45.048]  net      new job from gulf.moneroocean.stream:10128 diff 375 algo rx/0 height 151796
+[2023-12-28 19:46:46.264]  miner    speed 10s/60s/15m 13.04 13.06 13.00 H/s max 21.87 H/s
+[2023-12-28 19:46:51.768]  cpu      accepted (960/0) diff 375 (856 ms)
+[2023-12-28 19:47:46.332]  miner    speed 10s/60s/15m 13.35 13.11 13.01 H/s max 21.87 H/s
+[2023-12-28 19:47:56.009]  cpu      accepted (961/0) diff 375 (922 ms)
+[2023-12-28 19:48:10.200]  cpu      accepted (962/0) diff 375 (833 ms)
+[2023-12-28 19:48:10.643]  cpu      accepted (963/0) diff 375 (896 ms)
+[2023-12-28 19:48:46.408]  miner    speed 10s/60s/15m 13.14 13.13 13.02 H/s max 21.87 H/s
+[2023-12-28 19:49:06.453]  net      new job from gulf.moneroocean.stream:10128 diff 377 algo rx/0 height 151797
+[2023-12-28 19:49:08.537]  cpu      accepted (964/0) diff 377 (811 ms)
+[2023-12-28 19:49:21.860]  net      new job from gulf.moneroocean.stream:10128 diff 375 algo rx/0 height 151798
+[2023-12-28 19:49:41.398]  net      new job from gulf.moneroocean.stream:10128 diff 375 algo rx/0 height 151799
+[2023-12-28 19:49:46.487]  miner    speed 10s/60s/15m 13.14 13.23 13.04 H/s max 21.87 H/s
+[2023-12-28 19:49:55.705]  cpu      accepted (965/0) diff 375 (876 ms)
+[2023-12-28 19:49:56.773]  net      new job from gulf.moneroocean.stream:10128 diff 375 algo rx/0 height 151800
+[2023-12-28 19:49:57.353]  cpu      accepted (966/0) diff 375 (808 ms)
+[2023-12-28 19:49:58.897]  cpu      accepted (967/0) diff 375 (822 ms)
+[2023-12-28 19:50:46.550]  miner    speed 10s/60s/15m 13.14 13.13 13.05 H/s max 21.87 H/s
+[2023-12-28 19:50:59.345]  cpu      accepted (968/0) diff 375 (824 ms)
+[2023-12-28 19:51:46.604]  miner    speed 10s/60s/15m 13.25 13.18 13.06 H/s max 21.87 H/s
+[2023-12-28 19:51:50.485]  cpu      accepted (969/0) diff 375 (805 ms)
+[2023-12-28 19:52:39.237]  cpu      accepted (970/0) diff 375 (833 ms)
+[2023-12-28 19:52:46.654]  miner    speed 10s/60s/15m 13.15 13.18 13.07 H/s max 21.87 H/s
+ - RESULTS
+ * accepted         970 (100.0%)
+ * pool-side hashes 455423 avg 470
+ * difficulty       375
+ * avg result time  32.9s
+ - TOP 10
+  # | DIFFICULTY | EFFORT % |
+  1 |      1121K |    40.62 |
+  2 |     249654 |   182.42 |
+  3 |     225129 |   202.29 |
+  4 |     191776 |   237.48 |
+  5 |     113111 |   402.63 |
+  6 |     110150 |   413.46 |
+  7 |     103135 |   441.58 |
+  8 |      62726 |   726.05 |
+  9 |      60760 |   749.54 |
+ 10 |      58831 |   774.12 |
+[2023-12-28 19:52:54.253]  cpu      accepted (971/0) diff 375 (797 ms)
+[2023-12-28 19:53:05.003]  cpu      accepted (972/0) diff 375 (846 ms)
+[2023-12-28 19:53:46.702]  miner    speed 10s/60s/15m 13.67 13.52 13.10 H/s max 21.87 H/s
+[2023-12-28 19:53:48.970]  cpu      accepted (973/0) diff 375 (816 ms)
+[2023-12-28 19:54:46.752]  miner    speed 10s/60s/15m 13.25 13.40 13.13 H/s max 21.87 H/s
+[2023-12-28 19:54:58.781]  cpu      accepted (974/0) diff 375 (794 ms)
+[2023-12-28 19:55:16.325]  net      new job from gulf.moneroocean.stream:10128 diff 374 algo rx/0 height 151801
+[2023-12-28 19:55:21.749]  net      new job from gulf.moneroocean.stream:10128 diff 372 algo rx/0 height 151802
+[2023-12-28 19:55:37.519]  net      new job from gulf.moneroocean.stream:10128 diff 372 algo rx/0 height 151803
+[2023-12-28 19:55:41.591]  cpu      accepted (975/0) diff 372 (820 ms)
+[2023-12-28 19:55:46.801]  miner    speed 10s/60s/15m 13.36 13.30 13.15 H/s max 21.87 H/s
+[2023-12-28 19:56:05.985]  cpu      accepted (976/0) diff 372 (809 ms)
+[2023-12-28 19:56:46.850]  miner    speed 10s/60s/15m 13.14 13.25 13.17 H/s max 21.87 H/s
+[2023-12-28 19:57:19.712]  cpu      accepted (977/0) diff 372 (789 ms)
+[2023-12-28 19:57:24.817]  cpu      accepted (978/0) diff 372 (817 ms)
+[2023-12-28 19:57:25.267]  cpu      accepted (979/0) diff 372 (951 ms)
+[2023-12-28 19:57:46.901]  miner    speed 10s/60s/15m 13.04 13.18 13.18 H/s max 21.87 H/s
+[2023-12-28 19:58:06.315]  cpu      accepted (980/0) diff 372 (887 ms)
+[2023-12-28 19:58:24.916]  cpu      accepted (981/0) diff 372 (833 ms)
+[2023-12-28 19:58:31.231]  cpu      accepted (982/0) diff 372 (823 ms)
+[2023-12-28 19:58:46.956]  miner    speed 10s/60s/15m 13.14 13.18 13.19 H/s max 21.87 H/s
+[2023-12-28 19:58:54.954]  cpu      accepted (983/0) diff 372 (848 ms)
+[2023-12-28 19:59:04.665]  cpu      accepted (984/0) diff 372 (847 ms)
+[2023-12-28 19:59:11.321]  cpu      accepted (985/0) diff 372 (812 ms)
+[2023-12-28 19:59:20.708]  cpu      accepted (986/0) diff 372 (821 ms)
+[2023-12-28 19:59:45.751]  cpu      accepted (987/0) diff 372 (790 ms)
+[2023-12-28 19:59:47.007]  miner    speed 10s/60s/15m 13.04 13.10 13.20 H/s max 21.87 H/s
+[2023-12-28 20:00:07.283]  cpu      accepted (988/0) diff 372 (809 ms)
+[2023-12-28 20:00:34.453]  net      new job from gulf.moneroocean.stream:10128 diff 378 algo rx/0 height 151804
+[2023-12-28 20:00:37.552]  cpu      accepted (989/0) diff 378 (792 ms)
+[2023-12-28 20:00:47.066]  miner    speed 10s/60s/15m 13.25 13.10 13.20 H/s max 21.87 H/s
+[2023-12-28 20:00:53.605]  cpu      accepted (990/0) diff 378 (818 ms)
+[2023-12-28 20:00:58.764]  net      new job from gulf.moneroocean.stream:10128 diff 378 algo rx/0 height 151805
+[2023-12-28 20:01:22.495]  cpu      accepted (991/0) diff 378 (772 ms)
+[2023-12-28 20:01:41.869]  net      new job from gulf.moneroocean.stream:10128 diff 365 algo rx/0 height 151806
+[2023-12-28 20:01:47.122]  miner    speed 10s/60s/15m 13.35 13.08 13.21 H/s max 21.87 H/s
+[2023-12-28 20:02:02.626]  cpu      accepted (992/0) diff 365 (852 ms)
+[2023-12-28 20:02:47.187]  miner    speed 10s/60s/15m 13.25 13.08 13.20 H/s max 21.87 H/s
+[2023-12-28 20:03:16.741]  cpu      accepted (993/0) diff 365 (879 ms)
+[2023-12-28 20:03:47.255]  miner    speed 10s/60s/15m 13.03 13.09 13.20 H/s max 21.87 H/s
+[2023-12-28 20:03:49.485]  cpu      accepted (994/0) diff 365 (905 ms)
+[2023-12-28 20:03:56.857]  net      new job from gulf.moneroocean.stream:10128 diff 362 algo rx/0 height 151807
+[2023-12-28 20:04:11.201]  cpu      accepted (995/0) diff 362 (872 ms)
+[2023-12-28 20:04:22.435]  cpu      accepted (996/0) diff 362 (843 ms)
+[2023-12-28 20:04:47.328]  miner    speed 10s/60s/15m 13.04 13.03 13.18 H/s max 21.87 H/s
+[2023-12-28 20:05:42.799]  cpu      accepted (997/0) diff 362 (867 ms)
+[2023-12-28 20:05:44.100]  cpu      accepted (998/0) diff 362 (869 ms)
+[2023-12-28 20:05:47.398]  miner    speed 10s/60s/15m 13.04 13.08 13.18 H/s max 21.87 H/s
+[2023-12-28 20:05:53.467]  net      new job from gulf.moneroocean.stream:10128 diff 359 algo rx/0 height 151808
+[2023-12-28 20:05:56.821]  cpu      accepted (999/0) diff 359 (889 ms)
+[2023-12-28 20:06:47.474]  miner    speed 10s/60s/15m 13.03 13.04 13.17 H/s max 21.87 H/s
+[2023-12-28 20:07:47.538]  miner    speed 10s/60s/15m 13.04 13.08 13.17 H/s max 21.87 H/s
+[2023-12-28 20:08:35.069]  cpu      accepted (1000/0) diff 359 (841 ms)
+[2023-12-28 20:08:47.594]  miner    speed 10s/60s/15m 13.04 13.03 13.14 H/s max 21.87 H/s
+[2023-12-28 20:08:53.437]  cpu      accepted (1001/0) diff 359 (857 ms)
+[2023-12-28 20:08:55.647]  cpu      accepted (1002/0) diff 359 (892 ms)
+[2023-12-28 20:09:10.733]  cpu      accepted (1003/0) diff 359 (867 ms)
+[2023-12-28 20:09:15.639]  cpu      accepted (1004/0) diff 359 (831 ms)
+[2023-12-28 20:09:18.475]  net      new job from gulf.moneroocean.stream:10128 diff 359 algo rx/0 height 151809
+[2023-12-28 20:09:47.648]  miner    speed 10s/60s/15m 12.94 13.03 13.11 H/s max 21.87 H/s
+[2023-12-28 20:10:45.192]  cpu      accepted (1005/0) diff 359 (1540 ms)
+[2023-12-28 20:10:47.703]  miner    speed 10s/60s/15m 12.94 13.06 13.09 H/s max 21.87 H/s
+[2023-12-28 20:11:08.349]  net      new job from gulf.moneroocean.stream:10128 diff 354 algo rx/0 height 151810
+[2023-12-28 20:11:15.623]  cpu      accepted (1006/0) diff 354 (852 ms)
+[2023-12-28 20:11:40.043]  cpu      accepted (1007/0) diff 354 (892 ms)
+[2023-12-28 20:11:47.757]  miner    speed 10s/60s/15m 12.94 13.00 13.07 H/s max 21.87 H/s
+[2023-12-28 20:12:08.298]  cpu      accepted (1008/0) diff 354 (845 ms)
+[2023-12-28 20:12:37.615]  cpu      accepted (1009/0) diff 354 (855 ms)
+[2023-12-28 20:12:47.814]  miner    speed 10s/60s/15m 13.15 12.98 13.06 H/s max 21.87 H/s
+[2023-12-28 20:12:56.667]  cpu      accepted (1010/0) diff 354 (865 ms)
+[2023-12-28 20:13:47.872]  miner    speed 10s/60s/15m 12.94 12.93 13.04 H/s max 21.87 H/s
+[2023-12-28 20:14:23.126]  net      new job from gulf.moneroocean.stream:10128 diff 349 algo rx/0 height 151811
+[2023-12-28 20:14:26.661]  net      dev donate started
+[2023-12-28 20:14:26.661]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151811
+[2023-12-28 20:14:43.295]  net      new job from donate.ssl.xmrig.com:443 diff 1000K algo rx/0 height 151811
+[2023-12-28 20:14:47.932]  miner    speed 10s/60s/15m 13.25 13.00 13.04 H/s max 21.87 H/s
+[2023-12-28 20:15:26.660]  net      dev donate finished
+[2023-12-28 20:15:26.661]  net      new job from gulf.moneroocean.stream:10128 diff 349 algo rx/0 height 151811
+[2023-12-28 20:15:47.997]  miner    speed 10s/60s/15m 13.04 13.15 13.04 H/s max 21.87 H/s
+[2023-12-28 20:16:17.467]  cpu      accepted (1011/0) diff 349 (859 ms)
+[2023-12-28 20:16:21.902]  miner    paused, press  r  to resume
+[2023-12-28 20:16:37.577]  net      new job from gulf.moneroocean.stream:10128 diff 340 algo rx/0 height 151812
+[2023-12-28 20:16:48.055]  miner    speed 10s/60s/15m n/a 7.39 12.66 H/s max 21.87 H/s
+[2023-12-28 20:17:09.521]  net      new job from gulf.moneroocean.stream:10128 diff 340 algo rx/0 height 151813
+[2023-12-28 20:17:19.402]  net      new job from gulf.moneroocean.stream:10128 diff 338 algo rx/0 height 151814
+client_loop: send disconnect: Connection reset
