@@ -1,30 +1,49 @@
-﻿ <h2>Raspberry Pi 3B Monero Mining Project</h2>
+﻿# Monero Mining Project
 
-🚀 Explore the world of cryptocurrency mining with this engaging project, where you'll set up a Raspberry Pi (basically any other Raspberry Pi preferably that supports ARMx64 architecture) to mine Monero (XMR) tokens i will be using a Rasberry Pi 3B+. Delve into the process of crypto mining, analyze hardware resource usage, and uncover the intricacies of Monero, the privacy-focused cryptocurrency. 
+🚀 **Explore the world of cryptocurrency mining with this engaging project.**
+This project sets up a Raspberry Pi (preferably Pi 4 or Pi 5, though Pi 3B is supported) to mine Monero (XMR) using the `xmrig` miner.
 
-💻 <b>Hardware and Software Setup</b>
-- Assemble the necessary hardware, including the Raspberry Pi 3B, power supply, SD card, Ethernet cable, and cooling material.
-- Install the latest Raspbian OS, Xmrig mining platform, Putty, WinSCP, and Filezilla software.
+## 📂 Project Structure
 
-💰 <b>Monero: The Cryptocurrency</b>
-- Understand the decentralized nature, privacy features, and usage of Monero as a digital asset.
+- `config.json`: **[Critical]** Centralized configuration for XMRig. Optimized for MoneroOcean.
+- `start.sh`: Helper script to launch the miner with the correct config.
+- `enable_hugepages.sh`: **[New]** Script to optimize system memory performance.
+- `REVIEW.md`: Detailed analysis of the performance and security of this setup.
+- `Monero_Mining_Runtime.txt`: Original runtime logs.
 
-⛏️ <b>Mining Process Overview</b>
-- Learn about the concept of mining, the role of miners in verifying transactions, and the computational effort involved.
-- Explore the RandomX algorithm used in Monero mining and its resource-intensive nature.
+## 💻 Deployment Instructions
 
-⚙️ <b>Mining Configurations</b>
-- Optimize the Raspberry Pi's performance by overclocking the CPU and adjusting various mining parameters.
-- Set worker threads and minimum valid share difficulty to maximize efficiency.
+Since your Pi is a remote device (`cryptopi.local`), you need to transfer these files to it.
 
-📈 <b>Mining Performance and Observations</b>
-- Witness the stable hash rate achieved by the Raspberry Pi 3B, ranging from 12 to 15 H/s.
-- Monitor hardware temperatures and utilize a cooling system to ensure safe operation.
-- Analyze the profitability of Monero mining based on cryptocurrency price fluctuations.
+1.  **Transfer Files**:
+    from your local machine (where this repo is), run:
+    ```bash
+    scp config.json start.sh enable_hugepages.sh prana@cryptopi.local:~/xmrig/build/
+    ```
+    *(Adjust path `~/xmrig/build/` to where your xmrig executable is located).*
 
-👍 <b>Pros and Cons of Raspberry Pi 3B Monero Mining</b>
-- Discover the advantages and disadvantages of using a Raspberry Pi 3B for mining Monero, considering factors like power consumption, portability, cost, software accessibility, and community support.
+2.  **Connect to Pi**:
+    ```bash
+    ssh prana@cryptopi.local
+    cd ~/xmrig/build/
+    ```
 
-💡 <b>Conclusion</b>
-- Celebrate the successful establishment of a Raspberry Pi 3B mining system for Monero, highlighting its steady hash rate and compact design.
-- Recognize the Raspberry Pi's potential as an efficient mining machine, balancing its low power consumption with mining capabilities.﻿
+3.  **Optimize (One-time setup)**:
+    Run the optimizer script to enable Huge Pages (boosts hashrate significantly).
+    ```bash
+    sudo ./enable_hugepages.sh
+    ```
+    *Follow the on-screen instructions to make it permanent.*
+
+4.  **Start Mining**:
+    ```bash
+    ./start.sh
+    ```
+
+## ⚙️ Configuration Details
+The `config.json` is pre-configured for **MoneroOcean**, a pool that supports **Algorithm Switching**.
+-   **Why?** The Pi 3B (1GB RAM) cannot efficiently mine RandomX (the main Monero algorithm) due to memory size.
+-   **How it works**: The config tells the pool "I can't handle heavy stuff, give me something lighter". The pool assigns algorithms like `rx/wow` or `ghostrider` which run fast on the Pi, and pays you in XMR.
+
+## ⚠️ Disclaimer
+Mining on a Raspberry Pi is educational. It is unlikely to be profitable due to electricity costs vs yield, but it is an excellent way to learn about blockchain, Linux, and hardware handling.
